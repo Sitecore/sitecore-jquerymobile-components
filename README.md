@@ -1,9 +1,10 @@
 Sitecore jQuery Mobile (SCJQM) HTML5 mobile component library
 
 Author: David Morrison
+
 Twitter: @dmo_sc
-Website: 
-http://sitecoremobile.cloudapp.net/
+
+Website: http://sitecoremobile.cloudapp.net/
 
 The Sitecore jQuery Mobile component library is collection of reusable 
 Sitecore MVC views designed to combine the jQuery Mobile HTML5 library 
