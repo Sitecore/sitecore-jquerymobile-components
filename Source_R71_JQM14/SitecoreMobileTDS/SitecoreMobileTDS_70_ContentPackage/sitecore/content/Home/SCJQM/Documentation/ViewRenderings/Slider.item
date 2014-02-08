@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {11EB7C6A-54C8-44CA-818A-4D1ABCDD68FF}
+database: master
+path: /sitecore/content/Home/SCJQM/Documentation/ViewRenderings/Slider
+parent: {4A734374-245E-4F99-BD0C-1397F3F3EF2C}
+name: Slider
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: 32dceebd-36c4-408b-a739-5c251f235ee8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131026T080928
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+32dceebd-36c4-408b-a739-5c251f235ee8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131026T080928:635183717684563605
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

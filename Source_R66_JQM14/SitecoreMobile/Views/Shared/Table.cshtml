@@ -1,0 +1,30 @@
+﻿@model SitecoreMobile.Models.Table
+
+
+<table data-role="table" id="movie-table" data-mode="reflow" class="ui-responsive table-stroke">
+    <thead>
+        <tr>
+            @foreach(var column in Model.Columns)
+            {
+                <th>@Html.Encode(column.DisplayName)</th> 
+                @* data-priority="1" data-priority="persist" <abbr title="Title Long">Abbr</abbr> *@
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var childItem in Model.DataSource)
+        {
+            <tr>
+                @foreach (var column in Model.Columns)
+                {
+                    var tableColumnData = new SitecoreMobile.Models.TableColumnData()
+                    {
+                        DataSource = childItem,
+                        Column = column                        
+                    };
+                    <td>@Html.Partial(string.Format("Table.ColumnType.{0}", column.ColumnType), tableColumnData)</td>
+                }
+            </tr>
+        }        
+    </tbody>
+</table>

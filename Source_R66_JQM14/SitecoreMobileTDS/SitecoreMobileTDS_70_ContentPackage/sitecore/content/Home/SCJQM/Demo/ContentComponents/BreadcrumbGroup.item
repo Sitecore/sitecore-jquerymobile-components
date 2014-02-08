@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {46D9E4E5-94FF-42F9-9646-464511D56958}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/BreadcrumbGroup
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: BreadcrumbGroup
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 187
+
+<image mediapath="" alt="Breadcrumb Group View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{CD19AA44-87CE-4868-A7AE-556247A795FB}" />
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 322
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1E6BD7C4-85BA-42F2-B49D-DD2530A9DEEC}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="" s:id="{8EEA96D2-4DF1-4F42-AEDA-FC1C4C9047AE}" s:par="ButtonMini=1&amp;GroupOrientation" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: e8c53161-7af0-49f0-896c-dffac30fb11e
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 16
+
+Breadcrumb Group
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 246
+
+This is an example of the breadcrumb group control. The control walks up the tree until the parent template does not match the current item. It does not show the top-most ancestor. It is assumed that the root will have another button on the page.
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 187
+
+<image mediapath="" alt="Breadcrumb Group View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{CD19AA44-87CE-4868-A7AE-556247A795FB}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 16
+
+Breadcrumb Group
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131025T224511
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e8c53161-7af0-49f0-896c-dffac30fb11e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T211902:635185919428935766
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

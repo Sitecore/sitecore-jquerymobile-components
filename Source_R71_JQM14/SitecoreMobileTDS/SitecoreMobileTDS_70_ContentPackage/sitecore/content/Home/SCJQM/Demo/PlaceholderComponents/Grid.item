@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {3A0863ED-6DF9-46C4-ADA6-942A1C0F9D65}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/Grid
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: Grid
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2921
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{41B4653F-BE9A-4DEF-AACF-F49FB8874CD3}" p:before="r[@uid='{F0921742-645E-47A9-9A9F-1DDB2109B7CD}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="/pagecontentprimary/blockb2" /><r uid="{F0921742-645E-47A9-9A9F-1DDB2109B7CD}" p:before="r[@uid='{6A2E8857-88D7-4FD4-A3FD-8DA57B69B5D9}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle" s:ph="/pagecontentprimary/blockc1" /><r uid="{6A2E8857-88D7-4FD4-A3FD-8DA57B69B5D9}" p:before="r[@uid='{8DEDBA25-B831-4B3F-B49A-65E6331AC7E9}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme=b&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/blockc1" /><r uid="{8DEDBA25-B831-4B3F-B49A-65E6331AC7E9}" p:before="r[@uid='{5C589D90-D908-4760-B507-16736FE269B9}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle" s:ph="/pagecontentprimary/blockb1" /><r uid="{5C589D90-D908-4760-B507-16736FE269B9}" p:before="r[@uid='{88E7AC6A-7D93-48A9-B46B-1D6A0C5BF3FB}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle" s:ph="/pagecontentprimary/blocka1" /><r uid="{88E7AC6A-7D93-48A9-B46B-1D6A0C5BF3FB}" p:before="r[@uid='{FBFF7BBC-8F8D-43B7-82AF-DAD5B33F9C87}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/blockb1" /><r uid="{FBFF7BBC-8F8D-43B7-82AF-DAD5B33F9C87}" p:before="r[@uid='{0154096E-923F-4D62-995E-9CE65899ED16}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/blocka1" /><r uid="{9D1D79D3-6974-487C-88C7-79A9A0241BD3}" p:before="r[@uid='{4629A182-3231-468E-8414-95E98A450BD7}']" s:ds="" s:id="{752AC89D-137A-40C7-B1B6-009EB6C5659D}" s:par="PlaceholderColumnCount=3&amp;PlaceholderRowCount=3" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 54d61d7c-d936-4c25-8eca-bf3019ac546c
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 4
+
+Grid
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 35
+
+This is a demo of a responsive grid
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 175
+
+<image mediapath="" alt="Grid View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F3ADDCCE-7FC0-4DE3-9867-8B45F637D233}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 4
+
+Grid
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T183323
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+54d61d7c-d936-4c25-8eca-bf3019ac546c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212514:635185923149584548
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

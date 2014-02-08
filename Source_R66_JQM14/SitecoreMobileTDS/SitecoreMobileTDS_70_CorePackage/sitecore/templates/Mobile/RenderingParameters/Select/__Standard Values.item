@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {EF740ABB-6A3B-4304-AD23-8D9AE92501CD}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Select/__Standard Values
+parent: {9B79BBF7-FC73-4494-AE22-FA804A29CA31}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {9B79BBF7-FC73-4494-AE22-FA804A29CA31}
+templatekey: Select
+
+----field----
+field: {D703B17C-B5CE-4F87-B381-41C08D13A4D2}
+name: FieldName
+key: fieldname
+content-length: 14
+
+__Display Name
+----field----
+field: {D556F3BC-95EE-40E7-A3D5-CD4E9659BEFF}
+name: DisplayEditingFieldTitle
+key: displayeditingfieldtitle
+content-length: 1
+
+1
+----field----
+field: {FC577E78-5A5D-467D-B084-49DA6F801A4E}
+name: HiddenEditingField
+key: hiddeneditingfield
+content-length: 1
+
+1
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: ce9b60ef-0c6e-4055-9736-fd5153f44e98
+
+----field----
+field: {70BCA9FE-01F1-40F9-99C9-AE95A51732CB}
+name: DataInline
+key: datainline
+content-length: 1
+
+1
+----field----
+field: {72AC3630-45A3-4367-AB9C-DDA43F1A1382}
+name: DataMini
+key: datamini
+content-length: 1
+
+1
+----field----
+field: {CAE3C41F-C578-4292-8943-B354F8FCAE65}
+name: DataRole
+key: datarole
+content-length: 6
+
+select
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130507T151500
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ce9b60ef-0c6e-4055-9736-fd5153f44e98
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131024T174946:635182337862607000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

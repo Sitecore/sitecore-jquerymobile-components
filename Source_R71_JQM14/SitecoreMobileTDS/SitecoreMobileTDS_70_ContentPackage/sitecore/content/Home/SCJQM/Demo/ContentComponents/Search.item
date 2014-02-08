@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {850A9417-0A6B-4D94-B861-B04A2EE24E77}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Search
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: Search
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 454
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F6E9CAE5-F202-4BC1-A600-CEE1A2737B33}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" s:id="{C78BCC64-FD6B-48EA-B489-AB3773849667}" s:par="" s:ph="pagecontentprimary" /><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{C7BB8C55-5173-4F20-95C9-DE27B0927111}" p:before="*[1=2]" /></d></r>
+----version----
+language: en
+version: 1
+revision: 105da68f-9266-4f8f-bcb0-85d3c8100c38
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 14
+
+Search Control
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 195
+
+This is a demo of the search control. It uses an ajax autocomplete web service that is hooked up to the Sitecore 7.0 search API. The datasource parameter determines the search location root item.
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 177
+
+<image mediapath="" alt="Search View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{2B53CC10-BD64-4C33-AC6E-31815E1EFB4C}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 6
+
+Search
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T183640
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+105da68f-9266-4f8f-bcb0-85d3c8100c38
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212356:635185922365633050
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

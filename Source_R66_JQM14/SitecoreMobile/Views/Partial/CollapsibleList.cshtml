@@ -1,0 +1,71 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+    Item[] childrenItems = new Item[0];
+    if (Model.Item != null && Model.Item.Children.Count > 0)
+    {
+        childrenItems = Model.Item.Children.ToArray();
+    }
+    else
+    {
+        // return;
+    }
+
+    var fieldName = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.FieldName];
+
+    var dataInset = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListInset] == "0" ? "false" : "true";
+    var dataMini = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListMini] == "1" ? "true" : "false";
+    var dataCorners = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListCorners] == "0" ? "false" : "true"; // default corners to on
+    var dataIconPos = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListIconPosition];
+    var dataTheme = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListTheme];
+    
+}
+
+<div data-role="collapsible-set" data-mini="@Html.AttributeEncode(dataMini)" data-inset="@Html.AttributeEncode(dataInset)" data-corners="@Html.AttributeEncode(dataCorners)" data-iconpos="@Html.AttributeEncode(dataIconPos)" data-theme="@Html.AttributeEncode(dataTheme)">
+    
+
+    @foreach (Sitecore.Data.Items.Item item in childrenItems)
+    {
+        var itemUrl = Url.RouteUrl(Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName,
+            new
+            {
+                @pathInfo = item.GetRoutePathInfo()
+            });
+        var buttonTitle = Html.Sitecore().Field(
+               MobileFieldNames.ButtonItems.ButtonTitle,
+               item,
+               new
+               {
+                   DisableWebEdit = true
+               });
+        buttonTitle = !string.IsNullOrEmpty(buttonTitle.ToString()) ? buttonTitle : new HtmlString(item.DisplayName);
+
+        var buttonIcon = item.Fields[MobileFieldNames.ButtonItems.ButtonIcon] != null && !string.IsNullOrEmpty(item.Fields[MobileFieldNames.ButtonItems.ButtonIcon].Value) ? item.Fields[MobileFieldNames.ButtonItems.ButtonIcon].Value : null;
+        var buttonTheme = item.Fields[MobileFieldNames.ButtonItems.ButtonTheme] != null && !string.IsNullOrEmpty(item.Fields[MobileFieldNames.ButtonItems.ButtonTheme].Value) ? item.Fields[MobileFieldNames.ButtonItems.ButtonTheme].Value : null;
+        
+        <div data-role="collapsible" data-theme="@Html.AttributeEncode(buttonTheme)" data-icon="@Html.AttributeEncode(buttonIcon)">
+            <h3>@buttonTitle</h3>
+            
+            @if (childrenItems.Length == 0 && pageEditEnabled)
+            {
+                <p>Button Title: @Html.Sitecore().Field(MobileFieldNames.ButtonItems.ButtonTitle, item)</p>
+            }
+            <p>@Html.Sitecore().Field(fieldName, item)</p>
+        </div>
+     }
+
+        @if (childrenItems.Length == 0 && pageEditEnabled)
+        {
+            <div data-role="collapsible" data-icon="alert" class="ui-disabled">
+            <h3>No Children</h3>
+            <p>&nbsp;</p>
+            </div>
+        }
+    
+</div>

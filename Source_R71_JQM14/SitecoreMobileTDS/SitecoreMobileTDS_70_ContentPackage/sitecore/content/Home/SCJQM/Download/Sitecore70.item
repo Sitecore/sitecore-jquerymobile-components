@@ -1,0 +1,78 @@
+----item----
+version: 1
+id: {F14AC039-FF78-4FD5-BC67-F4C16D27C762}
+database: master
+path: /sitecore/content/Home/SCJQM/Download/Sitecore70
+parent: {A0FD4712-1E2A-421A-AD2E-A2972784ED76}
+name: Sitecore70
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 4a0fd969-f42f-4c29-ae32-92ff9f7decc5
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 46
+
+Sitecore 7.0 JQM 1.3 Component Library 1.0 RC1
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 440
+
+<p>Download and install the packages in the following order on a clean installation of Sitecore 7.0.</p>
+<p>Component Library 1.0 RC1<br />
+Release Date: 2013-10-30</p>
+<p>1.CorePackage - Files &nbsp;- rev20131030_0303<br />
+2. CorePackage - Items &nbsp;- rev20131030_0303<br />
+3. ContentPackage - Items &nbsp;- rev20131030_0253</p>
+<p><a data-ajax="false" href="~/media/D0415ABA6FBA45F5A14605D4D5A92559.ashx">DOWNLOAD ALL PACKAGES</a></p>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 40
+
+Download Sitecore 7.0 Compatible Release
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131026T081400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4a0fd969-f42f-4c29-ae32-92ff9f7decc5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131106T191827:635193623071197368
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

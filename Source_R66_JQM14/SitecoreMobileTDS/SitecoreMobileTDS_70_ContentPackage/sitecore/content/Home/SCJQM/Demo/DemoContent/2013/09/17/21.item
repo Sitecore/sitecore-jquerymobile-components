@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {0756DE51-93ED-40FF-AD8D-11C587D3507C}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/2013/09/17/21
+parent: {0EE52F10-E9D3-412A-B9C5-7A04B49EE881}
+name: 21
+master: {00000000-0000-0000-0000-000000000000}
+template: {ADB6CA4F-03EF-4F47-B9AC-9CE2BA53FF97}
+templatekey: Bucket
+
+----version----
+language: en
+version: 1
+revision: a7189086-49b5-4136-8b81-4849bc1a735b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130917T211444
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7189086-49b5-4136-8b81-4849bc1a735b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130917T211444:635150492846998550
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,26 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{        
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+    var placeholderName = Model.Rendering.Parameters[MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+    
+    var buttonMini = Model.Rendering.Parameters[MobileFieldNames.ButtonViewRenderingParameters.ButtonMini] == "1" ? "true" : null;
+    var groupOrientation = Model.Rendering.Parameters[MobileFieldNames.ControlGroupViewRenderingParameters.GroupOrientation] ?? "horizontal";
+    
+}
+
+    
+@if (pageEditEnabled)
+{
+    <p><em>Button Group Placeholder Name: @Html.Encode(placeholderName) </em></p>
+}
+
+<div data-role="controlgroup" data-mini="@Html.AttributeEncode(buttonMini)" data-type="@Html.AttributeEncode(groupOrientation)">
+    @Html.Sitecore().Placeholder(placeholderName)
+</div>

@@ -1,0 +1,77 @@
+﻿@{
+    
+    var gridClassList = new string[] {
+      "ui-grid-a",
+      "ui-grid-b",
+      "ui-grid-c",
+      "ui-grid-d"
+    };
+    var gridRowClassList = new string[] {
+      "ui-block-a",
+      "ui-block-b",
+      "ui-block-c",
+      "ui-block-d",
+      "ui-block-e"
+    };
+    var placeholderNameList = new string[] {
+      "blocka",
+      "blockb",
+      "blockc",
+      "blockd",
+      "blocke"  
+    };
+
+    var placeholderColumnCountParameter = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.GridViewRenderingParameters.PlaceholderColumnCount];
+    var placeholderColumnCount = 1;
+    int.TryParse(placeholderColumnCountParameter, out placeholderColumnCount);
+
+    var placeholderRowCountParameter = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.GridViewRenderingParameters.PlaceholderRowCount];
+    var placeholderRowCount = 1;
+    int.TryParse(placeholderRowCountParameter, out placeholderRowCount);
+
+    var gridResponsiveLayout = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.GridViewRenderingParameters.GridResponsiveLayout];
+
+    var gridResponsiveClass = gridResponsiveLayout == "0" ? null : "ui-responsive";
+        
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    if (placeholderColumnCount < 2 || placeholderColumnCount > 5)
+    {
+        return;   
+    }
+
+    if (placeholderRowCount < 1 || placeholderRowCount > 5)
+    {
+        return;
+    }
+    
+}
+
+@if (pageEditEnabled)
+{
+    <p><em>
+        @Html.Encode((gridResponsiveLayout != "0") ? "Responsive": string.Empty) 
+        Grid Size: 
+        @Html.Encode(placeholderColumnCount.ToString()) 
+        by 
+        @Html.Encode(placeholderRowCount.ToString())
+    </em></p>
+}
+
+<div class="@Html.AttributeEncode(gridClassList[placeholderColumnCount-2]) @Html.AttributeEncode(gridResponsiveClass)">
+    @for (int r = 1; r <= placeholderRowCount; r++)
+    {
+        for (int c = 0; c < placeholderColumnCount; c++)
+        {
+            var placeholderName = String.Format("{0}{1}", placeholderNameList[c], r);
+	        <div class="@Html.AttributeEncode(gridRowClassList[c])">
+                @if (pageEditEnabled)
+                {
+                    <p><em>Placeholder: @Html.Encode(placeholderName)</em></p>
+                }
+                @Html.Sitecore().Placeholder(placeholderName)
+	        </div>
+        }
+    }
+</div>

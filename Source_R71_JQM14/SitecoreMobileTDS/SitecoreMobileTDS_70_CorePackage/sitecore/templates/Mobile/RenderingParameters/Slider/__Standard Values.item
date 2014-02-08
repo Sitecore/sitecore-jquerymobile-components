@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {45A2BD18-4F7A-43CF-84A1-2E156CEACB4B}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Slider/__Standard Values
+parent: {1D134DAE-F91E-40F6-B20D-ADE78618F975}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1D134DAE-F91E-40F6-B20D-ADE78618F975}
+templatekey: Slider
+
+----field----
+field: {2960C817-BA0D-4CC2-93D7-09BE515D1BDC}
+name: FieldName
+key: fieldname
+content-length: 14
+
+__Display Name
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 1bd55ab3-9d13-49e8-9037-f2cf8dc46d54
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130507T151500
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1bd55ab3-9d13-49e8-9037-f2cf8dc46d54
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131023T212233:635181601539780496
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

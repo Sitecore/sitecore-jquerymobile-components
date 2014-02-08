@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {CE2FA944-CA55-4583-B48F-BB4507979707}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Grid/__Standard Values
+parent: {DC382EE8-3D4B-4C27-B656-D4A66801A404}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {DC382EE8-3D4B-4C27-B656-D4A66801A404}
+templatekey: Grid
+
+----field----
+field: {7130F1E3-5DE9-461F-A032-2C6B04F4F6F9}
+name: PlaceholderColumnCount
+key: placeholdercolumncount
+content-length: 1
+
+2
+----field----
+field: {75B5E503-C027-4EF0-A8BA-E5FBE88A15C8}
+name: PlaceholderRowCount
+key: placeholderrowcount
+content-length: 1
+
+1
+----field----
+field: {3752DABA-C676-4245-9EFC-C34CBE18872C}
+name: GridResponsiveLayout
+key: gridresponsivelayout
+content-length: 1
+
+1
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 36ac990f-5878-4899-a0c6-dbb20c4afa50
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130514T152300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+36ac990f-5878-4899-a0c6-dbb20c4afa50
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130514T160744:635041444647595047
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,33 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{    
+    var item = Model.DataSource.GetItem();
+    
+    var itemUrl = Url.RouteUrl(
+        MvcSettings.SitecoreRouteName,
+        new
+        {
+            @pathInfo = item.GetRoutePathInfo()
+        });
+
+    Sitecore.Collections.SafeDictionary<string> titleFieldParam = new Sitecore.Collections.SafeDictionary<string>()
+        {
+            /* { "disable-web-editing", "true" }, */
+            { "show-title-when-blank", "true" }   
+        };
+    var buttonTitle = Html.Sitecore().Field(
+        "ButtonTitle",
+        item,
+        new
+        {
+            DisableWebEdit = true,
+            Parameters = titleFieldParam
+        });
+    buttonTitle = !string.IsNullOrEmpty(buttonTitle.ToString()) ? buttonTitle : new HtmlString(item.DisplayName);
+}
+
+<a href="@Html.AttributeEncode(itemUrl)" rel="external">@buttonTitle</a>

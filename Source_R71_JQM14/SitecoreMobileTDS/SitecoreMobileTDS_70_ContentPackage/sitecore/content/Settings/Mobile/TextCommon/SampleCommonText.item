@@ -1,0 +1,108 @@
+----item----
+version: 1
+id: {06E0C070-1537-4DF3-8F4A-3093B98E4F3B}
+database: master
+path: /sitecore/content/Settings/Mobile/TextCommon/SampleCommonText
+parent: {8E319136-628C-4CE6-8466-DF6CA5213D73}
+name: SampleCommonText
+master: {00000000-0000-0000-0000-000000000000}
+template: {C8661C41-F865-491E-9790-79A7CB11046A}
+templatekey: MobileCommonText
+
+----version----
+language: en
+version: 1
+revision: a33fe8d1-db03-480a-ac21-04a3f83e27e7
+
+----field----
+field: {36DDE4D3-7BDD-4D6A-A145-DAF1D72F6649}
+name: RichText
+key: richtext
+content-length: 148
+
+<h5>Sample Html Text</h5>
+<p><img height="200" alt="Accordion View Rendering" width="200" src="~/media/30A5DC62C8894E0E88D287E402742C2C.ashx" /></p>
+----field----
+field: {FEEF82F9-AEAC-42F3-85A0-D296A9B5E939}
+name: DateTime
+key: datetime
+content-length: 15
+
+20131105T081600
+----field----
+field: {556E7F1F-B9BD-4B67-98AF-7DD6C96635D0}
+name: Image
+key: image
+content-length: 230
+
+<image src="~/media/6D77BA905FA846458F70BA1693B684AE.ashx" mediaid="{6D77BA90-5FA8-4645-8F70-BA1693B684AE}" mediapath="/SitecoreMobileDemoContent/Images/SaltFlatExpedition" alt="" height="266" width="400" hspace="0" vspace="50" />
+----field----
+field: {CB55443B-31E8-480C-AC01-DB50AA6DBA33}
+name: AlternateLink
+key: alternatelink
+content-length: 100
+
+<link linktype="external" text="Sitecore.net" url="http://sitecore.net" anchor="" target="_blank" />
+----field----
+field: {47EA0063-9584-4459-9124-E3572DAB4D62}
+name: GeneralLink
+key: generallink
+content-length: 108
+
+<link linktype="external" text="jQueryMobile.com" url="http://jquerymobile.com" anchor="" target="_blank" />
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+Sample Common Text
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131109T052400
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a33fe8d1-db03-480a-ac21-04a3f83e27e7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131109T063126:635195754869210444
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

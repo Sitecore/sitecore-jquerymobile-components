@@ -1,0 +1,100 @@
+----item----
+version: 1
+id: {7994C76F-46E2-47D3-AEAB-0B789B9323F3}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/Versions/2013/05/06/23/54/Sitecore CEP 650 rev 121009 Update 6
+parent: {5A4EDE63-A8DC-477C-9D70-A7CB05C2F6C5}
+name: Sitecore CEP 650 rev 121009 Update 6
+master: {00000000-0000-0000-0000-000000000000}
+template: {A0078DEF-06C2-4A06-8FAE-E853C2862389}
+templatekey: Version
+
+----field----
+field: {583E3828-B4E0-4A7E-87A1-5E7264C32E48}
+name: ProductModule
+key: productmodule
+content-length: 116
+
+{A7180DA3-6E5C-4444-8731-503950D0C25B}|{C714EFC4-98B6-4B07-A0C8-3FF36158D82D}|{CF91851D-CB1B-49ED-91F0-A8AEFFF76EF4}
+----field----
+field: {EEA6993A-0BBF-4504-85FC-61C894294A66}
+name: ReleaseTarget
+key: releasetarget
+content-length: 15
+
+20121018T000000
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}
+----version----
+language: en
+version: 1
+revision: 7518fa1f-0ae9-481e-abbb-a5c6c59ad8e3
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 41
+
+Sitecore CEP 6.5.0 rev. 121009 (Update-6)
+----field----
+field: {8307ED63-637C-4257-994B-8DBEB69F96FE}
+name: ReleaseVersion
+key: releaseversion
+content-length: 28
+
+6.5.0 rev. 121009 (Update-6)
+----field----
+field: {9FD1D96C-94EC-47F2-B73A-444132BC6983}
+name: Revision
+key: revision
+content-length: 6
+
+121009
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 41
+
+Sitecore CEP 6.5.0 rev. 121009 (Update-6)
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130506T235400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7518fa1f-0ae9-481e-abbb-a5c6c59ad8e3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130516T194305:635043301859338795
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{190B1C84-F1BE-47ED-AA41-F42193D9C8FC}

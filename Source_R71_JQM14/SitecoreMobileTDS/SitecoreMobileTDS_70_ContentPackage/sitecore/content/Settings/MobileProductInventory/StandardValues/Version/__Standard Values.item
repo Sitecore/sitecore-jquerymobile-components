@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {DD3FCD1D-96AD-4333-8240-55BAEE3995BB}
+database: master
+path: /sitecore/content/Settings/MobileProductInventory/StandardValues/Version/__Standard Values
+parent: {54C1ED2A-826E-45C8-881F-B0914E730C21}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A0078DEF-06C2-4A06-8FAE-E853C2862389}
+templatekey: Version
+
+----field----
+field: {C9283D9E-7C29-4419-9C28-5A5C8FF53E84}
+name: __Bucketable
+key: __bucketable
+content-length: 1
+
+1
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4259
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC8A3584-4D38-49A2-9D35-D25506F27C8F}"><r ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" par="FieldName=PageTitle&amp;HeadingTagName=h1" ph="pageheader" uid="{0154096E-923F-4D62-995E-9CE65899ED16}" /><r ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon&amp;ButtonIconPosition=notext&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" ph="pageheader" uid="{A737D35B-2697-40A8-9402-04EAC8BC9B61}" /><r ds="" id="{8EEA96D2-4DF1-4F42-AEDA-FC1C4C9047AE}" par="ButtonMini=1&amp;GroupOrientation=horizontal" ph="pagecontent" uid="{F2037335-B5C8-4776-95F6-1A5F07379841}" /><r ds="" id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" par="FieldName=PageTitle&amp;HeadingTagName=h1" ph="pagecontent" uid="{F53D5E21-9243-4AE2-A782-994FFCCF3BAD}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ReleaseVersion&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagecontent" uid="{3A1912AB-8F29-4570-9439-B81541BF6653}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=Revision&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagecontent" uid="{22C141C6-A826-4D8A-8E6D-96C298440F1C}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=Features&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagecontent" uid="{5D8216D1-0819-41CB-A3A8-3DD2CE5E0ACD}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ProductModule&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagecontent" uid="{E8DBF9B2-7F54-436E-B4EA-BDDA12C130D9}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ReleaseTarget&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagecontent" uid="{BAF42DF6-053B-4B3D-AB9D-CA89D0483290}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField" ph="pagecontentprimary" uid="{A0E3196D-EB35-403E-B4F8-EF66B13B0606}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ButtonTitle&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentprimary" uid="{62F79B88-85B3-45F2-B5D1-C641D453FD7E}" /><r ds="" id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=ButtonIcon&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7B63E9B489-59F8-4442-A1EF-7BB02655CEB3%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{DFC09CCE-1817-4D9A-93C9-57BE75FE990D}" /><r ds="" id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=ButtonTheme&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7BAA429AED-AD32-447F-B961-ECBF99E3ADFA%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{2F36D146-8C2E-465A-AC14-B23774F71BE6}" /><r ds="" id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=PageTheme&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7BAA429AED-AD32-447F-B961-ECBF99E3ADFA%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{DA28749C-1B44-4CDC-B7C6-32FFEBABEEA6}" /><r ds="" id="{C78BCC64-FD6B-48EA-B489-AB3773849667}" par="" ph="pagecontentsecondary" uid="{4629A182-3231-468E-8414-95E98A450BD7}" /><r ds="" id="{33D34AF5-D75C-49DD-B21F-CBB58A83F70F}" par="FieldName=HidePageFromNavigation&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7B9808AA0F-4EA7-4F5D-8733-418196CC70B1%7D&amp;DataRole=slider&amp;DataInline=1&amp;DataMini=1" ph="pagecontentprimary" uid="{C7BB8C55-5173-4F20-95C9-DE27B0927111}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4618f3e1-2021-4791-92f6-a83b0e0b4906
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 5
+
+$name
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 5
+
+$name
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130506T235400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4618f3e1-2021-4791-92f6-a83b0e0b4906
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131026T030948:635183537883368879
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

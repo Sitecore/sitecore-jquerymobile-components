@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {3B696FED-B835-40A3-864C-3F7B26197821}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/PopupPlaceholder
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: PopupPlaceholder
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 3648
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{2A4B49DD-D827-4B80-90D7-325EF6CCA882}" p:before="r[@uid='{6F086F77-273A-4609-A185-B094B23CCE8A}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme=e&amp;ButtonMode&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="/pagecontentprimary/Popup2" /><r uid="{6F086F77-273A-4609-A185-B094B23CCE8A}" p:before="r[@uid='{2B1F1E88-6CB9-4BB2-8AA4-6A409782ED2E}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme=a&amp;ListRoundedCorners=1&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/Popup2" /><r uid="{2B1F1E88-6CB9-4BB2-8AA4-6A409782ED2E}" p:before="r[@uid='{0154096E-923F-4D62-995E-9CE65899ED16}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners=1&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/Popup1" /><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{9678785A-2BCD-4F61-AC0D-29C6BD3B3460}" p:before="r[@uid='{1E01A452-8EC0-4A20-A3E2-83E31C0EB956}']" s:ds="{EED03DA0-A92B-4A27-A255-0A52773D77F0}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle&amp;HeadingTagName=h3" s:ph="pagecontentprimary" /><r uid="{1E01A452-8EC0-4A20-A3E2-83E31C0EB956}" p:before="r[@uid='{89E3CAA1-8BC6-4D9A-8A28-60E4E0238261}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=popup&amp;ButtonPopupOverlay=0&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22Product+Popup%22+linktype%3d%22anchor%22+url%3d%22popup1%22+anchor%3d%22popup1%22+%2f%3e" s:ph="pagecontentprimary" /><r uid="{89E3CAA1-8BC6-4D9A-8A28-60E4E0238261}" p:before="r[@uid='{011D9326-D0B7-4D64-97D2-DF09992EF128}']" s:ds="" s:id="{8CA1B8D9-A55D-4D15-A5A1-2B0DADD5806E}" s:par="PlaceholderName=Popup1&amp;PopupName=popup1&amp;PopupDismissible=1" s:ph="pagecontentprimary" /><r uid="{011D9326-D0B7-4D64-97D2-DF09992EF128}" p:before="r[@uid='{C59F3625-062C-41A5-86B8-C5A04596A7E2}']" s:ds="{1E745EFD-38F4-4F3A-8AB5-1933D4737AAE}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle&amp;HeadingTagName=h3" s:ph="pagecontentprimary" /><r uid="{C59F3625-062C-41A5-86B8-C5A04596A7E2}" p:before="r[@uid='{8A6284D1-5BDF-4DB7-B25B-73B6F91A1DEB}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme=a&amp;ButtonMode=popup&amp;ButtonPopupOverlay=1&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon=info&amp;ButtonIconPosition=top&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22Modal+Popup+Placeholder+1%22+linktype%3d%22anchor%22+url%3d%22popup2%22+anchor%3d%22popup2%22+%2f%3e" s:ph="pagecontentprimary" /><r uid="{8A6284D1-5BDF-4DB7-B25B-73B6F91A1DEB}" s:ds="" s:id="{8CA1B8D9-A55D-4D15-A5A1-2B0DADD5806E}" s:par="PlaceholderName=Popup2&amp;PopupName=popup2&amp;PopupDismissible=1&amp;PopupOverlayTheme=a" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 8be58839-3f27-408f-bb86-9756ab95e44b
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 17
+
+Popup Placeholder
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 99
+
+This is a demo of a popup that contains a named placeholder, in which other renderings can be added
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 188
+
+<image mediapath="" alt="Popup Placeholder View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{89A526E1-811E-4DAE-95C9-EF419E90E460}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 17
+
+Popup Placeholder
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T225417
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8be58839-3f27-408f-bb86-9756ab95e44b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212458:635185922981732353
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

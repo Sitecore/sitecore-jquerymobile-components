@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {456AAE63-D56B-4F2B-BEDB-4DEC62363A4A}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/ButtonGroupPlaceholder
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: ButtonGroupPlaceholder
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2522
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{A00E222B-93E9-470A-A56D-B339791B30BA}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="" s:id="{6915084F-14F0-4D22-AA21-DB4CF2C6E2F8}" s:par="PlaceholderName=buttongroup&amp;ButtonMini=1&amp;GroupOrientation=horizontal" s:ph="pagecontentprimary" /><r uid="{2369D593-A480-405F-A7CB-A7E172E4E35B}" p:before="r[@uid='{394A23EF-78B5-4325-B2A7-ED2E9D3460A8}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22Sitecore.net%22+linktype%3d%22external%22+url%3d%22http%3a%2f%2fsitecore.net%22+anchor%3d%22%22+target%3d%22_blank%22+%2f%3e" s:ph="/pagecontentprimary/buttongroup" /><r uid="{394A23EF-78B5-4325-B2A7-ED2E9D3460A8}" p:before="r[@uid='{507749D7-8A63-40D0-A632-96AA51941066}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22Microsoft%22+linktype%3d%22external%22+url%3d%22http%3a%2f%2fmicrosoft.com%2f%22+anchor%3d%22%22+target%3d%22_blank%22+%2f%3e" s:ph="/pagecontentprimary/buttongroup" /><r uid="{507749D7-8A63-40D0-A632-96AA51941066}" p:before="r[@uid='{01278887-BA0F-4669-B622-A44BCE8876FF}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22jQuery+Mobile%22+linktype%3d%22external%22+url%3d%22http%3a%2f%2fjquerymobile.com%22+anchor%3d%22%22+target%3d%22_blank%22+%2f%3e" s:ph="/pagecontentprimary/buttongroup" /><r uid="{01278887-BA0F-4669-B622-A44BCE8876FF}" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="/pagecontentprimary/buttongroup" /></d></r>
+----version----
+language: en
+version: 1
+revision: 1834c2e2-90c3-4c33-a4c1-8d926ffb4561
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 24
+
+Button Group Placeholder
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 215
+
+The button group placeholder control creates a placeholder which multiple buttons can be added, and arranged either horizontally or vertically. This control allows for a mixed link types and manually placed buttons.
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 195
+
+<image mediapath="" alt="Button Group Placeholder View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{001EDA74-92DF-4A52-A34E-0864B661AF1A}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 24
+
+Button Group Placeholder
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131025T225551
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1834c2e2-90c3-4c33-a4c1-8d926ffb4561
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131109T062016:635195748163064121
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

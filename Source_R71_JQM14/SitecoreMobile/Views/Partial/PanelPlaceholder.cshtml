@@ -1,0 +1,25 @@
+﻿@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+    var panelName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PanelViewRenderingParameters.PanelName];
+    // var panelDismissible = Model.Rendering.Parameters["PanelDismissible"];
+
+    var placeholderName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+
+    if (string.IsNullOrEmpty(panelName) || string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }        
+}
+    
+@if (!pageEditEnabled)
+{
+    <div data-role="panel" id="@Html.AttributeEncode(panelName)" >
+        @Html.Sitecore().Placeholder(placeholderName)
+    </div>
+}
+else 
+{
+    <p>Panel Placeholder Name: @Html.Encode(placeholderName), Panel Name: @Html.Encode(panelName)</p>
+    @Html.Sitecore().Placeholder(placeholderName)
+}

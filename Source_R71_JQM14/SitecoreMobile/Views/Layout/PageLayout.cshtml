@@ -1,0 +1,66 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Sitecore Mobile";
+
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+    var themeField = Model.Item.Fields["PageTheme"];
+    var themeName = themeField != null && !string.IsNullOrEmpty(themeField.Value) ? themeField.Value : null;
+
+    var titleField = Model.Item.Fields["PageTitle"];
+    var title = titleField != null && !string.IsNullOrEmpty(titleField.Value) ? titleField.Value : null;
+
+    var headerPosField = Model.Item.Fields["PageHeaderPosition"];
+    var headerPos = headerPosField != null && !string.IsNullOrEmpty(headerPosField.Value) ? headerPosField.Value : null;
+
+    var footerPosField = Model.Item.Fields["PageFooterPosition"];
+    var footerPos = footerPosField != null && !string.IsNullOrEmpty(footerPosField.Value) ? footerPosField.Value : null;
+
+    var headerThemeField = Model.Item.Fields["PageHeaderTheme"];
+    var headerTheme = headerThemeField != null && !string.IsNullOrEmpty(headerThemeField.Value) ? headerThemeField.Value : null;
+
+    var footerThemeField = Model.Item.Fields["PageFooterTheme"];
+    var footerTheme = footerThemeField != null && !string.IsNullOrEmpty(footerThemeField.Value) ? footerThemeField.Value : null;
+    
+}
+
+<div data-role="page" data-ajax="false" data-title="@Html.AttributeEncode(title)" data-theme="@Html.AttributeEncode(themeName)" >
+	<div data-role="header" data-position="@Html.AttributeEncode(headerPos)" data-theme="@Html.AttributeEncode(headerTheme)">
+        @Html.Sitecore().Placeholder("pageheader")
+	</div>
+	<div data-role="content">
+        @Html.Sitecore().Placeholder("pagecontent")
+        <div class="content-primary">
+            @Html.Sitecore().Placeholder("pagecontentprimary")
+        </div>                
+        <div class="content-secondary">
+            @Html.Sitecore().Placeholder("pagecontentsecondary")             
+        </div>
+        
+        @if (pageEditEnabled)
+        {
+            <div>
+                <p>Placeholder: pagepanels</p>
+                @Html.Sitecore().Placeholder("pagepanels")
+            </div>            
+        }
+	</div>
+	<div data-role="footer" data-position="@Html.AttributeEncode(footerPos)" data-theme="@Html.AttributeEncode(footerTheme)">
+        @Html.Sitecore().Placeholder("pagefooter")
+	</div>
+    @if (!pageEditEnabled)
+    {
+        @Html.Sitecore().Placeholder("pagepanels")
+    }
+    else if (pageEditEnabled)
+    {
+      
+    }
+</div>
+
+

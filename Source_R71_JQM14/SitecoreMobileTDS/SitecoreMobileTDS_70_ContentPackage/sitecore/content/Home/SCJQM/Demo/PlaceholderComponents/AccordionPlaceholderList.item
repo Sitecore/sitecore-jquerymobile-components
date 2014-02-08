@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {A0DF0826-BA07-44D0-B9B3-A6777014BDD2}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/AccordionPlaceholderList
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: AccordionPlaceholderList
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 4119
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{AE719ED6-8C4D-48F5-B3D4-27D253BD58E6}" p:before="r[@uid='{D75D3C9A-6EC2-4C05-9BF8-602925817C4F}']" s:ds="{AF514A69-8B7E-48BE-B55B-3D0197C90310}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=ButtonTitle" s:ph="/pagecontentprimary/CollapsiblePlaceholder3" /><r uid="{D75D3C9A-6EC2-4C05-9BF8-602925817C4F}" p:before="r[@uid='{0154096E-923F-4D62-995E-9CE65899ED16}']" s:ds="{9CD44570-BCCE-4DB9-AFF7-C7251C4FD5A8}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=ButtonTitle" s:ph="/pagecontentprimary/CollapsiblePlaceholder2" /><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{5F31DA24-6F87-4A9D-BB50-648B867FAD62}" p:before="r[@uid='{5F438F1A-9F9D-4183-B1DF-A1E5A05E0030}']" s:ds="" s:id="{1D8D64C3-960D-40F4-A639-FF92A4F0B874}" s:par="ListInset&amp;ListMini&amp;ListCorners&amp;ListIconPosition&amp;ListTheme&amp;PlaceholderPrefix=CollapsiblePlaceholder&amp;PlaceholderCount=5" s:ph="pagecontentprimary" /><r uid="{5F438F1A-9F9D-4183-B1DF-A1E5A05E0030}" p:before="r[@uid='{17C673CF-8666-4810-BCCA-C68D19F4E07D}']" s:ds="{736DFD9C-C1B5-4C9F-A986-198D4E63FCBD}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=ButtonTitle" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{17C673CF-8666-4810-BCCA-C68D19F4E07D}" p:before="r[@uid='{AA77329F-B742-47EA-B7B2-B6C4557D41D5}']" s:ds="{736DFD9C-C1B5-4C9F-A986-198D4E63FCBD}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{AA77329F-B742-47EA-B7B2-B6C4557D41D5}" p:before="r[@uid='{61AFAE25-4EB3-4361-A1B7-207954D19856}']" s:ds="" s:id="{57444726-758B-41AA-92D7-885F42A89A51}" s:par="FieldName=PageContent&amp;ListInset&amp;ListMini=1&amp;ListCorners&amp;ListIconPosition&amp;ListTheme=e" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{61AFAE25-4EB3-4361-A1B7-207954D19856}" p:before="r[@uid='{BCFB8316-8576-4310-9D82-E7743BF00A6E}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/CollapsiblePlaceholder3" /><r uid="{BCFB8316-8576-4310-9D82-E7743BF00A6E}" p:before="r[@uid='{C79ED711-62C4-4B0D-9172-70E1F6000AE2}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="/pagecontentprimary/CollapsiblePlaceholder2" /><r uid="{C79ED711-62C4-4B0D-9172-70E1F6000AE2}" p:before="r[@uid='{6F9B620F-3790-4E58-B42E-A11313CE14E6}']" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme=b&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/CollapsiblePlaceholder2" /><r uid="{6F9B620F-3790-4E58-B42E-A11313CE14E6}" p:before="r[@uid='{E7A33DDE-804C-4C47-A65B-7A3D5652CCA6}']" s:ds="" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=__Display+Name&amp;HeadingTagName=h1" s:ph="/pagecontentprimary/CollapsiblePlaceholder5" /><r uid="{E7A33DDE-804C-4C47-A65B-7A3D5652CCA6}" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini=1&amp;ButtonIcon=alert&amp;ButtonIconPosition=bottom&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="/pagecontentprimary/CollapsiblePlaceholder5" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3103511c-bbce-49a9-82c8-a47a8a7b3fd1
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 26
+
+Accordion Placeholder List
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 93
+
+This is a test of a&nbsp;accordion placeholder list control for Sitecore MVC and JQueryMobile
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 192
+
+<image mediapath="" alt="Accordion Placeholder View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F32C69A6-AD40-46C3-9EE4-DE72B5136EBD}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 26
+
+Accordion Placeholder List
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T225100
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3103511c-bbce-49a9-82c8-a47a8a7b3fd1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131109T062016:635195748165251613
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

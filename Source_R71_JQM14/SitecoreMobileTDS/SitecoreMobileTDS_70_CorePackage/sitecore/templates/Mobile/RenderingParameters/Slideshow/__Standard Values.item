@@ -1,0 +1,85 @@
+----item----
+version: 1
+id: {66B518CA-9435-473F-A75A-FD55AE38347B}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Slideshow/__Standard Values
+parent: {F298D54E-396A-4606-9DA6-D9BF87A371AB}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {F298D54E-396A-4606-9DA6-D9BF87A371AB}
+templatekey: Slideshow
+
+----field----
+field: {519BC091-8A20-4D25-BFA0-F9A5BE1A2FF9}
+name: ImageFieldName
+key: imagefieldname
+content-length: 9
+
+PageImage
+----field----
+field: {69E32A9A-0231-4B6E-B729-E961839C628E}
+name: CaptionFieldName
+key: captionfieldname
+content-length: 9
+
+PageTitle
+----field----
+field: {F9F0B55A-7A3B-4814-BB13-5B646AE35E95}
+name: JsonParameters
+key: jsonparameters
+content-length: 97
+
+{
+height: '200px',
+loader: 'none',
+pagination: false,
+thumbnails: true,
+navigation: false
+}
+----field----
+field: {56C0BB2B-2F3E-4A99-B855-3077713713D6}
+name: MaxDisplayItems
+key: maxdisplayitems
+content-length: 2
+
+10
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: f014d679-0f96-4efd-9c12-19301531f69f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130514T022600
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f014d679-0f96-4efd-9c12-19301531f69f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131029T182122:635186676826730369
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

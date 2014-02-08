@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {C0BD8F85-9872-4159-8CF1-A08825AEB738}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Button/__Standard Values
+parent: {917B48AA-7DD8-4094-9F88-748879F4C3A6}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {917B48AA-7DD8-4094-9F88-748879F4C3A6}
+templatekey: Button
+
+----field----
+field: {F9A4AF7F-1890-4724-8C0B-71286D790245}
+name: ButtonMode
+key: buttonmode
+content-length: 8
+
+external
+----field----
+field: {F77E4C4F-3C37-4060-9AA0-C69139E0CE4D}
+name: ButtonIconShadow
+key: buttoniconshadow
+content-length: 1
+
+1
+----field----
+field: {EDF240CC-642B-4A89-8562-FF9E579CA746}
+name: ButtonCorners
+key: buttoncorners
+content-length: 1
+
+1
+----field----
+field: {5A715535-D3A3-48D3-ACEC-4781E7FC6D7E}
+name: ButtonShadow
+key: buttonshadow
+content-length: 1
+
+1
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 9fc4817e-034d-4dd6-b30f-9c955abf97d3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T220100
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9fc4817e-034d-4dd6-b30f-9c955abf97d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130514T220722:635041660423551844
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

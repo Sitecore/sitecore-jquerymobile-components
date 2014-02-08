@@ -1,0 +1,103 @@
+----item----
+version: 1
+id: {1FE5D7BF-7268-4AE8-AC26-412F3C15966B}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Accordion
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: Accordion
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 180
+
+<image mediapath="" alt="Accordion View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{30A5DC62-C889-4E0E-88D2-87E402742C2C}" />
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 412
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{25BD67F0-83FA-43BA-A257-4C005D41C78E}" s:ds="" s:id="{57444726-758B-41AA-92D7-885F42A89A51}" s:par="FieldName=PageContent&amp;Inset=1&amp;Mini&amp;Corners=1&amp;IconPosition&amp;Theme" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 79f3555f-abcd-4b79-9851-8c205ad45afc
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 17
+
+Accordion Control
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 321
+
+<p>This is a demo of a collapsible list.</p>
+<p>Rendering Parameters
+</p>
+<ul>
+    <li>FieldName</li>
+    <li>ListInset (Default: Enabled)</li>
+    <li>ListMin (Default: Disabled)</li>
+    <li>ListCorners (Default: Enabled)</li>
+    <li>ListIconPosition (Default: Blank)</li>
+    <li>ListTheme (Default: Blank)</li>
+</ul>
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 187
+
+<image mediapath="" alt="Accordion View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{30A5DC62-C889-4E0E-88D2-87E402742C2C}" ></image>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 9
+
+Accordion
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T183500
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+79f3555f-abcd-4b79-9851-8c205ad45afc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T195611:635185869710573644
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

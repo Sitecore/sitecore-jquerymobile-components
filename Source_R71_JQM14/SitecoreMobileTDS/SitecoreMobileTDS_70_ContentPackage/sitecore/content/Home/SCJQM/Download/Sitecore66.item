@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {85344D30-2793-4776-AEFA-185D1728A07B}
+database: master
+path: /sitecore/content/Home/SCJQM/Download/Sitecore66
+parent: {A0FD4712-1E2A-421A-AD2E-A2972784ED76}
+name: Sitecore66
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 4267b8cf-77fe-49d8-9251-de597826817d
+
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131026T081453
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4267b8cf-77fe-49d8-9251-de597826817d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131030T071659:635187142196348396
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

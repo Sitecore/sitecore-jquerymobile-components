@@ -1,0 +1,39 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.ListViewViewRendering
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+<ul data-role="listview" data-theme="@Html.AttributeEncode(Model.Theme)" data-inset="@Html.AttributeEncode(Model.Rounded)" data-filter="@Html.AttributeEncode(Model.DataFilter)" data-filter-placeholder="@Html.AttributeEncode(Model.DataFilterDefaultText)" data-filter-theme="@Html.AttributeEncode(Model.DataFilterTheme)" data-header-theme="@Html.AttributeEncode(Model.DataHeaderTheme)" data-count-theme="@Html.AttributeEncode(Model.DataCountTheme)" data-divider-theme="@Html.AttributeEncode(Model.DataDividerTheme)" data-icon="@Html.AttributeEncode(Model.DataIcon)" data-split-icon="@Html.AttributeEncode(Model.DataSplitIcon)" data-split-theme="@Html.AttributeEncode(Model.DataSplitTheme)">
+   
+
+    @foreach (var item in Model.ListViewDisplayItems)
+    {
+        var dataRole = item.DisplayChildren ? string.Empty : null;         // "list-divider" 
+        var dataTheme = item.DisplayChildren ? "a" : "";
+                
+        <li data-role="@Html.AttributeEncode(dataRole)" data-theme="@Html.AttributeEncode(dataTheme)">
+            @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+                {
+                    Item = item.DisplayItem,
+                    ButtonRole = "list"
+                })
+        </li>
+                
+    }
+    
+    @if (Model.ListViewDisplayItems.Length == 0 && Model.EditingEnabled)
+    {
+        <li>
+            @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel() 
+            { 
+                ButtonText = "No Children", 
+                ButtonIcon="alert", 
+                CssClass="ui-disabled",
+                ButtonRole = "list"})  
+        </li>
+    }
+
+    
+</ul>

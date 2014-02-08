@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {464DCBA7-7D3E-4229-BA74-39E470CE942B}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/TextCommon
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: TextCommon
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2087
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{1A4EBC29-FB4E-4686-85DA-28F2BDBE75F9}" p:before="r[@uid='{0EB6FC44-6B6C-48A5-90D4-ED72088BA96B}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=__Display+Name&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{0EB6FC44-6B6C-48A5-90D4-ED72088BA96B}" p:before="r[@uid='{C371E4B3-ABE6-4E73-800D-A7BB1D8347A3}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=RichText&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{C371E4B3-ABE6-4E73-800D-A7BB1D8347A3}" p:before="r[@uid='{EB424316-80E8-4045-A1EA-E9034D750358}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=DateTime&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{EB424316-80E8-4045-A1EA-E9034D750358}" p:before="r[@uid='{FDE9ABFA-950C-403A-BE5C-9867F596F9C6}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=Image&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{FDE9ABFA-950C-403A-BE5C-9867F596F9C6}" p:before="r[@uid='{0DC13742-1617-42F4-9108-AE4F97890FEB}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=GeneralLink&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{0DC13742-1617-42F4-9108-AE4F97890FEB}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="{06E0C070-1537-4DF3-8F4A-3093B98E4F3B}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=AlternateLink&amp;DisplayFieldTitle=1&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: c1a77855-e2e0-43f9-97fc-d3bebb029281
+
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 507
+
+The component library contains a predefined template for reusing content across multiple pages without the full number of fields that the mobile pages use. The simplest use case is for a dictionary. It would be unwise to use rendering parameters in most cases because it is a shared field. External links can be created as a common text item using&nbsp;<br><br>The CommonText field type is actually much more than just text. It contains the following fields that may be bound to the datasource item.<br><br>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131109T051731
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c1a77855-e2e0-43f9-97fc-d3bebb029281
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131109T204053:635196264532078614
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

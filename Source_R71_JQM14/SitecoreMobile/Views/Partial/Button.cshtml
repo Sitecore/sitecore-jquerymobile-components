@@ -1,0 +1,6 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.ButtonViewRendering
+           
+@if (Model.ButtonModel == null) { return; }
+
+@Html.Partial("Button", Model.ButtonModel)
+

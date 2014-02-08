@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {7D1B1413-3527-4921-A42D-8A5C95848AD7}
+database: master
+path: /sitecore/content/Home/SCJQM
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: SCJQM
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1094
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C976B93D-7211-4C95-84B1-DE7D86A23181}" p:before="r[@uid='{466C1059-F95E-458A-80D0-DCC1FD46C0FC}']" s:ds="{9FD1A58D-B604-4653-8FB2-9563C372952A}" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=ButtonTitle&amp;HeadingTagName=h3" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{466C1059-F95E-458A-80D0-DCC1FD46C0FC}" p:before="r[@uid='{135EE058-4D96-4F5C-BEA4-1E47C65E9CA4}']" s:ds="{9FD1A58D-B604-4653-8FB2-9563C372952A}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{B258828E-429E-4AA2-A429-B12430A4D452}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="" s:id="{1D8D64C3-960D-40F4-A639-FF92A4F0B874}" s:par="ListInset&amp;ListMini=1&amp;ListCorners&amp;ListIconPosition&amp;ListTheme&amp;PlaceholderPrefix=CollapsiblePlaceholder&amp;PlaceholderCount=1" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 3a16499e-6d5f-496d-a717-55220368de6a
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 39
+
+Sitecore jQuery Mobile HTML5 Components
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 779
+
+<p>Welcome to the Sitecore&nbsp;jQuery Mobile (SCJQM) HTML5&nbsp;mobile component library&nbsp;homepage.</p><p>The Sitecore jQuery Mobile component library is collection of reusable Sitecore MVC&nbsp;views&nbsp;designed to combine the jQuery Mobile HTML5 library and the Sitecore Page Editor. The jQuery Mobile library provides&nbsp;touch friendly and accessible HTML5 controls and the Sitecore Page Editor provides the ability to assemble the controls and edit page content. If you are interested in a&nbsp;demonstration&nbsp;of Sitecore Page Editor functionality please contact your regional Sitecore sales office or visit <a class="ui-link" href="http://sitecore.net">Sitecore.net</a>. </p><p>Contact: <a class="ui-link" href="https://twitter.com/dmo_sc">@dmo_sc</a>&nbsp;</p>
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 16
+
+SCJQM Components
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Sitecore jQuery Mobile Components
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T083900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3a16499e-6d5f-496d-a717-55220368de6a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131026T072757:635183692777428735
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

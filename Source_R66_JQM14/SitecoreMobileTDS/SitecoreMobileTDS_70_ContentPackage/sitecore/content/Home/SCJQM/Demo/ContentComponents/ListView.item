@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {AD353C79-35AF-4AA8-9EC6-CAA45044F841}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/ListView
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: ListView
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2973
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0ACB4FBB-A083-4D6E-9405-F49E346086B6}" p:before="r[@uid='{30D94561-6ACB-4475-8366-AC274E7E2498}']" s:ds="" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle&amp;HeadingTagName=h1" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{30D94561-6ACB-4475-8366-AC274E7E2498}" p:before="r[@uid='{0154096E-923F-4D62-995E-9CE65899ED16}']" s:ds="" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme=a&amp;ListRoundedCorners=0&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagecontentprimary/CollapsiblePlaceholder1" /><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{044EFE96-E0E3-432C-A83B-49193D5A261B}" p:before="r[@uid='{405049B4-573C-47CD-AE6A-25C950A875ED}']" s:ds="{069BEF14-395F-4CD5-9F4B-17132A675422}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{405049B4-573C-47CD-AE6A-25C950A875ED}" p:before="r[@uid='{D97D76D0-3D27-4EE3-AE95-7B2E94B0205A}']" s:ds="" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="pagecontentprimary" /><r uid="{D97D76D0-3D27-4EE3-AE95-7B2E94B0205A}" p:before="r[@uid='{2FAC7580-4D0D-4251-8F3D-3E9A16D490D8}']" s:ds="{B240BDA0-3D77-4387-B0FA-00EA3386FD66}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{2FAC7580-4D0D-4251-8F3D-3E9A16D490D8}" p:before="r[@uid='{3316C9A6-A083-40F8-98C6-522A48887D74}']" s:ds="" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme=b&amp;ListRoundedCorners&amp;ListCountTheme=c&amp;ListDividerTheme=c&amp;ListFilter&amp;ListFilterDefaultText=Search+this+demo+list&amp;ListFilterTheme=e&amp;ListHeaderTheme=b&amp;ListIcon=alert&amp;ListSplitIcon=arrow-r&amp;ListSplitTheme=c" s:ph="pagecontentprimary" /><r uid="{3316C9A6-A083-40F8-98C6-522A48887D74}" p:before="r[@uid='{9F4C58BE-C35A-4A71-93E2-FB182A59565A}']" s:ds="{11D17448-58BB-4767-A50F-81B9ADF1D8E9}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{9F4C58BE-C35A-4A71-93E2-FB182A59565A}" s:ds="" s:id="{1D8D64C3-960D-40F4-A639-FF92A4F0B874}" s:par="ListInset&amp;ListMini&amp;ListCorners&amp;ListIconPosition&amp;ListTheme&amp;PlaceholderPrefix=CollapsiblePlaceholder&amp;PlaceholderCount=1" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 914e105d-ef54-4e09-8e95-4d115b54e23b
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 9
+
+List View
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 52
+
+This is a demo of a list view rendering type<br><br>
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 180
+
+<image mediapath="" alt="List View View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{27B187BA-C490-424E-9132-3D75D9B256D1}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 9
+
+List View
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T182851
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+914e105d-ef54-4e09-8e95-4d115b54e23b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212143:635185921030294565
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,39 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{
+    var dataSourceItem = (Sitecore.Data.Items.Item)null;
+    if (dataSourceItem == null) { return; }
+
+    // var dataSourceItem = Model.DataSource.GetItem();
+}
+
+@{    
+    
+    var itemUrl = Url.RouteUrl(
+        MvcSettings.SitecoreRouteName,
+        new
+        {
+            @pathInfo = dataSourceItem.GetRoutePathInfo()
+        });
+
+    Sitecore.Collections.SafeDictionary<string> titleFieldParam = new Sitecore.Collections.SafeDictionary<string>()
+        {
+            /* { "disable-web-editing", "true" }, */
+            { "show-title-when-blank", "true" }   
+        };
+    var buttonTitle = Html.Sitecore().Field(
+        "ButtonTitle",
+        dataSourceItem,
+        new
+        {
+            DisableWebEdit = true,
+            Parameters = titleFieldParam
+        });
+    buttonTitle = !string.IsNullOrEmpty(buttonTitle.ToString()) ? buttonTitle : new HtmlString(dataSourceItem.DisplayName);
+}
+
+<a href="@Html.AttributeEncode(itemUrl)" rel="external">@buttonTitle</a>

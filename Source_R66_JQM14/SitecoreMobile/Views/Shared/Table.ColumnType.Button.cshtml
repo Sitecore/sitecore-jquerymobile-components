@@ -1,0 +1,18 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@{
+    var dataSourceItem = (Sitecore.Data.Items.Item)null;
+    if (dataSourceItem == null) { return; }
+
+    // var dataSourceItem = Model.DataSource.GetItem();
+}
+
+@Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+{
+    //Item = Model.DataSource.GetItem(),
+
+    Item = dataSourceItem,
+    // ButtonInline = "1",
+    ButtonMini = true,
+    ButtonIcon = null
+})

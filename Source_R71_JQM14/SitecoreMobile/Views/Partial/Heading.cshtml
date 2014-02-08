@@ -1,0 +1,18 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+
+@{
+    
+    var headingTagName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.HeadingViewRenderingParameters.HeadingTagName] ?? "h1";
+    var fieldName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.StandardViewRenderingParameters.FieldName];
+    
+    var tagParameters = new Dictionary<string, object>();
+
+    TagBuilder tagBuilder = new TagBuilder(headingTagName);
+    tagBuilder.MergeAttributes<string, object>(tagParameters);
+
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.StartTag));
+    WriteLiteral(Html.Sitecore().Field(fieldName));
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.EndTag));
+    
+}

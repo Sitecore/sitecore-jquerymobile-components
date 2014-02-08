@@ -1,0 +1,50 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{
+   
+    var dataInset = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListInset] == "0" ? "false" : "true";
+    var dataMini = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListMini] == "1" ? "true" : "false";
+    var dataCorners = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListCorners] == "0" ? "false" : "true"; // default corners to on
+    var dataIconPos = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListIconPosition];
+    var dataTheme = Model.Rendering.Parameters[MobileFieldNames.ListViewRenderingParameters.ListTheme];
+
+    var placeholderPrefix = Model.Rendering.Parameters[MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderPrefix] ?? "CollapsiblePlaceholder";
+    var placeholderCountParameter = Model.Rendering.Parameters[MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderCount];
+    var placeholderCount = 1;
+    int.TryParse(placeholderCountParameter, out placeholderCount);
+
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+}
+
+@if (pageEditEnabled)
+{
+    <p><em>Collapsible Placeholder List Control</em></p>
+}
+
+
+<div data-role="collapsible-set" data-mini="@Html.AttributeEncode(dataMini)" data-inset="@Html.AttributeEncode(dataInset)" data-corners="@Html.AttributeEncode(dataCorners)" data-iconpos="@Html.AttributeEncode(dataIconPos)" data-theme="@Html.AttributeEncode(dataTheme)">
+    
+    @for (int p = 1; p <= placeholderCount; p++)
+    {
+        var placeholderName = string.Format("{0}{1}", placeholderPrefix, p);
+        if (!pageEditEnabled)
+        {
+            <div data-role="collapsible">
+                @Html.Sitecore().Placeholder(placeholderName)
+            </div>
+        }
+        else if (pageEditEnabled)
+        {
+            <div data-role="collapsible">
+                <H3>@Html.Encode(placeholderName)</H3>
+                @Html.Sitecore().Placeholder(placeholderName)
+            </div>
+        }        
+    }
+    
+</div>

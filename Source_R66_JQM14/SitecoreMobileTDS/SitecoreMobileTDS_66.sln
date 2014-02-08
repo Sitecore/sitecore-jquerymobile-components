@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile_66", "..\SitecoreMobile\SitecoreMobile_66.csproj", "{0B349A5D-AB53-4458-93E9-3829520CA802}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_66_CorePackage", "SitecoreMobileTDS_66_CorePackage\SitecoreMobileTDS_66_CorePackage.scproj", "{EB698116-84E6-4119-B1E1-937474F65F0A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dmositecore000.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\SitecoreMobile\\SitecoreMobile_66.csproj
+		SccProjectName0 = ../SitecoreMobile
+		SccLocalPath0 = ..\\SitecoreMobile
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = SitecoreMobileTDS_66_CorePackage\\SitecoreMobileTDS_66_CorePackage.scproj
+		SccProjectName2 = SitecoreMobileTDS_66_CorePackage
+		SccLocalPath2 = SitecoreMobileTDS_66_CorePackage
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB698116-84E6-4119-B1E1-937474F65F0A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dmositecore000.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\SitecoreMobile\\SitecoreMobile_66.csproj
+		SccProjectName0 = ../SitecoreMobile
+		SccLocalPath0 = ..\\SitecoreMobile
+	EndGlobalSection
+EndGlobal

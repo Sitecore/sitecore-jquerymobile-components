@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {40268392-CDC1-4BBE-86C2-5CFE0C9E4820}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/NavBar
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: NavBar
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 349
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{0F216EED-1945-4C1E-B627-126A6733F189}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{F9D997F6-A5BB-4FF2-8A5A-2F8260495712}" s:par="ButtonIconPosition=top" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: e4c6a1f0-9ca0-4a52-acb0-aebc5f318f83
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 14
+
+Navigation Bar
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 178
+
+<image mediapath="" alt="Nav Bar View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{C74DF037-2A1A-4D1D-81D2-AD1FD465B439}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 6
+
+NavBar
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T182720
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e4c6a1f0-9ca0-4a52-acb0-aebc5f318f83
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212136:635185920963354394
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

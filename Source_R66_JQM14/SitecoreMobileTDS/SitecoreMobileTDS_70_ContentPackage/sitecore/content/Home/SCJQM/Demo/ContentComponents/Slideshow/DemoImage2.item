@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {BE42083F-EAA5-4369-8BE1-8804B14CC41F}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Slideshow/DemoImage2
+parent: {0AB1A7AC-E74D-436B-B0CC-7B667F256381}
+name: DemoImage2
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 67b83faf-8ba6-4f56-babe-4d972fc3474d
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 10
+
+Matterhorn
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 219
+
+<image src="~/media/C8509A5960674B1C909F2562A2B0967D.ashx" mediaid="{C8509A59-6067-4B1C-909F-2562A2B0967D}" mediapath="/SitecoreMobileDemoContent/Images/matterhorn" alt="" height="400" width="606" hspace="" vspace="" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 10
+
+Matterhorn
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131029T191137
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+67b83faf-8ba6-4f56-babe-4d972fc3474d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131029T191210:635186707301007622
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

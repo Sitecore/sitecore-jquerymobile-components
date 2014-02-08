@@ -1,0 +1,37 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using SitecoreMobile
+
+@{
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    bool hiddenEditingField = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.HiddenEditingField] == "1" ? true : false;
+    if (hiddenEditingField && !pageEditEnabled)
+    {
+        return;
+    }
+
+    var fieldName = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.FieldName];
+
+    if (string.IsNullOrEmpty(fieldName))
+    {
+        return;
+    }
+
+    bool displayFieldTitle = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.DisplayFieldTitle] == "1" ? true : false;
+    bool displayEditingFieldTitle = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.DisplayEditingFieldTitle] == "1" ? true : false;
+    var pageEditorPrefix = (string)null;
+    
+    if (displayFieldTitle 
+        || (displayEditingFieldTitle && pageEditEnabled))
+    {
+        var itemField = Model.Item.Fields[fieldName];
+        var fieldItem = Model.Item.Database.GetItem(itemField.ID);
+        pageEditorPrefix = string.Format("<label>{0}: </label>", Html.Encode(fieldItem.DisplayName));
+    }
+    
+}
+<div>
+    @Html.Raw(pageEditorPrefix) 
+    @Html.Sitecore().Field(fieldName)
+</div>

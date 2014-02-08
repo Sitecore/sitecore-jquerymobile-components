@@ -1,0 +1,142 @@
+----item----
+version: 1
+id: {2E9C8E5A-EC87-4D01-BF3C-CED7086CC856}
+database: master
+path: /sitecore/content/Settings/Mobile/StandardValues/MobilePage/__Standard Values
+parent: {E3C568E4-C420-46BA-B195-C23E3641AA38}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 2
+
+50
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{3CFFB270-0CB9-48CA-B00D-6A167740171D}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5468
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC8A3584-4D38-49A2-9D35-D25506F27C8F}"><r ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" par="ListTheme=b&amp;ListRoundedCorners=0&amp;ListCountTheme=b&amp;ListDividerTheme=b&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme=b&amp;ListIcon=arrow-r&amp;ListSplitIcon&amp;ListSplitTheme&amp;DisplayDatasource=1&amp;DisplayDatasourceChildrensChildren=1&amp;FieldList" ph="/pagepanels/Panel1" uid="{DF97BE1E-37F6-4781-9420-439C44E7CEA0}" /><r ds="" id="{29546098-1B5D-41E7-8055-C171033BCC4A}" par="PlaceholderName=Panel1&amp;PanelName=Panel1" ph="pagepanels" uid="{01CD9DF2-6F79-4631-A950-869C9E0F4FD5}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=__Publish&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentsecondary" uid="{472945E2-5FFF-4537-B0BE-0F1963D3F0E6}" /><r ds="" id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=__Unpublish&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentsecondary" uid="{E1673C1B-072D-4FF4-A4F1-678826559556}" /><r ds="" id="{33D34AF5-D75C-49DD-B21F-CBB58A83F70F}" par="FieldName=__Never+publish&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7b9808AA0F-4EA7-4F5D-8733-418196CC70B1%7d&amp;DataInline=1&amp;DataMini=1&amp;DataRole=slider" ph="pagecontentsecondary" uid="{7E0F514F-B2A8-4804-830C-62FB3F517FED}" /><r ds="{B8F9D187-40DE-4D6A-A57B-F425FB9B3DE0}" id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" par="FieldName=RichText&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" ph="pagefooter" uid="{4285ED62-A7E8-40B1-A499-673951BEAD23}" /><r ds="" id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" par="ListTheme=a&amp;ListRoundedCorners=1&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon=arrow-r&amp;ListSplitIcon&amp;ListSplitTheme&amp;DisplayDatasource&amp;DisplayDatasourceChildrensChildren&amp;FieldList" ph="pagecontentsecondary" uid="{135EE058-4D96-4F5C-BEA4-1E47C65E9CA4}" /><r ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" par="FieldName=PageTitle&amp;HeadingTagName=h1" ph="pageheader" uid="{0154096E-923F-4D62-995E-9CE65899ED16}" /><r ds="" id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon=bars&amp;ButtonIconPosition=notext&amp;ButtonIconShadow&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3Clink%20text%3D%22Menu%22%20linktype%3D%22anchor%22%20url%3D%22Panel1%22%20anchor%3D%22Panel1%22%20%2F%3E" ph="pageheader" uid="{A737D35B-2697-40A8-9402-04EAC8BC9B61}" /><r id="{8EEA96D2-4DF1-4F42-AEDA-FC1C4C9047AE}" par="ButtonMini=1&amp;GroupOrientation=horizontal" ph="pagecontent" uid="{F2037335-B5C8-4776-95F6-1A5F07379841}" /><r id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" par="FieldName=PageTitle&amp;HeadingTagName=h1" ph="pagecontent" uid="{F53D5E21-9243-4AE2-A782-994FFCCF3BAD}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=PageImage&amp;DisplayEditingFieldTitle=True" ph="pagecontentprimary" uid="{87EB5728-4E4D-4FBB-8902-2A02E7796C9B}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField" ph="pagecontentprimary" uid="{A0E3196D-EB35-403E-B4F8-EF66B13B0606}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ButtonTitle&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentprimary" uid="{62F79B88-85B3-45F2-B5D1-C641D453FD7E}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=ButtonIcon&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7B63E9B489-59F8-4442-A1EF-7BB02655CEB3%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{DFC09CCE-1817-4D9A-93C9-57BE75FE990D}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=ButtonTheme&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7BAA429AED-AD32-447F-B961-ECBF99E3ADFA%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{2F36D146-8C2E-465A-AC14-B23774F71BE6}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="FieldName=PageTheme&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7BAA429AED-AD32-447F-B961-ECBF99E3ADFA%7D&amp;SelectIncludeEmptyOption=1&amp;DataInline=1&amp;DataMini=1&amp;DataRole=select" ph="pagecontentprimary" uid="{DA28749C-1B44-4CDC-B7C6-32FFEBABEEA6}" /><r id="{C78BCC64-FD6B-48EA-B489-AB3773849667}" ph="pagecontentsecondary" uid="{4629A182-3231-468E-8414-95E98A450BD7}" /><r id="{33D34AF5-D75C-49DD-B21F-CBB58A83F70F}" par="FieldName=HidePageFromNavigation&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1&amp;SelectDataSource=%7B9808AA0F-4EA7-4F5D-8733-418196CC70B1%7D&amp;DataRole=slider&amp;DataInline=1&amp;DataMini=1" ph="pagecontentprimary" uid="{C7BB8C55-5173-4F20-95C9-DE27B0927111}" /></d></r>
+----version----
+language: en
+version: 1
+revision: a4209a3f-52cc-4584-abd2-80707157b709
+
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {6246E73C-2940-4DCA-8249-546CDFDAEB5F}
+name: PageTheme
+key: pagetheme
+content-length: 1
+
+a
+----field----
+field: {AFB94C7E-4FF5-49C4-A499-492C3C1B127C}
+name: PageHeaderPosition
+key: pageheaderposition
+content-length: 0
+
+
+----field----
+field: {09138CFA-C3EE-465F-A80A-D9EE97025393}
+name: PageFooterPosition
+key: pagefooterposition
+content-length: 0
+
+
+----field----
+field: {ADED3FCA-3C27-4E6E-B50A-7C3165C2C0A9}
+name: PageHeaderTheme
+key: pageheadertheme
+content-length: 1
+
+a
+----field----
+field: {D109A937-9689-4938-9F79-BBBBB0DF4C29}
+name: PageFooterTheme
+key: pagefootertheme
+content-length: 1
+
+a
+----field----
+field: {2AB63273-A25D-4AB7-A24C-F78B460265B2}
+name: ButtonIcon
+key: buttonicon
+content-length: 4
+
+star
+----field----
+field: {DA07E764-C5FD-4A0E-844E-58A53EFCBB13}
+name: ButtonTheme
+key: buttontheme
+content-length: 1
+
+a
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T083900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a4209a3f-52cc-4584-abd2-80707157b709
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140201T024609:635268195699493337
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

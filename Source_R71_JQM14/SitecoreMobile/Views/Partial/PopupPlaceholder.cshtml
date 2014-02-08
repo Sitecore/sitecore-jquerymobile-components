@@ -1,0 +1,34 @@
+﻿@using SitecoreMobile
+
+@{
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    var popupName = Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupName];
+
+    var popupDismissible = (string.IsNullOrEmpty(Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupDismissible])
+        || Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupDismissible] == "1") ? true : false;
+
+    var placeholderName = Model.Rendering.Parameters[MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+
+    var popupOverlayTheme = Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupDismissible];
+
+    if (string.IsNullOrEmpty(popupName) || string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }        
+}
+    
+@if (pageEditEnabled)
+{
+    <p><em>Popup Placeholder Control - Placeholder Name: @Html.Encode(placeholderName)- Popup Name: @Html.Encode(popupName)</em></p>
+    @Html.Sitecore().Placeholder(placeholderName)
+}
+
+<div data-role="popup" id="@Html.AttributeEncode(popupName)" data-overlay-theme="@Html.AttributeEncode(popupOverlayTheme)"  data-dismissible="@Html.AttributeEncode(popupDismissible)">
+    @if (!pageEditEnabled)
+    {
+        @Html.Sitecore().Placeholder(placeholderName)    
+    }
+</div>
+

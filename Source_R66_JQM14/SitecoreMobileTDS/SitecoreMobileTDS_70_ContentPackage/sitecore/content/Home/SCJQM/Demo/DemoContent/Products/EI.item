@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {49D8ECE9-4F5B-4022-9E4C-584F4E85DA23}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/Products/EI
+parent: {31BF639B-A5EC-4FA2-B329-11E05D777352}
+name: EI
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: c5942985-9245-4753-bf4e-7b9d3ce06063
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 23
+
+Engagement Intelligence
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 23
+
+Engagement Intelligence
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T084055
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5942985-9245-4753-bf4e-7b9d3ce06063
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130506T193603:635034657634346359
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

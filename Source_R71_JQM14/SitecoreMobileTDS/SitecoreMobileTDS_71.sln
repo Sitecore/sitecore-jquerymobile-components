@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile_71", "..\SitecoreMobile\SitecoreMobile_71.csproj", "{0B349A5D-AB53-4458-93E9-3829520CA804}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_71_CorePackage", "SitecoreMobileTDS_71_CorePackage\SitecoreMobileTDS_71_CorePackage.scproj", "{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dmositecore000.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\SitecoreMobile\\SitecoreMobile_71.csproj
+		SccProjectName0 = ../SitecoreMobile
+		SccLocalPath0 = ..\\SitecoreMobile
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = SitecoreMobileTDS_71_CorePackage\\SitecoreMobileTDS_71_CorePackage.scproj
+		SccProjectName2 = SitecoreMobileTDS_71_CorePackage
+		SccLocalPath2 = SitecoreMobileTDS_71_CorePackage
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE1E72E-AAD1-42C6-B656-90D5E321CA7A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
