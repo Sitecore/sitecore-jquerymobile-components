@@ -6,6 +6,11 @@ Twitter: @dmo_sc
 
 Website: http://sitecoremobile.cloudapp.net/
 
+Download Sitecore Installation Packages
+
+http://sitecoremobile.cloudapp.net/SCJQM/Download
+
+About:
 The Sitecore jQuery Mobile component library is collection of reusable 
 Sitecore MVC views designed to combine the jQuery Mobile HTML5 library 
 and the Sitecore Page Editor. The jQuery Mobile library provides touch 
