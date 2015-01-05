@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {0AB1A7AC-E74D-436B-B0CC-7B667F256381}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Slideshow
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: Slideshow
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 675
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" s:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{135EE058-4D96-4F5C-BEA4-1E47C65E9CA4}"><p:d /></r><r uid="{D5F2EE3E-730C-44BD-9BB5-136FB6E196B8}" p:before="r[@uid='{87EB5728-4E4D-4FBB-8902-2A02E7796C9B}']" s:ds="{0AB1A7AC-E74D-436B-B0CC-7B667F256381}" s:id="{52801180-7006-4D39-885F-FF0F5420F26F}" s:par="ImageFieldName=PageImage&amp;CaptionFieldName=PageTitle&amp;ImageWidth&amp;ImageHeight=400&amp;JsonParameters=%7b%0d%0aheight%3a+%27400px%27%2c%0d%0aloader%3a+%27bar%27%2c%0d%0apagination%3a+false%2c%0d%0anavigation%3a+true%0d%0a%7d&amp;MaxDisplayItems=10" s:ph="pagecontent" /></d></r>
+----version----
+language: en
+version: 1
+revision: c5202c38-cf52-49bb-bda1-fa23676c2456
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 9
+
+Slideshow
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 236
+
+<p>The slideshow control uses a jQuery slideshow plugin called "<a class="ui-link" href="http://www.pixedelic.com/plugins/camera/">Camera</a>" and is distributed&nbsp;in its original form&nbsp;under the MIT creative commons license.</p>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 9
+
+Slideshow
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131029T185439
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c5202c38-cf52-49bb-bda1-fa23676c2456
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131029T193142:635186719026972900
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

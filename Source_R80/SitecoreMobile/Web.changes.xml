@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <appSettings>
+    	<add key="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=scdev2014;AccountKey=bBxm3ehAT2HAcB+llG7o5d/xb8/kJfVjnbmV6qiEs75uS81Wa6pH8QeVPSnXQdYi8og0B46Iq7tVsQkwNbmwSA==" />
+	
+	    <add key="LinkedInEUConnectionString" value="AccountCallback=/signin-linkedin/symeu;AccountName=LinkedIn SYMEU;AccountKey=7732y6i1ma3hy3;AccountSecret=guA1J7uYYAnAXdW4;" />
+	    <add key="LinkedInNAConnectionString" value="AccountCallback=/signin-linkedin/symna;AccountName=LinkedIn SYMNA;AccountKey=7772y0popf7vd0;AccountSecret=J9HqfYOQObN5v2oE;" />
+	
+	    <add key="TwitterEUConnectionString" value="AccountCallback=/signin-twitter/symeu;AccountName=Twitter SYMEU;AccountKey=pDIZD6dzMw9OYdOb4tzMC0gI6;AccountSecret=DNyVXZBkCQqiXkMrN8teIQKiN6cheeNQqpJYSU6y5QGo0o0GZs" />
+	    <add key="TwitterNAConnectionString" value="AccountCallback=/signin-twitter/symna;AccountName=Twitter SYMNA;AccountKey=jh9N7iYbtdlEhFOdrg9D1Z3kq;AccountSecret=0Rq6Ssly4itXawKb8qzI4O20L9WU5tkhEXp4BPjBBDOcffuBhM" />
+	
+  </appSettings>
+
+  <runtime>
+    <assemblyBinding>
+      
+      <dependentAssembly>
+        <assemblyIdentity name="System.Web.Optimization" publicKeyToken="31bf3856ad364e35" />
+        <bindingRedirect oldVersion="1.0.0.0-1.1.0.0" newVersion="1.1.0.0" />
+      </dependentAssembly>
+	  
+	    <dependentAssembly>
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.6.5135.21930" newVersion="1.6.5135.21930" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Antlr3.Runtime" publicKeyToken="eb42632606e9261f" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-3.5.0.2" newVersion="3.5.0.2" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Owin.Security" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Microsoft.Owin" publicKeyToken="31bf3856ad364e35" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-2.1.0.0" newVersion="2.1.0.0" />
+      </dependentAssembly>
+	  
+	  
+	  
+    </assemblyBinding>
+  </runtime>
+
+
+</configuration>

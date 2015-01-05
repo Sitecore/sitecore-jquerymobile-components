@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {82FD3387-B7CE-4755-B54A-33F7C43594F9}
+database: master
+path: /sitecore/system/Marketing Control Panel/Campaigns/SitecoreMobileDemoNet/LinkedIn/LinkedInSitecore80Launch
+parent: {E32F2347-A111-4FE6-B591-47D56E29F7CC}
+name: LinkedInSitecore80Launch
+master: {00000000-0000-0000-0000-000000000000}
+template: {94FD1606-139E-46EE-86FF-BC5BF3C79804}
+templatekey: Campaign
+
+----field----
+field: {4C1BF83B-06E2-4B07-AD16-0E65D95E356E}
+name: Channel
+key: channel
+content-length: 38
+
+{6FD56D27-FD68-405A-BC26-566C7BEF7031}
+----field----
+field: {0F47D1B4-BCB4-4F7F-9065-6ECB46AAB9A1}
+name: Title
+key: title
+content-length: 24
+
+LinkedInSitecore80Launch
+----field----
+field: {43AA1C9A-D1BE-498A-9841-1DEF2C2231BA}
+name: Select Traffic Type
+key: select traffic type
+content-length: 38
+
+{6C91424E-C241-4409-95B2-AD1AFA7EEEBA}
+----field----
+field: {BD4720D7-9ED6-4438-959B-7B1C5C32C10B}
+name: StartDate
+key: startdate
+content-length: 16
+
+20141222T203300Z
+----field----
+field: {5A9FAE1C-A68A-4310-B3B1-1D364F65E197}
+name: EndDate
+key: enddate
+content-length: 16
+
+20241222T203300Z
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{689E2994-4656-4C58-9112-7826CB46EE69}
+----version----
+language: en
+version: 1
+revision: bb4d1f03-acaa-4ff3-9ae1-56c56dddaf26
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141222T203308Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bb4d1f03-acaa-4ff3-9ae1-56c56dddaf26
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141222T203408:635548772485195283Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{39156DC0-21C6-4F64-B641-31E85C8F5DFE}

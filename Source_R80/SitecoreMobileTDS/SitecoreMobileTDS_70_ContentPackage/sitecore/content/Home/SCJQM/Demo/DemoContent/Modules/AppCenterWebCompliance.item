@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {87217E98-2D57-4E1C-8D6D-E031039D29BD}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/Modules/AppCenterWebCompliance
+parent: {948C5EB7-E520-4965-B935-D16112CCE676}
+name: AppCenterWebCompliance
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: e3493c61-37bf-417c-9579-658a59dbfcde
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 25
+
+App Center Web Compliance
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 25
+
+App Center Web Compliance
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130506T230756
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e3493c61-37bf-417c-9579-658a59dbfcde
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130506T230809:635034784892069509
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

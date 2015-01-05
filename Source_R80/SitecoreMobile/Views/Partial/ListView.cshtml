@@ -1,0 +1,118 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.ListViewViewRendering
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{
+    bool alternatingCounter = false;
+    var customPlaceholderName = string.Empty;
+    if (!string.IsNullOrEmpty(Model.CustomPlaceholderName))
+    {
+        customPlaceholderName = Model.CustomPlaceholderName;
+    }
+
+    var countPlaceholderName = string.Empty;
+    if (!string.IsNullOrEmpty(Model.CountPlaceholderName))
+    {
+        countPlaceholderName = Model.CountPlaceholderName;
+    }
+    
+}
+
+<ul data-role="listview" class="@Html.AttributeEncode(Model.CssClass)" data-theme="@Html.AttributeEncode(Model.Theme)" data-inset="@Html.AttributeEncode(Model.Rounded)" data-filter="@Html.AttributeEncode(Model.DataFilter)" data-filter-placeholder="@Html.AttributeEncode(Model.DataFilterDefaultText)" data-filter-theme="@Html.AttributeEncode(Model.DataFilterTheme)" data-header-theme="@Html.AttributeEncode(Model.DataHeaderTheme)" data-count-theme="@Html.AttributeEncode(Model.DataCountTheme)" data-divider-theme="@Html.AttributeEncode(Model.DataDividerTheme)" data-icon="@Html.AttributeEncode(Model.DataIcon)" data-split-icon="@Html.AttributeEncode(Model.DataSplitIcon)" data-split-theme="@Html.AttributeEncode(Model.DataSplitTheme)">
+   
+
+    @foreach (var item in Model.ListViewDisplayItems)
+    {
+        var dataRole = item.DisplayChildren ? string.Empty : null;         // "list-divider"
+        var dataTheme = item.DisplayChildren ? Model.DataHeaderTheme : "";
+        string alternateClass = string.Empty;
+        if (!item.DisplayChildren)
+        {
+            alternateClass = alternatingCounter ? "ui-list-alternaterow" : string.Empty;
+            alternatingCounter = !alternatingCounter;
+        }
+        else if (item.DisplayChildren)
+        {
+            alternatingCounter = false;
+        }
+
+        <li data-role="@Html.AttributeEncode(dataRole)" data-theme="@Html.AttributeEncode(dataTheme)" class="@Html.AttributeEncode(alternateClass)">
+            @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+                {
+                    Item = item.DisplayItem,
+                    ButtonRole = "list"
+                })
+
+            @if (!Model.EditingEnabled && !string.IsNullOrEmpty(customPlaceholderName))
+            {
+                @Html.Sitecore().Rendering("{402650B2-56AE-4F61-966E-CC6F0FB0CE83}",
+                    new
+                    {
+                        DataSource = item.DisplayItem.ID.ToString(),
+                        CustomPlaceholderName = customPlaceholderName
+                    })
+
+            }
+
+        </li>
+
+        if (!String.IsNullOrEmpty(Model.DisplayField01))
+        {
+            <li data-role="list-divider">@Html.Sitecore().Field(Model.DisplayField01, item.DisplayItem, new { })</li>
+        }
+
+        if (!String.IsNullOrEmpty(Model.DisplayField02))
+        {
+            <li data-role="list-divider">@Html.Sitecore().Field(Model.DisplayField02, item.DisplayItem, new { })</li>
+        }
+
+    }
+    
+    
+    @if (Model.ListViewDisplayItems.Length == 0 && Model.EditingEnabled && Model.DisplayEmptyMessageItem == null)
+    {
+        <li>
+            @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+            {
+                ButtonText = "No Children",
+                ButtonIcon = "alert",
+                CssClass = "ui-disabled",
+                ButtonRole = "list"
+            })
+        </li>
+    }
+
+    
+</ul>
+
+@if (Model.ListViewDisplayItems.Length == 0 && Model.DisplayEmptyMessageItem != null)
+{
+    @Html.Sitecore().Field(Model.DisplayEmptyMessageDatasourceFieldName, Model.DisplayEmptyMessageItem)
+}
+
+@if (Model.EditingEnabled && !string.IsNullOrEmpty(customPlaceholderName) && Model.ListViewDisplayItems.Length > 0)
+{
+    <div>
+        @using (@Html.Sitecore().SwitchContextItem(Model.ListViewDisplayItems.First().DisplayItem))
+        {
+            <p><em>List Item Custom Placeholder Control - Placeholder Name: @Html.Encode(customPlaceholderName) </em></p>
+            <div>@Html.Sitecore().Placeholder(customPlaceholderName)</div>
+        }
+    </div>
+}
+
+@if (Model.EditingEnabled && !string.IsNullOrEmpty(countPlaceholderName) && Model.ListViewDisplayItems.Length > 0)
+{
+    <div>
+        @using (@Html.Sitecore().SwitchContextItem(Model.ListViewDisplayItems.First().DisplayItem))
+        {
+        <p><em>List Item Count Placeholder Control - Placeholder Name: @Html.Encode(countPlaceholderName) </em></p>
+        <div>@Html.Sitecore().Placeholder(countPlaceholderName)</div>
+        }
+    </div>
+}
+
+

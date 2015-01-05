@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {4DCCE1F5-21C8-46AB-B39C-6E8396E146E6}
+database: master
+path: /sitecore/content/Home/SCJQM/Documentation/StandardTemplates/MobilePage
+parent: {2428CDA4-64DB-48D9-88B0-42D9246561B7}
+name: MobilePage
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1028
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{33CB8866-289A-4AA5-A18A-DC87D6C9C565}" p:before="r[@uid='{794EE788-773D-4871-B781-C22E34D18106}']" s:ds="{D3669EA4-AAE5-4762-AFA7-829B9BCCD36A}" s:id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" s:par="FieldName=RichText&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{794EE788-773D-4871-B781-C22E34D18106}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="{3CFFB270-0CB9-48CA-B00D-6A167740171D}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners=1&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme&amp;DisplayDatasource=1&amp;DisplayDatasourceChildrensChildren=1&amp;FieldList=%7bA3F4BE1B-381D-4365-9045-26476C2BE43A%7d%7c%7bB5E02AD9-D56F-4C41-A065-A133DB87BDEB%7d" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: d104d174-e494-4a5f-9802-c0393c07dd67
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 33
+
+Mobile Page Template (MobilePage)
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131109T054717
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d104d174-e494-4a5f-9802-c0393c07dd67
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131109T213056:635196294567754125
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

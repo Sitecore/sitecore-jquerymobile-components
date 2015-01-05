@@ -1,0 +1,9 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+{
+    Item = Model.DataSource.GetItem(),
+    // ButtonInline = "1",
+    ButtonMini = true,
+    ButtonIcon = null
+})

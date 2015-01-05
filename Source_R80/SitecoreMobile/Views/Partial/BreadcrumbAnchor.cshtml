@@ -1,0 +1,65 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{        
+        
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    
+    
+    var currentTemplate = Model.Item.Template;
+    List<Item> findAncestors = new List<Item>();
+    Item c = Model.Item.Parent;
+    Item s = Sitecore.Context.Database.GetItem(String.Concat(Sitecore.Context.Site.RootPath)); // , Sitecore.Context.Site.StartItem
+
+    if (s.ID.Equals(Model.Item.ID) || s.ID.Equals(c.ID) )
+    {
+        return;
+    }
+
+    while (c != null && !s.ID.Equals(c.ID) && !s.ID.Equals(c.Parent.ID))
+    {
+        findAncestors.Add(c);
+        c = c.Parent;        
+    }
+    findAncestors.Reverse();
+    Item[] Ancestors = findAncestors.ToArray();
+
+    string buttonMini = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ButtonViewRenderingParameters.ButtonMini] == "1" ? "true" : null;
+    string buttonTheme = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ButtonViewRenderingParameters.ButtonTheme] ?? string.Empty;
+    string groupOrientation = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ControlGroupViewRenderingParameters.GroupOrientation] ?? "horizontal";
+    string cssClass = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.StandardViewRenderingParameters.CssClass] ?? null;
+    string buttonIcon = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ButtonViewRenderingParameters.ButtonIcon];
+    string buttonIconPosition = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ButtonViewRenderingParameters.ButtonIconPosition];
+
+
+    string separator = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.ControlGroupViewRenderingParameters.SeparatorString] ?? "";
+}
+
+@if (Ancestors.Length > 0)
+{
+    <div class="@Html.AttributeEncode(cssClass)" data-type="@Html.AttributeEncode(groupOrientation)">
+        @for (int i = 0; i < Ancestors.Length; i++)
+        {
+            var item = Ancestors[i];
+            <p>
+                @Html.Partial("AnchorItem", new SitecoreMobile.Models.AnchorItemModel()
+                {
+                    DisplayItem = item
+                })
+            </p>
+            if (Ancestors.Length > i + 1 && !string.IsNullOrEmpty(separator))
+            {
+                @Html.Raw(separator)
+                @* <span class="ui-anchor-separator"></span>  *@
+            }
+        }
+    </div>
+}
+else if (pageEditEnabled)
+{
+    <div data-role="controlgroup" class="@Html.AttributeEncode(cssClass)" data-mini="@Html.AttributeEncode(buttonMini)" data-type="@Html.AttributeEncode(groupOrientation)">
+        @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel() { ButtonText = "Breadcrumb Hidden", ButtonIcon = "alert", CssClass = "ui-disabled" })
+    </div>
+}

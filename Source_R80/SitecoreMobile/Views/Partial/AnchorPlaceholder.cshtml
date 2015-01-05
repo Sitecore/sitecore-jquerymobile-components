@@ -1,0 +1,42 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using SitecoreMobile
+@using SitecoreMobile.Common
+
+@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+    string buttonLink = "#";
+    var placeholderName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+
+    if (string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }
+    var displayItem = Sitecore.Mvc.Presentation.RenderingContext.Current.ContextItem;
+
+    if (displayItem != null)
+    {
+        buttonLink = Url.RouteUrl(
+             Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName,
+             new
+             {
+                 @pathInfo = displayItem.GetRoutePathInfo()
+             });
+    }
+        
+}
+
+@if (pageEditEnabled)
+{
+    <p>Anchor Placeholder Name: @Html.Encode(placeholderName)</p>
+}
+else
+{
+
+}
+
+@Html.Partial("AnchorPlaceholder", new SitecoreMobile.Models.AnchorPlaceholderModel()
+{
+    PlaceholderName = placeholderName,
+    Link = buttonLink
+})
+

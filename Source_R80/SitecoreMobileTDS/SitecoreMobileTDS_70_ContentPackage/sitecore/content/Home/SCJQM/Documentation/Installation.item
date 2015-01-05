@@ -1,0 +1,193 @@
+----item----
+version: 1
+id: {5E97D6BF-94C0-4363-A5CD-EF85C5705F6F}
+database: master
+path: /sitecore/content/Home/SCJQM/Documentation/Installation
+parent: {8F39D3B8-EA72-46EA-B936-B74B0893C31E}
+name: Installation
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 57bcb21a-8cfc-4e8e-9d6a-1a2683468edb
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 25
+
+Installation Instructions
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 2758
+
+<div class="ui-body ui-body-a">
+<h2>Prerequisites</h2>
+<ol>
+    <li>
+    <p>Clean Sitecore Installation </p>
+    <ol>
+        <li>
+        Sitecore 8.0 R141212
+        </li>
+        <li>
+        CMS 6.6 R130529
+        </li>
+        <li>
+        Or CMS 7.1 R130926
+        </li>
+    </ol>
+    </li>
+    <li>
+    <p>Sitecore.Mvc enabled</p>
+    </li>
+</ol>
+<h2>Download Contents</h2>
+<p>The main download contains three Sitecore installation packages, only two of which are required for implementing your own mobile sites. The optional third installation package will install a sample website that is intended to be used as a working example. </p>
+<ol>
+    <li>
+    <p>Component Library Core Files Package</p>
+    <ol>
+        <li>
+        <p>Required</p>
+        </li>
+        <li>
+        <p>Contents</p>
+        <ol>
+            <li>
+            <p>Core MVC views</p>
+            </li>
+            <li>
+            <p>Core Binaries</p>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+    <li>
+    <p>Component Library Core Items Package</p>
+    <ol>
+        <li>
+        <p>Required</p>
+        </li>
+        <li>
+        <p>Contents</p>
+        <ol>
+            <li>
+            <p>View Rendering Items</p>
+            </li>
+            <li>
+            <p>MobilePage Template Items</p>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+    <li>
+    <p>Component Library Content</p>
+    <ol>
+        <li>
+        <p>Optional</p>
+        </li>
+        <li>
+        <p>Contents</p>
+        <ol>
+            <li>
+            <p>Sample website implementation Items</p>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+</ol>
+<h2>Installation Instructions</h2>
+<ol>
+    <li>
+    <p>Open the admin update installation wizard <br />
+    <br />
+    /sitecore/admin/updateinstallationwizard.aspx</p>
+    </li>
+    <li>
+    <p>Install the packages in the following recommended order</p>
+    <ol>
+        <li>
+        <p>Core files package</p>
+        </li>
+        <li>
+        <p>Core items package</p>
+        </li>
+        <li>
+        <p>Content items package</p>
+        </li>
+    </ol>
+    </li>
+    <li>
+    <p>Update web.config and add the following section to <em>/configuration/runtime/assemblyBinding/</em></p>
+    <p>&lt;dependentAssembly&gt;<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; &lt;assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" culture="neutral" /&gt;<br />
+    &nbsp; &nbsp; &nbsp; &nbsp; &lt;bindingRedirect oldVersion="0.0.0.0-1.6.5135.21930" newVersion="1.6.5135.21930" /&gt;<br />
+    &nbsp; &nbsp; &nbsp; &lt;/dependentAssembly&gt;</p>
+    </li>
+    <li>
+    <p>Open the Sitecore desktop</p>
+    </li>
+    <li>
+    <p>Publish the Master database</p>
+    </li>
+</ol>
+</div>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 12
+
+Installation
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131026T073730
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+57bcb21a-8cfc-4e8e-9d6a-1a2683468edb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141223T134255:635549389759038512Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

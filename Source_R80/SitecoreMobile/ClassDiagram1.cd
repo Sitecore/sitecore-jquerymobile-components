@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SitecoreMobile.Models.ButtonModel">
+    <Position X="1.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAIAAAQAEIEAAAAGAEEAECBABAAAAAAAAQAIAI=</HashCode>
+      <FileName>Models\ButtonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SitecoreMobile.Models.Table">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Models\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SitecoreMobile.Models.TableColumn">
+    <Position X="6.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgAAAAFAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TableColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SitecoreMobile.Models.TableColumnData">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TableColumnData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

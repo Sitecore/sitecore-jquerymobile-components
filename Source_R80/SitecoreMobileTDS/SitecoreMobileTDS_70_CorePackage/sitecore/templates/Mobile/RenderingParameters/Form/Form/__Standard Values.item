@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {E31D7104-13A9-48A6-817D-2A1819185FBF}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Form/Form/__Standard Values
+parent: {E4A38B8C-D09D-48A4-BE78-9ECF0B536B3D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {E4A38B8C-D09D-48A4-BE78-9ECF0B536B3D}
+templatekey: Form
+
+----field----
+field: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+name: Placeholder
+key: placeholder
+content-length: 0
+
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----field----
+field: {33A6EE9C-5390-4675-A782-3B8A97EE521D}
+name: PlaceholderName
+key: placeholdername
+content-length: 4
+
+form
+----version----
+language: en
+version: 1
+revision: 700594c7-e2b4-4756-8a1c-ebacfdc8f536
+
+----field----
+field: {B6C9DAAC-5BAE-4B5A-80F1-F75DD0EFC6BC}
+name: EnableAjax
+key: enableajax
+content-length: 1
+
+0
+----field----
+field: {B6C49914-C411-4DC0-8C1A-BC90EEC166DE}
+name: FormName
+key: formname
+content-length: 11
+
+mobileform1
+----field----
+field: {DA48BB93-0B37-4E14-9D7B-8266F0780985}
+name: FormControllerAction
+key: formcontrolleraction
+content-length: 21
+
+StandardAjaxFormField
+----field----
+field: {DC89E106-A42E-4884-A14D-75B4B5449DCC}
+name: FormControllerName
+key: formcontrollername
+content-length: 10
+
+MobileForm
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140707T012624
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+700594c7-e2b4-4756-8a1c-ebacfdc8f536
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T070528:635558655289273262Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

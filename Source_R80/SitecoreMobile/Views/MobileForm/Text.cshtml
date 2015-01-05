@@ -1,0 +1,24 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.FormTextViewRendering
+
+@{
+    
+}
+@if (string.IsNullOrEmpty(Model.FormFieldName))
+{
+    Write("<div>Text ViewRendering - FieldName parameter is null or empty</div>");
+    return;
+}
+
+<div > <!-- data-role="fieldcontain" -->
+    @if (!string.IsNullOrEmpty(Model.FormFieldLabel))
+    {
+        <label for='@Html.AttributeEncode(string.Format("{0}", Model.FormFieldName))' class="ui-hidden-accessible">@Html.Encode(Model.FormFieldLabel)</label>
+    }
+
+    <input type="text" readonly='@((Model.ReadOnly) ? "readonly" : null )'
+           placeholder="@Html.Encode(Model.FormFieldLabel)" 
+           name='@Html.AttributeEncode(string.Format("{0}", Model.FormFieldName))'
+           data-role='@Html.AttributeEncode(Model.DataRole)' data-mini='@Html.AttributeEncode(Model.DataMini)' data-inline='@Html.AttributeEncode(Model.DataInline)'
+           value="@Html.AttributeEncode(Model.FormFieldValue)" />
+</div>
+

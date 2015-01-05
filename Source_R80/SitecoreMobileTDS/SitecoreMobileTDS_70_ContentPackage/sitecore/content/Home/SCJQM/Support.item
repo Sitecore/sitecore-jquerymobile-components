@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {155ABE25-DED2-4EB9-9D39-CFC76609569F}
+database: master
+path: /sitecore/content/Home/SCJQM/Support
+parent: {7D1B1413-3527-4921-A42D-8A5C95848AD7}
+name: Support
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1359
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{72635051-9C70-4452-96E0-6D684152B161}" p:before="r[@uid='{24BE556E-D7D1-460C-B00A-794484658FB9}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3Clink%20text%3D%22Track%20or%20file%20issues%20on%20GitHub%22%20linktype%3D%22external%22%20url%3D%22https%3A%2F%2Fgithub.com%2FSitecore%2Fsitecore-jquerymobile-components%2Fissues%22%20anchor%3D%22%22%20target%3D%22_blank%22%20%2F%3E" s:ph="pagecontentprimary" /><r uid="{24BE556E-D7D1-460C-B00A-794484658FB9}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3Clink%20text%3D%22Contact%20%40dmo_sc%20on%20Twitter%22%20linktype%3D%22external%22%20url%3D%22https%3A%2F%2Ftwitter.com%2Fdmo_sc%22%20anchor%3D%22%22%20target%3D%22_blank%22%20%2F%3E" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: bcd3589d-0b69-4afd-9722-bc3ad2f4e443
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 7
+
+Support
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130917T211555
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bcd3589d-0b69-4afd-9722-bc3ad2f4e443
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140208T223735:635274958557846994
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

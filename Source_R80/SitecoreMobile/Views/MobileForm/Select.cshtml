@@ -1,0 +1,30 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.FormSelectViewRendering
+
+@{
+    
+}
+@if (string.IsNullOrEmpty(Model.FormFieldName))
+{
+    WriteLiteral("<div>Select ViewRendering - FieldName parameter is null or empty</div>");
+    return;
+}
+
+<div data-role="fieldcontain">
+    @if (!string.IsNullOrEmpty(Model.FormFieldLabel))
+    {
+        <label>@Html.Encode(Model.FormFieldLabel)</label>
+    }
+
+    <select name='@Html.AttributeEncode(string.Format("{0}", Model.FormFieldName))' 
+            data-role='@Html.AttributeEncode(Model.DataRole)' data-mini='@Html.AttributeEncode(Model.DataMini)' data-inline='@Html.AttributeEncode(Model.DataInline)'>
+        @foreach (var option in Model.SelectOptions)
+        {
+            var selectedOption = string.Empty;
+            selectedOption = option.Item3.HasValue && option.Item3.Value ? " selected" : selectedOption;
+            selectedOption = !option.Item3.HasValue && Model.FormFieldValue != null && Model.FormFieldValue.ToString() == @Html.AttributeEncode(option.Item1) ? " selected" : selectedOption;
+            
+            <option value="@Html.AttributeEncode(option.Item1)" @selectedOption>@Html.Encode(option.Item2)</option>
+        }
+    </select>
+</div>
+

@@ -1,0 +1,32 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.PageLayoutViewRendering
+@using Sitecore.Mvc.Analytics.Extensions
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@Html.Encode(Model.Title)</title>
+
+    @Styles.Render(string.Concat("~/bundles/", Model.SiteStyleBundleName))
+    @Scripts.Render(string.Concat("~/bundles/", Model.SiteScriptBundleName))
+
+    @Styles.Render("~/bundles/scmobilestyle01")
+    @Scripts.Render("~/bundles/scmobilescript01")
+
+  
+
+    @Html.Partial("VisitorIdentification")
+
+    @*@Html.Sitecore().VisitorIdentification()*@
+
+</head>
+<body>
+@RenderBody()
+
+@if (Model.PageEditEnabled)
+{
+    @Scripts.Render("~/bundles/editingextensions")
+}
+    
+</body>
+</html>

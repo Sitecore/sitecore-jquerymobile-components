@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {7149CFAC-EC1B-441A-B86B-92263242B524}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/FormComponents
+parent: {89D918A6-01EC-439F-A5EE-3266BBD84EA6}
+name: FormComponents
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+150
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 271
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{257B5DB3-3F0A-4DB7-A29E-B80136128C58}" s:id="{4B199FA5-C6B8-4DAB-B297-ECC799AD5AA7}" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 42a5c312-c182-4045-b419-b8188dcd542b
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 15
+
+Form Components
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 90
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;Please select a component below.&nbsp;</p>
+</div>
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 15
+
+Form Components
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 149
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{257B5DB3-3F0A-4DB7-A29E-B80136128C58}"><p:d /></r></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130515T014303
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+42a5c312-c182-4045-b419-b8188dcd542b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T204031:635559144312854765Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

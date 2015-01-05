@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {85B0D08F-A124-46F1-9AEF-1557A1883D76}
+database: master
+path: /sitecore/content/Settings/Mobile/Templates/MobileSite/__Standard Values
+parent: {1BFAF106-A57B-44B3-BB8C-E221B51B4D47}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1BFAF106-A57B-44B3-BB8C-E221B51B4D47}
+templatekey: MobileSite
+
+----field----
+field: {B41E848E-97B4-4190-AF09-39EEF1D5E591}
+name: SiteStyleBundleName
+key: sitestylebundlename
+content-length: 13
+
+standardstyle
+----field----
+field: {8B143F3D-9925-4949-9A38-753245652D31}
+name: SiteScriptBundleName
+key: sitescriptbundlename
+content-length: 14
+
+standardscript
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 23
+
+Network/16x16/earth.png
+----version----
+language: en
+version: 1
+revision: ff2f3594-75e2-438b-aea5-2881a4172230
+
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 54
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;</p>
+</div>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140730T015823
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ff2f3594-75e2-438b-aea5-2881a4172230
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141015T153017:635489838170679032
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

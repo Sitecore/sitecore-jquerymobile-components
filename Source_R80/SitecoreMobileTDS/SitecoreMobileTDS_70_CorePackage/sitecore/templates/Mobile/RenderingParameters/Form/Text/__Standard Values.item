@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {25F7DD99-5934-44F4-8F09-9D0ED36CC9E2}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Form/Text/__Standard Values
+parent: {79E8D1F8-3086-4ECD-8D32-6E8F2B04C4C4}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {79E8D1F8-3086-4ECD-8D32-6E8F2B04C4C4}
+templatekey: Text
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: 439cc564-3f47-4a66-b097-8e4b73c94e1b
+
+----field----
+field: {9D7C8588-E0D2-4021-8DB5-357E6F76AE3D}
+name: FormFieldName
+key: formfieldname
+content-length: 6
+
+field1
+----field----
+field: {0C6ED641-03AC-4436-8434-804AC1D9AB99}
+name: FormFieldTitle
+key: formfieldtitle
+content-length: 13
+
+Enter a value
+----field----
+field: {DE58E07F-FADE-4D79-ACC0-B2108140C683}
+name: FormFieldValueControllerAction
+key: formfieldvaluecontrolleraction
+content-length: 17
+
+SubmitFormContent
+----field----
+field: {43EE08A9-F5FF-45F3-9E48-584FC2D57E59}
+name: FormFieldValueControllerName
+key: formfieldvaluecontrollername
+content-length: 14
+
+DemoMobileForm
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140707T012625
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+439cc564-3f47-4a66-b097-8e4b73c94e1b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T232916:635559245565290449Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

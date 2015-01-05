@@ -1,0 +1,12 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@{
+    var dataSourceItem = Model.DataSource.GetItem();
+    var formatDate = (String)null;    
+    var columnValue = dataSourceItem[Model.Column.ColumnName];
+    if (!string.IsNullOrWhiteSpace(columnValue))
+    {
+        formatDate = Sitecore.DateUtil.FormatIsoDate(columnValue);
+    }    
+}
+@Html.Encode(formatDate)

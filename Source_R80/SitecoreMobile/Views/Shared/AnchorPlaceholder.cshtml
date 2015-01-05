@@ -1,0 +1,9 @@
+﻿@model SitecoreMobile.Models.AnchorPlaceholderModel
+
+@Html.Partial("Anchor", new SitecoreMobile.Models.AnchorModel()
+{
+    Link = Model.Link,
+    Text = Html.Sitecore().Placeholder(Model.PlaceholderName)
+})
+
+

@@ -1,0 +1,24 @@
+﻿@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    var placeholderName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+
+    if (string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }
+}
+
+@if (!pageEditEnabled)
+{
+    <div>
+        @Html.Sitecore().Placeholder(placeholderName)
+    </div>
+}
+else
+{
+    <p>Placeholder Name: @Html.Encode(placeholderName)</p>
+    @Html.Sitecore().Placeholder(placeholderName)
+}
+
+

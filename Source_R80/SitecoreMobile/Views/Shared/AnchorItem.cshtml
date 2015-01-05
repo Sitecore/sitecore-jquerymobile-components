@@ -1,0 +1,16 @@
+﻿@model SitecoreMobile.Models.AnchorItemModel
+@using SitecoreMobile.Common
+
+@{
+    string text = Model.DisplayItem["ButtonTitle"] ?? Model.DisplayItem.DisplayName;
+}
+@Html.Partial("Anchor", new SitecoreMobile.Models.AnchorModel()
+{
+    Link = Url.RouteUrl(
+        Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName, 
+        new { @pathInfo = Model.DisplayItem.GetRoutePathInfo() }),
+    Text = new HtmlString(text)
+})
+
+
+

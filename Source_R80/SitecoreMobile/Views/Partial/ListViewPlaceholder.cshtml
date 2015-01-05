@@ -1,0 +1,136 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.ListViewViewRendering
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{
+    
+    bool alternatingCounter = false;
+    
+    var customPlaceholderName = string.Empty;
+    if (!string.IsNullOrEmpty(Model.CustomPlaceholderName))
+    {
+        customPlaceholderName = Model.CustomPlaceholderName;
+    }
+    var childPlaceholderName = string.Empty;
+    if (!string.IsNullOrEmpty(Model.ChildPlaceholderName))
+    {
+        childPlaceholderName = Model.ChildPlaceholderName;
+    } 
+}
+
+<ul data-role="listview" class="@Html.AttributeEncode(Model.CssClass)" data-theme="@Html.AttributeEncode(Model.Theme)" data-inset="@Html.AttributeEncode(Model.Rounded)" data-filter="@Html.AttributeEncode(Model.DataFilter)" data-filter-placeholder="@Html.AttributeEncode(Model.DataFilterDefaultText)" data-filter-theme="@Html.AttributeEncode(Model.DataFilterTheme)" data-header-theme="@Html.AttributeEncode(Model.DataHeaderTheme)" data-count-theme="@Html.AttributeEncode(Model.DataCountTheme)" data-divider-theme="@Html.AttributeEncode(Model.DataDividerTheme)" data-icon="@Html.AttributeEncode(Model.DataIcon)" data-split-icon="@Html.AttributeEncode(Model.DataSplitIcon)" data-split-theme="@Html.AttributeEncode(Model.DataSplitTheme)">
+
+
+    @foreach (var item in Model.ListViewDisplayItems)
+    {
+        var dataRole = item.DisplayChildren ? string.Empty : null;         // "list-divider"
+        var dataTheme = item.DisplayChildren ? Model.DataHeaderTheme : "";
+        string alternateClass = string.Empty;
+        if (!item.DisplayChildren || !Model.DisplayDatasourceChildrensChildren)
+        {
+            alternateClass = alternatingCounter ? "ui-list-alternaterow" : string.Empty;
+            alternatingCounter = !alternatingCounter;
+        }
+        else if (item.DisplayChildren)
+        {
+            alternatingCounter = false;
+        }
+
+        if (!Model.EditingEnabled)
+        {
+            <li data-role="@Html.AttributeEncode(dataRole)" data-theme="@Html.AttributeEncode(dataTheme)" class="@Html.AttributeEncode(alternateClass)">
+
+                @if (!string.IsNullOrEmpty(customPlaceholderName) && (Model.DisplayDatasourceChildrensChildren == item.DisplayChildren))
+                {
+                    @Html.Sitecore().Rendering("{402650B2-56AE-4F61-966E-CC6F0FB0CE83}",
+                        new
+                        {
+                            DataSource = item.DisplayItem.ID.ToString(),
+                            CustomPlaceholderName = customPlaceholderName
+                        })
+
+                }
+                else if (Model.DisplayDatasourceChildrensChildren && !item.DisplayChildren &&  !string.IsNullOrEmpty(childPlaceholderName))
+                {
+                    @Html.Sitecore().Rendering("{402650B2-56AE-4F61-966E-CC6F0FB0CE83}",
+                        new
+                        {
+                            DataSource = item.DisplayItem.ID.ToString(),
+                            CustomPlaceholderName = childPlaceholderName
+                        })
+
+                }
+            </li>
+        }
+
+
+    }
+
+    @if (Model.EditingEnabled && Model.ListViewDisplayItems.Length == 0 && Model.DisplayEmptyMessageItem == null)
+    {
+        <li>
+            @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+            {
+                ButtonText = "No Children",
+                ButtonIcon = "alert",
+                CssClass = "ui-disabled",
+                ButtonRole = "list"
+            })
+        </li>
+    }
+
+</ul>
+
+@if (Model.ListViewDisplayItems.Length == 0 && Model.DisplayEmptyMessageItem != null)
+{
+    @Html.Sitecore().Field(Model.DisplayEmptyMessageDatasourceFieldName, Model.DisplayEmptyMessageItem)
+}
+
+@if (Model.EditingEnabled && !string.IsNullOrEmpty(customPlaceholderName) && Model.ListViewDisplayItems.Length > 0)
+{
+    var sampleCustomItem = Model.ListViewDisplayItems.First(i => (!Model.DisplayDatasourceChildrensChildren || Model.DisplayDatasourceChildrensChildren && i.DisplayChildren == true));
+    
+    <div>
+        
+        <p><em>List Item Custom Placeholder Control - Placeholder Name: @Html.Encode(customPlaceholderName) </em></p>
+
+        <div> 
+            @Html.Sitecore().Rendering("{402650B2-56AE-4F61-966E-CC6F0FB0CE83}",
+                new
+                {
+                    DataSource = sampleCustomItem.DisplayItem.ID.ToString(),
+                    CustomPlaceholderName = customPlaceholderName
+                })
+
+            @*@using (@Html.Sitecore().SwitchContextItem(sampleCustomItem.DisplayItem))
+            {
+                @Html.Sitecore().Placeholder(customPlaceholderName)
+            }*@
+        </div>
+
+    </div>
+}
+
+@if (Model.DisplayDatasourceChildrensChildren && Model.EditingEnabled && !string.IsNullOrEmpty(childPlaceholderName) && Model.ListViewDisplayItems.Length > 0)
+{
+    var sampleChildItem = Model.ListViewDisplayItems.First(i => (i.DisplayChildren == false));
+    
+    <div>
+        
+        <p><em>List Item Child Placeholder Control - Placeholder Name: @Html.Encode(childPlaceholderName) </em></p>
+
+        <div>
+            @Html.Sitecore().Rendering("{402650B2-56AE-4F61-966E-CC6F0FB0CE83}",
+                new
+                {
+                    DataSource = sampleChildItem.DisplayItem.ID.ToString(),
+                    CustomPlaceholderName = childPlaceholderName
+                })
+        </div>
+    </div>
+}
+
+

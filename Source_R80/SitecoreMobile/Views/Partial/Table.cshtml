@@ -1,0 +1,28 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using Sitecore
+@using Sitecore.Buckets.Util
+@using Sitecore.StringExtensions
+@using SitecoreMobile.Models
+
+@{
+    var dataSourceResult = DataSourceExtensions.DataSourceSearchResults(Model.PageItem, Model.Rendering.DataSource);
+
+    var tableSchemaItemId = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.TableViewRenderingParameters.TableSchema] ?? null;
+    var tableSchemaItem = Sitecore.Context.Database.GetItem(tableSchemaItemId);
+    var tableColumns = tableSchemaItem.GetChildren().Select(i => 
+        new TableColumn()
+        { 
+            ColumnName = i.Name,
+            ColumnType = i[SitecoreMobile.MobileFieldNames.TableColumnItems.ColumnType], 
+            DisplayName = i.DisplayName });
+    var table = new Table()
+    {
+        Columns = tableColumns.ToArray(),
+        DataSource = dataSourceResult
+    };
+}
+
+@Html.Partial("Table", table)

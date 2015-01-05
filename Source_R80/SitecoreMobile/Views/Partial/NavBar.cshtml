@@ -1,0 +1,38 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+
+@{    
+    Item[] childrenItems = new Item[0];
+    if (Model.Item != null && Model.Item.Children.Count > 0)
+    {
+        childrenItems = Model.Item.Children.Where(i => i[MobileFieldNames.PageItems.HidePageFromNavigation] != "1").ToArray();
+    }
+    else
+    {
+        return;
+    }
+
+    var buttonIconPosition = Model.Rendering.Parameters[MobileFieldNames.ButtonViewRenderingParameters.ButtonIconPosition] ?? null;    
+       
+}
+
+<div data-role="navbar" data-iconpos="@Html.AttributeEncode(buttonIconPosition)">
+    <ul>
+        @foreach (Item item in childrenItems)
+        {
+            
+            <li>
+
+                @Html.Partial("Button", new SitecoreMobile.Models.ButtonModel()
+                {
+                    Item = item,
+                    ButtonIconPosition = buttonIconPosition    
+                })
+
+            </li>
+        }
+    </ul>
+</div>

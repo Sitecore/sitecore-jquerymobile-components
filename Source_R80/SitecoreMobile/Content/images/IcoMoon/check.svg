@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="16"
+   height="16"
+   id="svg6056"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="check.svg">
+  <sodipodi:namedview
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1148"
+     inkscape:window-height="480"
+     id="namedview6844"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-x="625"
+     inkscape:window-y="396"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6056" />
+  <defs
+     id="defs6058">
+    <linearGradient
+       id="linearGradient7354"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop7356" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7354"
+       id="linearGradient7358"
+       x1="0"
+       y1="8.1827512"
+       x2="16"
+       y2="8.1827512"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata6061">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     style="fill-opacity:1;fill:url(#linearGradient7358)">
+    <path
+       d="m 5.9606953,13.717812 c -0.203288,0 -0.4192815,-0.04719 -0.6516107,-0.143391 -0.2323292,-0.0962 -0.4120213,-0.206918 -0.5390763,-0.335788 L 0.19784281,8.6428721 C 0.06534258,8.5103719 0,8.3470154 0,8.1528028 0,7.9585901 0.06534258,7.7970487 0.19784281,7.6699937 L 1.7097975,6.1489637 C 1.8441128,6.0164634 2.0074693,5.9511209 2.2016819,5.954751 c 0.1942127,0.00363 0.353939,0.067158 0.480994,0.1942127 l 3.1727453,3.1727452 c 0.1343153,0.1325003 0.2958567,0.1978428 0.4918844,0.1978428 0.1923976,0 0.353939,-0.065342 0.4828091,-0.1978428 L 13.311736,2.8491634 c 0.1325,-0.1361304 0.295856,-0.201473 0.490069,-0.201473 0.194213,0 0.357569,0.065343 0.491884,0.201473 l 1.511955,1.5101396 c 0.1325,0.1343153 0.197843,0.2976718 0.194213,0.4918844 -0.0037,0.1942127 -0.06897,0.3557541 -0.194213,0.4828091 L 7.8973768,13.238633 c -0.1343153,0.13613 -0.3140074,0.24685 -0.5427064,0.341234 -0.2286991,0.09257 -0.4392474,0.137945 -0.6298299,0.137945 z"
+       id="path642"
+       style="fill:url(#linearGradient7358);stroke:none;fill-opacity:1" />
+  </g>
+</svg>

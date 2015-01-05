@@ -1,0 +1,45 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.PageLayoutViewRendering
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Title;
+}
+
+<div data-role="page" data-ajax="false" data-title="@Html.AttributeEncode(Model.Title)" data-theme="@Html.AttributeEncode(Model.ThemeName)" >
+	<div data-role="header" data-position="@Html.AttributeEncode(Model.HeaderPos)" data-theme="@Html.AttributeEncode(Model.HeaderTheme)">
+        @Html.Sitecore().Placeholder("pageheader")
+	</div>
+	<div data-role="content">
+        @Html.Sitecore().Placeholder("pagecontent")
+        <div class="content-primary">
+            @Html.Sitecore().Placeholder("pagecontentprimary")
+        </div>                
+        <div class="content-secondary">
+            @Html.Sitecore().Placeholder("pagecontentsecondary")             
+        </div>
+        
+        @if (Model.PageEditEnabled)
+        {
+            <div>
+                <p>Placeholder: pagepanels</p>
+                @Html.Sitecore().Placeholder("pagepanels")
+            </div>            
+        }
+	</div>
+	<div data-role="footer" data-position="@Html.AttributeEncode(Model.FooterPos)" data-theme="@Html.AttributeEncode(Model.FooterTheme)">
+        @Html.Sitecore().Placeholder("pagefooter")
+	</div>
+    @if (!Model.PageEditEnabled)
+    {
+        @Html.Sitecore().Placeholder("pagepanels")
+    }
+    else if (Model.PageEditEnabled)
+    {
+      
+    }
+</div>
+
+

@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {69EDD5F2-247E-489D-B27B-B0F0CD9019AB}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/ListViewPlaceholder
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: ListViewPlaceholder
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: 1fb2591f-56aa-4fbb-bd31-4e50c87f435e
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 31
+
+List View Placeholder Component
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 484
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;The List View Placeholder component renders a single placeholder for every datasource child item. It allows page designers to create more complex list layouts by combining multiple components. When the experience editor is enabled, a special placeholder is visible that allows the page designer to insert content components.A second placeholder can be used to display two levels of the content tree in a single flat&nbsp;view.&nbsp;</p>
+</div>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 21
+
+List View Placeholder
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1988
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{28D94C86-3515-4CC5-83A4-5F5B792F6E89}" p:before="r[@uid='{22ACCDF0-4984-41E1-94CD-8E83A5961DA7}']" s:ds="" s:id="{FBE16524-01A2-4E4A-B4D0-08BF8716F6DB}" s:par="FieldName=PageImage&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="/pagecontentprimary/listviewcustomitem/anchorplaceholder" /><r uid="{22ACCDF0-4984-41E1-94CD-8E83A5961DA7}" p:before="r[@uid='{56F1B102-2200-4FAE-A8CE-855B5CD69742}']" s:ds="" s:id="{FBE16524-01A2-4E4A-B4D0-08BF8716F6DB}" s:par="FieldName=PageTitle&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="/pagecontentprimary/listviewcustomitem/anchorplaceholder/elementplaceholder" /><r uid="{56F1B102-2200-4FAE-A8CE-855B5CD69742}" p:before="r[@uid='{01CD9DF2-6F79-4631-A950-869C9E0F4FD5}']" s:ds="" s:id="{5840AFC2-8D85-476A-AD63-0FD109048D90}" s:par="PlaceholderName=elementplaceholder&amp;ElementName=strong&amp;ClassName" s:ph="/pagecontentprimary/listviewcustomitem/anchorplaceholder" /><r uid="{989C4379-1136-4C62-8FC4-408424B04249}" p:before="r[@uid='{70186218-7300-4F1A-AEBE-25D47D0B2A14}']" s:ds="{0AB1A7AC-E74D-436B-B0CC-7B667F256381}" s:id="{C1C1645A-A263-487D-9952-28C5D9AD621C}" s:par="ListTheme&amp;ListRoundedCorners=1&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon&amp;ListSplitIcon&amp;ListSplitTheme&amp;CountPlaceholderName&amp;CustomPlaceholderName=listviewcustomitem&amp;ChildPlaceholderName&amp;CssClass&amp;DisplayDatasource&amp;DisplayDatasourceChildrensChildren&amp;FieldList&amp;DisplayEmptyMessageDatasource" s:ph="pagecontentprimary" /><r uid="{70186218-7300-4F1A-AEBE-25D47D0B2A14}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="" s:id="{DBCD6AC6-D591-4F14-A7F5-C83FC1F83C82}" s:par="PlaceholderName=anchorplaceholder" s:ph="/pagecontentprimary/listviewcustomitem" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141218T044307Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1fb2591f-56aa-4fbb-bd31-4e50c87f435e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150104T161654:635559850140213162Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

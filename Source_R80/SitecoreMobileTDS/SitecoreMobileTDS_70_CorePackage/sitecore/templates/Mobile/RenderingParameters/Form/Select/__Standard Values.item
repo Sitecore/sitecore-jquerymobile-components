@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {7C41EEF3-DDC8-4902-A384-ECFE0A74E21D}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/Form/Select/__Standard Values
+parent: {40E8EABA-1DFA-431A-B870-6D0951EB6023}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {40E8EABA-1DFA-431A-B870-6D0951EB6023}
+templatekey: Select
+
+----field----
+field: {E42027F4-766D-45A7-8CF4-29E5C94326F7}
+name: Placeholder
+key: placeholder
+content-length: 35
+
+/pagecontentprimary/formmobileform1
+----field----
+field: {0793DCFF-0EE7-48AD-B9D4-EF1DD24EB59B}
+name: Data Source
+key: data source
+content-length: 38
+
+{A0FD4712-1E2A-421A-AD2E-A2972784ED76}
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----field----
+field: {F152D664-652E-4B2C-8891-058DF5AB8420}
+name: SelectDataSource
+key: selectdatasource
+content-length: 38
+
+{A0FD4712-1E2A-421A-AD2E-A2972784ED76}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+400
+----version----
+language: en
+version: 1
+revision: 5db0e438-1fc8-47f8-915f-73c01ee62c86
+
+----field----
+field: {4297EB2A-1C8C-4DD4-B328-AFF72484E388}
+name: FormFieldName
+key: formfieldname
+content-length: 6
+
+field1
+----field----
+field: {9409F829-2C99-4B7A-B5F6-CA79079F366A}
+name: FormFieldTitle
+key: formfieldtitle
+content-length: 14
+
+Select a value
+----field----
+field: {4A0E87BC-1152-466E-8D9C-FFA71F356E1C}
+name: FormFieldValueControllerAction
+key: formfieldvaluecontrolleraction
+content-length: 17
+
+SubmitFormContent
+----field----
+field: {8556EF72-BC2F-4882-A328-EC282251C113}
+name: FormFieldValueControllerName
+key: formfieldvaluecontrollername
+content-length: 14
+
+DemoMobileForm
+----field----
+field: {06E1B551-84A8-48B3-98E4-F62F00BA5E6A}
+name: DataInline
+key: datainline
+content-length: 1
+
+1
+----field----
+field: {6A36BFD4-25FD-4899-B5B9-F7977E6CD30A}
+name: DataRole
+key: datarole
+content-length: 6
+
+select
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140707T012625
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5db0e438-1fc8-47f8-915f-73c01ee62c86
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T232840:635559245205009391Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

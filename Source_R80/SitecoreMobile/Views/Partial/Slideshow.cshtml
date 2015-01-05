@@ -1,0 +1,84 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.SlideshowViewRendering
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+@using SitecoreMobile
+@using SitecoreMobile.Models.ViewRenderingModels
+
+
+<div id="@Html.AttributeEncode(Model.GetId())" class="camera_wrap camera_azure_skin">
+    @foreach (SlideshowViewRendering.SlideshowDisplayItem item in Model.SlideshowDisplayItems)
+    {
+        var itemLinkSrcUrl = Url.RouteUrl(
+            Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName,
+            new
+            {
+                @pathInfo = item.LinkSrc
+            });
+        <div data-src="@Html.AttributeEncode(item.DataSrc)" data-thumb="@Html.AttributeEncode(item.ThumbSrc)" data-link="@Html.AttributeEncode(itemLinkSrcUrl)"> 
+                               
+            <div class="camera_caption fadeFromLeft">
+               <span>
+                   @Html.Sitecore().Field(Model.CaptionFieldName,
+                    item.DisplayItem,
+                    new
+                    {
+                        DisableWebEdit = true
+                    })                
+                </span> 
+            </div>
+        </div>
+    }
+
+    @if (Model.DisplayItems.Length == 0 && Model.EditingEnabled)
+    {        
+        <div data-src="about:blank" >            
+            <div class="camera_caption fadeFromLeft">No Datasource Children</div>                
+        </div>
+    }
+    
+</div>
+
+<br style="clear: both;" />
+
+<script type="text/javascript">
+    
+    $('#@Html.AttributeEncode(Model.GetId())').camera(@Html.Raw(Model.JsonParameters));
+    
+        /*
+         * 
+         * alignment 
+         * autoAdvance
+         * mobileAutoAdvance
+         * barPosition
+         * cols
+         * easing
+         * mobileEasing
+         * fx
+         * mobileFx
+         * height
+         * hover
+         * imagePath
+         * loader
+         * loaderColor
+         * loaderBgColor
+         * navigation
+         * navigationHover
+         * mobileNavHover
+         * overlayer
+         * pagination
+         * playPause
+         * portrait
+         * pauseOnClick
+         * rows
+         * slicedCols
+         * slicedRows
+         * slideOn
+         * thumbnails
+         * time
+         * transPeriod
+         * 
+         */
+
+</script>

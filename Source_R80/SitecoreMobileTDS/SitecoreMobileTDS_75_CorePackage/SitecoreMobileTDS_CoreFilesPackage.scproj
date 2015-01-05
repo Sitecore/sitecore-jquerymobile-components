@@ -1,0 +1,83 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4050e71c-0154-4db3-b897-1777fe2e1c8f</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>..\..\SitecoreMobile</SourceWebPhysicalPath>
+    <SourceWebProject>{0b349a5d-ab53-4458-93e9-3829520ca804}|..\SitecoreMobile\SitecoreMobile.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/SitecoreMobile.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SitecoreMobileTDS_75_CorePackage</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>SitecoreMobileTDS_75_CorePackage</AssemblyName>
+    <Name>SitecoreMobileTDS_CoreFilesPackage</Name>
+    <RootNamespace>SitecoreMobileTDS_75_CorePackage</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <EnableCodeGeneration>false</EnableCodeGeneration>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <AssemblyStatus>Include</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <SitecoreWebUrl>
+    </SitecoreWebUrl>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <DisableFileDeployment>False</DisableFileDeployment>
+    <SitecoreAccessGuid>2897da31-d474-4bf7-b8e8-f1ab15cb1de7</SitecoreAccessGuid>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SitecoreMobileTDS_75_CorePackage_Debug.xml</ValidationSettingsFilePath>
+    <PackageName>A01_SitecoreMobileTDS_CoreFilesPackage</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <PackageAuthor>DMO-Sitecore</PackageAuthor>
+    <PackagePublisher>Sitecore Product Strategy</PackagePublisher>
+    <PackageReadme>
+    </PackageReadme>
+    <PackageVersion>80 R00</PackageVersion>
+    <SitecoreAssemblyPath>..\..\..\..\SitecorePrivateAssemblies\Sitecore80_R141205</SitecoreAssemblyPath>
+    <SitecoreDeployFolder>
+    </SitecoreDeployFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SitecoreMobile\SitecoreMobile.csproj">
+      <Project>{0b349a5d-ab53-4458-93e9-3829520ca804}</Project>
+      <Name>SitecoreMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="Antlr3.Runtime.%2a" />
+    <ExcludedAssemblies Include="Hammock.ClientProfile.%2a" />
+    <ExcludedAssemblies Include="MessagingToolkit.QRCode.%2a" />
+    <ExcludedAssemblies Include="SitecoreMobile.%2a" />
+    <ExcludedAssemblies Include="System.Web.Optimization.%2a" />
+    <ExcludedAssemblies Include="WebGrease.%2a" />
+    <ExcludedAssemblies Include="zxing.%2a" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
+</Project>

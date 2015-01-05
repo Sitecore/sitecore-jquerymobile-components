@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {4FB4C95F-3A31-4791-86BA-45311A135949}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/Versions/New
+parent: {FA6CA6DE-441C-4173-91B7-7E794B800BED}
+name: New
+master: {00000000-0000-0000-0000-000000000000}
+template: {98EC37BF-BCA6-40C6-A772-5C52190EF205}
+templatekey: Saved Search
+
+----field----
+field: {9DAFCA1D-D618-4616-86B8-A8ACD6B28A63}
+name: __Bucket Parent Reference
+key: __bucket parent reference
+content-length: 0
+
+
+----field----
+field: {AC51462C-8A8D-493B-9492-34D1F26F20F1}
+name: __Default Bucket Query
+key: __default bucket query
+content-length: 0
+
+
+----field----
+field: {C7815F60-96E1-40CB-BB06-B5F833F73B61}
+name: __Persistent Bucket Filter
+key: __persistent bucket filter
+content-length: 107
+
++text:6*&+location:{fa6ca6de-441c-4173-91b7-7e794b800bed}&+template:{a0078def-06c2-4a06-8fae-e853c2862389}&
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 67
+
+ar|sitecore\Everyone|pe|-item:read|au|sitecore\admin|pe|+item:read|
+----version----
+language: en
+version: 1
+revision: 348c1f3c-5428-4747-a147-c820edd868a9
+
+----field----
+field: {1B86697D-60CA-4D80-83FB-7555A2E6CE1C}
+name: __Source
+key: __source
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130516T191800
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+348c1f3c-5428-4747-a147-c820edd868a9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130516T195920:635043311600501102
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

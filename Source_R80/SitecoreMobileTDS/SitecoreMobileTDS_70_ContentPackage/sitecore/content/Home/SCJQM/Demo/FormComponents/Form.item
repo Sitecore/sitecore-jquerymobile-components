@@ -1,0 +1,81 @@
+----item----
+version: 1
+id: {BEF675C2-ABB2-463E-B55E-23A06D88EC05}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/FormComponents/Form
+parent: {7149CFAC-EC1B-441A-B86B-92263242B524}
+name: Form
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 5063
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{BC8A3584-4D38-49A2-9D35-D25506F27C8F}"><r id="{29546098-1B5D-41E7-8055-C171033BCC4A}" par="PanelName=Panel1&amp;PlaceholderName=Panel1" ph="pagepanels" uid="{01CD9DF2-6F79-4631-A950-869C9E0F4FD5}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=__Publish&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentsecondary" uid="{472945E2-5FFF-4537-B0BE-0F1963D3F0E6}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=__Unpublish&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentsecondary" uid="{E1673C1B-072D-4FF4-A4F1-678826559556}" /><r id="{33D34AF5-D75C-49DD-B21F-CBB58A83F70F}" par="DisplayEditingFieldTitle=1&amp;FieldName=__Never+publish&amp;HiddenEditingField=1&amp;DataMini=1&amp;DataInline=1&amp;SelectDataSource=%7b9808AA0F-4EA7-4F5D-8733-418196CC70B1%7d&amp;DataRole=slider" ph="pagecontentsecondary" uid="{7E0F514F-B2A8-4804-830C-62FB3F517FED}" /><r id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" par="ListRoundedCorners=1&amp;ListIcon=arrow-r&amp;ListTheme=a" ph="pagecontentsecondary" uid="{135EE058-4D96-4F5C-BEA4-1E47C65E9CA4}" /><r ds="{B8F9D187-40DE-4D6A-A57B-F425FB9B3DE0}" id="{C0221561-0AF6-4C8C-9DAD-7C04BD14D221}" par="FieldName=RichText" ph="pagefooter" uid="{4285ED62-A7E8-40B1-A499-673951BEAD23}" /><r ds="" id="{D21D94DF-0CDC-414C-AC92-46577F9574D3}" par="FieldName=PageTitle&amp;HeadingTagName=h1" ph="pageheader" uid="{0154096E-923F-4D62-995E-9CE65899ED16}" /><r ds="" id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" par="ButtonRole=button&amp;ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon=exp-menu&amp;ButtonIconPosition=notext&amp;ButtonIconShadow&amp;ButtonCorners&amp;ButtonShadow&amp;ButtonStyle=ui-btn-exptype%20ui-btn-right&amp;LinkFieldName&amp;GeneralLink=%3Clink%20text%3D%22Menu%22%20linktype%3D%22anchor%22%20url%3D%22Panel1%22%20anchor%3D%22Panel1%22%20%2F%3E" ph="pageheader" uid="{A737D35B-2697-40A8-9402-04EAC8BC9B61}" /><r id="{8EEA96D2-4DF1-4F42-AEDA-FC1C4C9047AE}" par="ButtonMini=1&amp;GroupOrientation=horizontal" ph="pagecontent" uid="{F2037335-B5C8-4776-95F6-1A5F07379841}" /><r id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" par="HeadingTagName=h1&amp;FieldName=PageTitle" ph="pagecontent" uid="{F53D5E21-9243-4AE2-A782-994FFCCF3BAD}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=PageImage&amp;DisplayEditingFieldTitle=True" ph="pagecontentprimary" uid="{87EB5728-4E4D-4FBB-8902-2A02E7796C9B}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=PageContent&amp;DisplayEditingFieldTitle=1" ph="pagecontentprimary" uid="{A0E3196D-EB35-403E-B4F8-EF66B13B0606}" /><r id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" par="FieldName=ButtonTitle&amp;DisplayEditingFieldTitle=1&amp;HiddenEditingField=1" ph="pagecontentprimary" uid="{62F79B88-85B3-45F2-B5D1-C641D453FD7E}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="SelectIncludeEmptyOption=1&amp;DataMini=1&amp;DisplayEditingFieldTitle=1&amp;SelectDataSource=%7b63E9B489-59F8-4442-A1EF-7BB02655CEB3%7d&amp;HiddenEditingField=1&amp;FieldName=ButtonIcon&amp;DataRole=select&amp;DataInline=1" ph="pagecontentprimary" uid="{DFC09CCE-1817-4D9A-93C9-57BE75FE990D}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="SelectIncludeEmptyOption=1&amp;DataMini=1&amp;DisplayEditingFieldTitle=1&amp;SelectDataSource=%7bAA429AED-AD32-447F-B961-ECBF99E3ADFA%7d&amp;HiddenEditingField=1&amp;FieldName=ButtonTheme&amp;DataRole=select&amp;DataInline=1" ph="pagecontentprimary" uid="{2F36D146-8C2E-465A-AC14-B23774F71BE6}" /><r id="{667CC528-E945-4C23-B24D-FEBEB3DBBC9B}" par="SelectIncludeEmptyOption=1&amp;DataMini=1&amp;DisplayEditingFieldTitle=1&amp;SelectDataSource=%7bAA429AED-AD32-447F-B961-ECBF99E3ADFA%7d&amp;HiddenEditingField=1&amp;FieldName=PageTheme&amp;DataRole=select&amp;DataInline=1" ph="pagecontentprimary" uid="{DA28749C-1B44-4CDC-B7C6-32FFEBABEEA6}" /><r id="{33D34AF5-D75C-49DD-B21F-CBB58A83F70F}" par="DisplayEditingFieldTitle=1&amp;FieldName=HidePageFromNavigation&amp;HiddenEditingField=1&amp;DataMini=1&amp;DataInline=1&amp;SelectDataSource=%7b9808AA0F-4EA7-4F5D-8733-418196CC70B1%7d&amp;DataRole=slider" ph="pagecontentprimary" uid="{C7BB8C55-5173-4F20-95C9-DE27B0927111}" /><r id="{C78BCC64-FD6B-48EA-B489-AB3773849667}" ph="pagecontentsecondary" uid="{4629A182-3231-468E-8414-95E98A450BD7}" /><r ds="{110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}" id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" par="ListTheme=a&amp;ListRoundedCorners=0&amp;ListCountTheme=a&amp;ListDividerTheme=a&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme=a&amp;ListIcon=arrow-r&amp;ListSplitIcon&amp;ListSplitTheme&amp;CountPlaceholderName&amp;CustomPlaceholderName&amp;ChildPlaceholderName&amp;CssClass&amp;DisplayDatasource=1&amp;DisplayDatasourceChildrensChildren=1&amp;FieldList&amp;DisplayEmptyMessageDatasource" ph="/pagepanels/Panel1" uid="{DF97BE1E-37F6-4781-9420-439C44E7CEA0}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 304792d7-948b-48cc-9293-0d87fd7e35dd
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 14
+
+Form Component
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 486
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;The form component is a placeholder type component that outputs the form HTML element and creates a placeholder for additional form field components. The form posts back to a Sitecore MVC form handler type controller and is configured in context using the rendering component properties.</p><p><br></p><p>Demonstration</p><p>Click the submit button below to submit the form to the server and invoke the form handler controller action.</p>
+</div>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 14
+
+Form Component
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1154
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{FDB411EA-C81C-4084-B5FD-58D72EFD21F8}" p:before="r[@uid='{01CD9DF2-6F79-4631-A950-869C9E0F4FD5}']" s:ds="" s:id="{E754F170-D00D-4322-A35A-2C8E7CEB24BA}" s:par="ButtonRole=button&amp;ButtonTheme&amp;ButtonMode&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow&amp;ButtonCorners&amp;ButtonShadow&amp;ButtonStyle&amp;FormFieldName=field1&amp;FormFieldValue=Submit&amp;FormFieldTitle=Submit" s:ph="/pagecontentprimary/formmobileform1" /><r uid="{B7F52B38-2549-4F82-ABD7-869271BA8DEA}" p:before="r[@uid='{C804CA01-05BA-4CBD-A031-037B68D9C0C7}']" s:ds="" s:id="{23BC089A-494C-4FAC-A27C-272EFCB66997}" s:par="EnableAjax=0&amp;FormName=mobileform1&amp;FormControllerAction=SubmitFormHandler&amp;FormControllerName=DemoMobileForm&amp;FormSuccessRedirectResultItem&amp;PlaceholderName=form" s:ph="pagecontentprimary" /><r uid="{C804CA01-05BA-4CBD-A031-037B68D9C0C7}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:id="{4B9104DF-0A6D-4060-8C71-7C33E9C7331A}" s:ph="pagecontentprimary" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150103T065407Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+304792d7-948b-48cc-9293-0d87fd7e35dd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T234312:635559253920093461Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

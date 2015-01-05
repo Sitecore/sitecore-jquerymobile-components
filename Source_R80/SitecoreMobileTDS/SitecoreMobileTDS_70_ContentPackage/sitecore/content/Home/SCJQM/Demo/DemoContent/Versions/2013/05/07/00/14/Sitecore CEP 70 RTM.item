@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {E56F2C2E-6329-4DFB-91AE-7D876E11051E}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/DemoContent/Versions/2013/05/07/00/14/Sitecore CEP 70 RTM
+parent: {7A0ECC3F-D417-4600-9E79-853677734FA6}
+name: Sitecore CEP 70 RTM
+master: {00000000-0000-0000-0000-000000000000}
+template: {A0078DEF-06C2-4A06-8FAE-E853C2862389}
+templatekey: Version
+
+----field----
+field: {EEA6993A-0BBF-4504-85FC-61C894294A66}
+name: ReleaseTarget
+key: releasetarget
+content-length: 15
+
+20130521T000000
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----version----
+language: en
+version: 1
+revision: 861e0cd9-1595-4ee8-be8f-80ef4adfbef0
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 16
+
+Sitecore CEP 7.0
+----field----
+field: {8307ED63-637C-4257-994B-8DBEB69F96FE}
+name: ReleaseVersion
+key: releaseversion
+content-length: 7
+
+7.0 RTP
+----field----
+field: {9FD1D96C-94EC-47F2-B73A-444132BC6983}
+name: Revision
+key: revision
+content-length: 3
+
+7.0
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 16
+
+Sitecore CEP 7.0
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130507T001400
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+861e0cd9-1595-4ee8-be8f-80ef4adfbef0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131026T025958:635183531987451105
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

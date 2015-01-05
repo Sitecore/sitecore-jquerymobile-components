@@ -1,0 +1,138 @@
+----item----
+version: 1
+id: {7D1B1413-3527-4921-A42D-8A5C95848AD7}
+database: master
+path: /sitecore/content/Home/SCJQM
+parent: {110D559F-DEA5-42EA-9C1C-8A5DF7E70EF9}
+name: SCJQM
+master: {00000000-0000-0000-0000-000000000000}
+template: {1BFAF106-A57B-44B3-BB8C-E221B51B4D47}
+templatekey: MobileSite
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 37
+
+applications/16x16/document_plain.png
+----version----
+language: en
+version: 1
+revision: 5ca2e82c-ac7d-434c-91e9-863736f44b10
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 37
+
+Sitecore MVC jQuery Mobile Components
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 1103
+
+<style type="text/css">
+    @media (min-width:30em) {
+    .home-panel.banner {
+    background-image: url('~/media/EF4116CB03D043608E59F682EC3DC749.ashx?la=en');
+    }
+    .home-panel.banner .bg {
+    display: block; }
+    }
+    @media (max-width:30em) {
+    .home-panel .banner-inner {
+    width: 100%;
+    }
+    .home-panel.banner .bg {
+    display: none; }
+    }
+    }
+</style>
+<section class="home-panel banner">
+<div class="bg"></div>
+<div class="home-panel-inner banner-inner arrow-left">
+<div class="banner-content" style="font-size: 0.8em;">
+<p>The Sitecore jQuery Mobile component library is collection of reusable&nbsp;<a href="http://sitecore.net" target="_blank" class="ui-link">Sitecore</a> MVC views designed to combine the&nbsp;<a href="http://jquerymobile.com" target="_blank" class="ui-link">jQuery Mobile</a> HTML5 library and the Sitecore Experience Editor. The jQuery Mobile library provides&nbsp;touch friendly and accessible HTML5 controls and the Sitecore Experience&nbsp;Editor provides the ability to assemble the controls and&nbsp;edit page content.</p>
+</div>
+</div>
+</section>
+----field----
+field: {70914664-847F-4049-80FD-43B8CFB4CC8E}
+name: HidePageFromNavigation
+key: hidepagefromnavigation
+content-length: 0
+
+
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 33
+
+Sitecore jQuery Mobile Components
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Sitecore jQuery Mobile Components
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T083900
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5ca2e82c-ac7d-434c-91e9-863736f44b10
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141229T180309:635554729897522175Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

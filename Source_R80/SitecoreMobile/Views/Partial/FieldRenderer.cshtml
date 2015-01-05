@@ -1,0 +1,27 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using SitecoreMobile
+
+@{
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    bool hiddenEditingField = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.HiddenEditingField] == "1" ? true : false;
+    if (hiddenEditingField && !pageEditEnabled)
+    {
+        return;
+    }
+
+    var fieldName = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.FieldName];
+
+    if (string.IsNullOrEmpty(fieldName))
+    {
+        return;
+    }
+
+}
+
+@Html.Sitecore().Field(fieldName,
+    new
+        {
+            DisableWebEdit = false
+        })

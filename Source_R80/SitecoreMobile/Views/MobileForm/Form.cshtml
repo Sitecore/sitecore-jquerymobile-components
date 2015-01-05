@@ -1,0 +1,60 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.FormViewRendering
+@using SitecoreMobile.Common
+@using SitecoreMobile.Models.ViewRenderingModels
+
+@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    var placeholderName = string.Concat(Model.PlaceholderName, Model.FormName);
+    
+    if (string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }
+    
+    string formError = this.ViewContext.RouteData.DataTokens["FormError"] as string;
+    if(formError != null)
+    {
+        
+    }
+    
+}
+
+@using (Html.BeginRouteForm(
+    Sitecore.Mvc.Configuration.MvcSettings.SitecoreRouteName,
+    new { pathInfo = Model.Item.GetRoutePathInfo() },
+    FormMethod.Post,
+    new { @id = Model.FormName, @class = "MobileForm" }))
+{
+    <div>
+
+        @Html.Sitecore().FormHandler(Model.FormControllerName, Model.FormControllerAction)
+
+        @Html.AntiForgeryToken()
+
+        @Html.Hidden(
+            FormViewRendering.FormSuccessRedirectResultItemFieldName, 
+            Model.FormSuccessRedirectResultItem)
+
+        @if (!string.IsNullOrEmpty(formError))
+        {
+            <div>@Html.Encode(formError)</div>
+        }
+        @if (!pageEditEnabled)
+        {
+            <div>
+                @Html.Sitecore().Placeholder(placeholderName)
+            </div>
+        }
+        else
+        {
+            <p>
+                Form Name: @Html.Encode(Model.FormName)<br />
+                Form Placeholder Name: @Html.Encode(placeholderName)
+            </p>
+            @Html.Sitecore().Placeholder(placeholderName)
+        }
+
+    </div>
+
+}

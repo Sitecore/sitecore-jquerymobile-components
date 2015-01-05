@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile", "..\SitecoreMobile\SitecoreMobile.csproj", "{0B349A5D-AB53-4458-93E9-3829520CA804}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_CoreFilesPackage", "SitecoreMobileTDS_75_CorePackage\SitecoreMobileTDS_CoreFilesPackage.scproj", "{4050E71C-0154-4DB3-B897-1777FE2E1C8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {19C807FF-D182-4A74-AA15-EF305527F672}
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreExperience_ContentItemsPackage", "SitecoreSymposiumExperience_75_ContentPackage\SitecoreExperience_ContentItemsPackage.scproj", "{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27F05119-F2CE-4430-9A07-7A678D333D79} = {27F05119-F2CE-4430-9A07-7A678D333D79}
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F} = {4050E71C-0154-4DB3-B897-1777FE2E1C8F}
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {0B349A5D-AB53-4458-93E9-3829520CA804}
+		{F130E1A7-7EC1-45C8-B623-91586954A31D} = {F130E1A7-7EC1-45C8-B623-91586954A31D}
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {19C807FF-D182-4A74-AA15-EF305527F672}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile.Test", "..\SitecoreMobile.Test\SitecoreMobile.Test.csproj", "{741CC754-6098-485D-A33A-01AA0B2D9924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreExperience", "..\SitecoreExperienceBeacon_75\SitecoreExperience.csproj", "{F130E1A7-7EC1-45C8-B623-91586954A31D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreExperience_CorePackage", "SitecoreExperienceBeacon_75_CorePackage\SitecoreExperience_CorePackage.scproj", "{27F05119-F2CE-4430-9A07-7A678D333D79}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F} = {4050E71C-0154-4DB3-B897-1777FE2E1C8F}
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {0B349A5D-AB53-4458-93E9-3829520CA804}
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {19C807FF-D182-4A74-AA15-EF305527F672}
+	EndProjectSection
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_CoreItemsPackage", "SitecoreMobileTDS_70_CorePackage\SitecoreMobileTDS_CoreItemsPackage.scproj", "{19C807FF-D182-4A74-AA15-EF305527F672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {0B349A5D-AB53-4458-93E9-3829520CA804}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{C9627E80-6C8C-4697-B3AD-C7FE656F770F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDS", "TDS", "{A70E32F0-3566-4BEE-9992-EC86841E71CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B891139E-D931-4A86-97CB-8F9FAED724E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreIdentity.Kernel", "SitecoreIdentity.Kernel", "{C118F9C3-8BD6-4C04-B656-01C4861F8E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreIdentity.Kernel", "SitecoreIdentity.Kernel\SitecoreIdentity.Kernel.csproj", "{936E571A-B495-4933-A8A3-5A7717A39DF5}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dmositecore000.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = ..\\SitecoreMobile.Test\\SitecoreMobile.Test.csproj
+		SccProjectTopLevelParentUniqueName0 = SitecoreMobileTDS.sln
+		SccProjectName0 = ../SitecoreMobile.Test
+		SccLocalPath0 = ..\\SitecoreMobile.Test
+		SccProjectUniqueName1 = ..\\SitecoreExperienceBeacon_75\\SitecoreExperience.csproj
+		SccProjectTopLevelParentUniqueName1 = SitecoreMobileTDS.sln
+		SccProjectName1 = ../SitecoreExperienceBeacon_75
+		SccLocalPath1 = ..\\SitecoreExperienceBeacon_75
+		SccProjectUniqueName2 = ..\\SitecoreMobile\\SitecoreMobile.csproj
+		SccProjectTopLevelParentUniqueName2 = SitecoreMobileTDS.sln
+		SccProjectName2 = ../SitecoreMobile
+		SccLocalPath2 = ..\\SitecoreMobile
+		SccProjectUniqueName3 = SitecoreExperienceBeacon_75_CorePackage\\SitecoreExperience_CorePackage.scproj
+		SccProjectTopLevelParentUniqueName3 = SitecoreMobileExperienceTDS.sln
+		SccProjectName3 = SitecoreExperienceBeacon_75_CorePackage
+		SccLocalPath3 = SitecoreExperienceBeacon_75_CorePackage
+		SccProjectUniqueName4 = SitecoreMobileTDS_70_CorePackage\\SitecoreMobileTDS_CoreItemsPackage.scproj
+		SccProjectTopLevelParentUniqueName4 = SitecoreMobileExperienceTDS.sln
+		SccProjectName4 = SitecoreMobileTDS_70_CorePackage
+		SccLocalPath4 = SitecoreMobileTDS_70_CorePackage
+		SccProjectUniqueName5 = SitecoreMobileTDS_75_CorePackage\\SitecoreMobileTDS_CoreFilesPackage.scproj
+		SccProjectTopLevelParentUniqueName5 = SitecoreMobileExperienceTDS.sln
+		SccProjectName5 = SitecoreMobileTDS_75_CorePackage
+		SccLocalPath5 = SitecoreMobileTDS_75_CorePackage
+		SccProjectUniqueName6 = SitecoreSymposiumExperience_75_ContentPackage\\SitecoreExperience_ContentItemsPackage.scproj
+		SccProjectTopLevelParentUniqueName6 = SitecoreMobileExperienceTDS.sln
+		SccProjectName6 = SitecoreSymposiumExperience_75_ContentPackage
+		SccLocalPath6 = SitecoreSymposiumExperience_75_ContentPackage
+		SccProjectUniqueName7 = SitecoreIdentity.Kernel\\SitecoreIdentity.Kernel.csproj
+		SccProjectTopLevelParentUniqueName7 = SitecoreMobileTDS.sln
+		SccProjectName7 = SitecoreIdentity.Kernel
+		SccLocalPath7 = SitecoreIdentity.Kernel
+		SccLocalPath8 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F130E1A7-7EC1-45C8-B623-91586954A31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F130E1A7-7EC1-45C8-B623-91586954A31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F130E1A7-7EC1-45C8-B623-91586954A31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F130E1A7-7EC1-45C8-B623-91586954A31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F05119-F2CE-4430-9A07-7A678D333D79}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{936E571A-B495-4933-A8A3-5A7717A39DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{936E571A-B495-4933-A8A3-5A7717A39DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{936E571A-B495-4933-A8A3-5A7717A39DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{936E571A-B495-4933-A8A3-5A7717A39DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {C9627E80-6C8C-4697-B3AD-C7FE656F770F}
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{1BDABDC8-E010-4ED0-971B-2DB3AC64FD63} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{741CC754-6098-485D-A33A-01AA0B2D9924} = {B891139E-D931-4A86-97CB-8F9FAED724E5}
+		{F130E1A7-7EC1-45C8-B623-91586954A31D} = {C9627E80-6C8C-4697-B3AD-C7FE656F770F}
+		{27F05119-F2CE-4430-9A07-7A678D333D79} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{936E571A-B495-4933-A8A3-5A7717A39DF5} = {C118F9C3-8BD6-4C04-B656-01C4861F8E50}
+	EndGlobalSection
+EndGlobal

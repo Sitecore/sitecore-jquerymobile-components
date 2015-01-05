@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16px"
+   height="16px"
+   id="svg2986"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="next.svg">
+  <defs
+     id="defs2988" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#d3d3d3"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="22.197802"
+     inkscape:cx="0.97227717"
+     inkscape:cy="8"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:grid-bbox="true"
+     inkscape:document-units="px"
+     inkscape:window-width="1343"
+     inkscape:window-height="767"
+     inkscape:window-x="100"
+     inkscape:window-y="26"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer">
+    <path
+       d="m 4.893896,3.1604834 c 0,-0.2925 0.140625,-0.5005 0.421875,-0.6205 0.28125,-0.12 0.5325,-0.07125 0.75375,0.14425 l 4.8375,4.81875 c 0.13875,0.13875 0.204375,0.30375 0.19875,0.495 0,0.18575 -0.0675,0.345 -0.19875,0.47625 l -4.8375,4.8374996 c -0.22125,0.22125 -0.4725,0.27 -0.75375,0.1445 -0.28125,-0.12 -0.421875,-0.33375 -0.421875,-0.6375 z"
+       id="path1222"
+       inkscape:connector-curvature="0"
+       style="fill:#262626;stroke:none" />
+  </g>
+</svg>

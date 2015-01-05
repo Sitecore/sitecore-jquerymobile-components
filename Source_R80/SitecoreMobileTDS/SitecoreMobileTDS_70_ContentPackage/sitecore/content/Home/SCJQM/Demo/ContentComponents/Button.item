@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {2A87B44A-CC44-4DF6-A913-CB3A7021DB7D}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Button
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: Button
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 177
+
+<image mediapath="" alt="Button View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{7139A740-29BC-4137-AEB2-A7BE2DCACD11}" />
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 2649
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{DE5FCF25-6F2F-408D-86A6-A6612C8F53FE}" p:before="r[@uid='{0154096E-923F-4D62-995E-9CE65899ED16}']" s:ds="{7D1B1413-3527-4921-A42D-8A5C95848AD7}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="pagecontentprimary" /><r uid="{4629A182-3231-468E-8414-95E98A450BD7}"><p:d /></r><r uid="{2A40D876-0B00-4F5B-AA75-E3E65C28D8F1}" p:before="r[@uid='{EB682CEE-93B7-4170-9163-B936E67F52E5}']" s:ds="{F4BA0FD1-F5F7-4C91-84E9-7971AC8F26AA}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{EB682CEE-93B7-4170-9163-B936E67F52E5}" p:before="r[@uid='{6D375986-7ED9-4C7F-9AB3-CBDE20B2C6EB}']" s:ds="" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme&amp;ButtonMode&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink=%3clink+text%3d%22Google%22+linktype%3d%22external%22+url%3d%22http%3a%2f%2fgoogle.com%22+anchor%3d%22%22+target%3d%22_blank%22+%2f%3e" s:ph="pagecontentprimary" /><r uid="{6D375986-7ED9-4C7F-9AB3-CBDE20B2C6EB}" p:before="r[@uid='{25E81A07-67A8-4D88-950C-34764410D9B9}']" s:ds="{A1D1ED19-2120-4720-9015-08649D256584}" s:id="{CA2C6DAA-5628-4B4D-BF5A-E8AB5CFE8B69}" s:par="FieldName=PageContent&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField" s:ph="pagecontentprimary" /><r uid="{25E81A07-67A8-4D88-950C-34764410D9B9}" p:before="r[@uid='{ECDAADDC-A84C-443A-A365-DC8451DDBFE3}']" s:ds="{1FE5D7BF-7268-4AE8-AC26-412F3C15966B}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme=a&amp;ButtonMode&amp;ButtonInline=1&amp;ButtonMini=1&amp;ButtonIcon=check&amp;ButtonIconPosition=bottom&amp;ButtonIconShadow&amp;ButtonCorners&amp;ButtonShadow&amp;LinkFieldName&amp;GeneralLink" s:ph="pagecontentprimary" /><r uid="{ECDAADDC-A84C-443A-A365-DC8451DDBFE3}" s:ds="{31BF639B-A5EC-4FA2-B329-11E05D777352}" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonTheme=e&amp;ButtonMode=external&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow=1&amp;ButtonCorners=1&amp;ButtonShadow=1&amp;LinkFieldName&amp;GeneralLink" s:ph="pagecontentprimary" /></d></r>
+----version----
+language: en
+version: 1
+revision: 4bf47a09-46db-4f12-bce2-8561f7862cff
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 6
+
+Button
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 123
+
+Demos<br>1. Standard Button<br>2. Mini Button<br>3. Inline Button<br>4. Button Field Name<br>5. Button General Link<br><br>
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 177
+
+<image mediapath="" alt="Button View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{7139A740-29BC-4137-AEB2-A7BE2DCACD11}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 6
+
+Button
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130513T183452
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4bf47a09-46db-4f12-bce2-8561f7862cff
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212108:635185920687368393
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

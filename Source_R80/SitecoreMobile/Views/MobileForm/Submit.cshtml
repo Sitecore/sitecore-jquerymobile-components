@@ -1,0 +1,150 @@
+﻿@*<input type="submit" name="SubmitAction" value="Submit" data-icon="exp-check" data-iconpos="left" class="" />*@ <!-- data-inline="true" data-mini="true" -->
+
+
+@model SitecoreMobile.Models.ViewRenderingModels.FormSubmitViewRendering
+
+@using Sitecore.Data.Fields
+@using Sitecore.Mvc.Configuration
+@using Sitecore.Shell
+@using SitecoreMobile.Common
+
+@{
+    if (!Model.ButtonModel.Visible)
+    {
+        return;
+    }
+}
+
+@{
+    var displayItem = Model.Item;
+    
+    var buttonIcon = (string)null;
+    var buttonTheme = (string)null;
+    var buttonText = (HtmlString)null;
+    
+    buttonIcon = Model.ButtonModel.ButtonIcon ?? buttonIcon;
+    buttonTheme = Model.ButtonModel.ButtonTheme ?? buttonTheme;
+
+    var buttonTransition = Model.ButtonModel.ButtonTransition ?? null;
+    var buttonInline = Model.ButtonModel.ButtonInline == true ? "true" : "false";
+    var buttonMini = Model.ButtonModel.ButtonMini == true ? "true" : null;
+    var buttonIconPosition = Model.ButtonModel.ButtonIconPosition;
+    var buttonIconShadow = !Model.ButtonModel.ButtonIconShadow.HasValue || Model.ButtonModel.ButtonIconShadow == true ? "true" : "false";
+    var buttonCorners = !Model.ButtonModel.ButtonCorners.HasValue || Model.ButtonModel.ButtonCorners == true ? "true" : "false";
+    var buttonShadow = !Model.ButtonModel.ButtonShadow.HasValue || Model.ButtonModel.ButtonShadow == true ? "true" : "false";
+    var buttonPopupOverlay = Model.ButtonModel.ButtonPopupOverlay.HasValue && Model.ButtonModel.ButtonPopupOverlay == true ? true : false;
+
+    var buttonCssClass = Model.ButtonModel.CssClass ?? null;
+    
+    bool buttonDisabled = Model.ButtonModel.ButtonDisabled ?? false;
+
+    var buttonRole = Model.ButtonModel.ButtonRole ?? "button";
+    var buttonMode = Model.ButtonModel.ButtonMode ?? null;
+    var buttonRel = Model.ButtonModel.ButtonMode ?? null;
+
+    string buttonType = Model.ButtonModel.ButtonType ?? "submit";
+    string buttonValue = Model.FormFieldValue;
+    string buttonName = Model.FormFieldName;
+    string buttonTitle = Model.FormFieldTitle;
+
+    if (!string.IsNullOrEmpty(Model.ButtonModel.ButtonText))
+    {
+        buttonText = new HtmlString(Model.ButtonModel.ButtonText);
+    }
+    else if (displayItem != null)
+    {
+        Sitecore.Collections.SafeDictionary<string> titleFieldParam = new Sitecore.Collections.SafeDictionary<string>()
+        {
+            /* { "disable-web-editing", "true" }, */
+            { "show-title-when-blank", "true" }   
+        };
+        buttonTitle = Html.Sitecore().Field(
+            "ButtonTitle",
+            displayItem,
+            new
+            {
+                DisableWebEdit = true,
+                Parameters = titleFieldParam
+            }).ToString();
+        buttonTitle = !string.IsNullOrEmpty(buttonTitle) ? buttonTitle : displayItem.DisplayName;
+
+        buttonIcon = buttonIcon ?? displayItem["ButtonIcon"] ?? null;
+        buttonTheme = buttonTheme ?? displayItem["ButtonTheme"] ?? null;
+    }    
+    
+    
+    var tagParameters = new Dictionary<string, object>();
+
+    if (!string.IsNullOrEmpty(buttonTheme))
+    {
+        tagParameters["data-theme"] = buttonTheme;
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, string.Concat("ui-btn-",buttonTheme) });    
+    }
+    if (!string.IsNullOrEmpty(buttonIcon))
+    {
+        tagParameters["data-icon"] = buttonIcon;
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, string.Concat("ui-icon-", buttonIcon) });
+    }
+    if (!string.IsNullOrEmpty(buttonIconPosition))
+    {
+        tagParameters["data-iconpos"] = buttonIconPosition;
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, string.Concat("ui-btn-icon-", buttonIconPosition) });
+    }
+
+    tagParameters["data-iconshadow"] = buttonIconShadow;
+    tagParameters["data-mini"] = buttonMini;
+
+    tagParameters["data-inline"] = buttonInline;
+    tagParameters["data-shadow"] = buttonShadow;
+    
+    if (Model.ButtonModel.ButtonShadow.HasValue && Model.ButtonModel.ButtonShadow.Value)
+    {
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, "ui-shadow" });
+    }
+    if (!Model.ButtonModel.ButtonInline.HasValue || !Model.ButtonModel.ButtonInline.Value)
+    {
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, "ui-corner-all" });
+    } 
+    
+    tagParameters["data-enhanced"] = "true";
+    
+    if (buttonDisabled)
+    {
+        tagParameters["disabled"] = "";
+        buttonCssClass = String.Join(" ", new string[] { buttonCssClass, "ui-state-disabled" });
+    } 
+    
+    if (!string.IsNullOrEmpty(buttonTransition))
+    {
+        tagParameters["data-transition"] = buttonTransition;
+    }
+
+    if (buttonPopupOverlay)
+    {
+        tagParameters["data-position-to"] = "window";
+    }
+
+    tagParameters["data-role"] = buttonRole;
+    tagParameters["data-rel"] = buttonMode;
+    tagParameters["rel"] = buttonMode;
+    tagParameters["type"] = buttonType;
+    tagParameters["value"] = buttonValue;
+    tagParameters["name"] = buttonName;
+    
+
+    if (!string.IsNullOrEmpty(Model.ButtonModel.ButtonId))
+    {
+        tagParameters["id"] = Model.ButtonModel.ButtonId;
+    }
+
+
+    TagBuilder innerTagBuilder = new TagBuilder("input");
+    innerTagBuilder.MergeAttributes<string, object>(tagParameters);
+    
+    TagBuilder outerTagBuilder = new TagBuilder("div");
+    outerTagBuilder.Attributes.Add("class", string.Join(" ", new string[]  { "ui-input-btn", "ui-btn", buttonCssClass }));
+    outerTagBuilder.InnerHtml = String.Concat(Html.Encode(buttonTitle), " ", innerTagBuilder.ToString(TagRenderMode.SelfClosing));
+
+    WriteLiteral(outerTagBuilder.ToString(TagRenderMode.Normal));
+
+}

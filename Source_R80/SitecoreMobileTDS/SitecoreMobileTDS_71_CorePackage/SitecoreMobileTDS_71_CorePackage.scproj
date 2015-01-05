@@ -1,0 +1,86 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>3ae1e72e-aad1-42c6-b656-90d5e321ca7a</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SourceWebPhysicalPath>..\..\SitecoreMobile</SourceWebPhysicalPath>
+    <SourceWebProject>{0b349a5d-ab53-4458-93e9-3829520ca804}|..\SitecoreMobile\SitecoreMobile_71.csproj</SourceWebProject>
+    <SourceWebVirtualPath>/SitecoreMobile_71.csproj</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>SitecoreMobileTDS_71_CorePackage</SingleAssemblyName>
+    <UseWebConfigReplacement>false</UseWebConfigReplacement>
+    <DeleteAppCodeCompiledFiles>true</DeleteAppCodeCompiledFiles>
+    <LegacyFileReplacement>false</LegacyFileReplacement>
+    <AssemblyName>SitecoreMobileTDS_71_CorePackage</AssemblyName>
+    <Name>SitecoreMobileTDS_71_CorePackage</Name>
+    <RootNamespace>SitecoreMobileTDS_71_CorePackage</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SitecoreDatabase>master</SitecoreDatabase>
+    <EnableCodeGeneration>false</EnableCodeGeneration>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+    <PackageAuthor>DMO at Sitecore</PackageAuthor>
+    <PackagePublisher>Sitecore Product Strategy</PackagePublisher>
+    <PackageVersion>RC02</PackageVersion>
+    <PackageReadme>
+    </PackageReadme>
+    <SitecoreAssemblyPath>..\..\..\References\Private\Sitecore71_R130926</SitecoreAssemblyPath>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>True</SeperateFilesAndItems>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <SitecoreDeployFolder>
+    </SitecoreDeployFolder>
+    <SitecoreWebUrl>http://sitecoremobile.cloudapp.net</SitecoreWebUrl>
+    <SitecoreAccessGuid>2897da31-d474-4bf7-b8e8-f1ab15cb1de7</SitecoreAccessGuid>
+    <InstallSitecoreConnector>True</InstallSitecoreConnector>
+    <EnableValidations>False</EnableValidations>
+    <ValidationSettingsFilePath>.\SitecoreMobileTDS_71_CorePackage_Debug.xml</ValidationSettingsFilePath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SitecoreMobile\SitecoreMobile_71.csproj">
+      <Project>{0b349a5d-ab53-4458-93e9-3829520ca804}</Project>
+      <Name>SitecoreMobile_71</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ExcludedAssemblies Include="ComponentArt.%2a" />
+    <ExcludedAssemblies Include="HtmlAgilityPack.%2a" />
+    <ExcludedAssemblies Include="ITHit.%2a" />
+    <ExcludedAssemblies Include="Lucene.%2a" />
+    <ExcludedAssemblies Include="Microsoft.Web.%2a" />
+    <ExcludedAssemblies Include="Mvp.%2a" />
+    <ExcludedAssemblies Include="Newtonsoft.Json.%2a" />
+    <ExcludedAssemblies Include="RadEditor.%2a" />
+    <ExcludedAssemblies Include="Sitecore.%2a" />
+    <ExcludedAssemblies Include="Sitecore.%2a.dll" />
+    <ExcludedAssemblies Include="Stimulsoft.%2a" />
+    <ExcludedAssemblies Include="System.%2a" />
+    <ExcludedAssemblies Include="Telerik.%2a" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" />
+</Project>

@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {F30C0B9B-B7EA-4953-82D0-B98A9C55F549}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/PlaceholderComponents/PanelPlaceholder
+parent: {FB72628C-46C0-4714-B20F-A41FD5077145}
+name: PanelPlaceholder
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1268
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F1D91303-B370-4B65-9ABF-7DC1721DDAD3}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:id="{E7C47768-BC5E-4C97-88F7-CDBD9C60B1AB}" s:par="ButtonShadow=1&amp;ButtonCorners=1&amp;ButtonIconShadow=1&amp;GeneralLink=%3clink+text%3d%22Panel1%22+linktype%3d%22anchor%22+url%3d%22Panel1%22+anchor%3d%22Panel1%22+%2f%3e" s:ph="pagecontentprimary" /><r uid="{5545627A-4089-4CF0-A282-017A61BFF336}" p:before="r[@uid='{11BA7982-9B90-410A-9307-611BBF09FA71}']" s:id="{29546098-1B5D-41E7-8055-C171033BCC4A}" s:par="PlaceholderName=Panel1&amp;PanelName=Panel1" s:ph="pagepanels" /><r uid="{11BA7982-9B90-410A-9307-611BBF09FA71}" p:before="r[@uid='{4E1AC688-CE73-495A-9C83-A6F6D4E439ED}']" s:id="{4A82C9DC-8335-4697-B9FA-AD44EB19AB9F}" s:par="FieldName=PageTitle" s:ph="Panel1" /><r uid="{4E1AC688-CE73-495A-9C83-A6F6D4E439ED}" s:ds="{89D918A6-01EC-439F-A5EE-3266BBD84EA6}" s:id="{863ECE3E-D2CE-49EC-8A55-778A787DB679}" s:par="ListTheme&amp;ListRoundedCorners=0&amp;ListCountTheme&amp;ListDividerTheme&amp;ListFilter&amp;ListFilterDefaultText&amp;ListFilterTheme&amp;ListHeaderTheme&amp;ListIcon=arrow-r&amp;ListSplitIcon&amp;ListSplitTheme" s:ph="/pagepanels/Panel1" /></d></r>
+----version----
+language: en
+version: 1
+revision: 25f70d8d-2ef6-4dc3-a3da-691dc9c2d5e6
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 17
+
+Panel Placeholder
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 139
+
+This is a test of the emergency web broadcasting system. If this had been an actual emergency, it would already be too late for you. Sorry.
+----field----
+field: {9EFB0430-A86A-43CB-8CBC-66119AECA7CD}
+name: PageImage
+key: pageimage
+content-length: 188
+
+<image mediapath="" alt="Panel Placeholder View Rendering" width="" height="" hspace="" vspace="" showineditor="" usethumbnail="" src="" mediaid="{F4104088-B01F-4E6A-9D59-4A5839E7DF9C}" />
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 17
+
+Panel Placeholder
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20131025T225600
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+25f70d8d-2ef6-4dc3-a3da-691dc9c2d5e6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20131028T212506:635185923067324745
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

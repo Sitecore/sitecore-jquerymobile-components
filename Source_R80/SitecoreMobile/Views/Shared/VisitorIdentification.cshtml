@@ -1,0 +1,9 @@
+﻿@if (Sitecore.Context.Diagnostics.Tracing || Sitecore.Context.Diagnostics.Profiling)
+{
+}
+else if (Sitecore.Analytics.Tracker.IsActive
+    && Sitecore.Analytics.Core.ContactClassification.IsAutoDetectedRobot(Sitecore.Analytics.Tracker.Current.Session.Contact.System.Classification))
+{
+    <meta name="VIcurrentDateTime" content="@Html.AttributeEncode(DateTime.UtcNow.Ticks)" />
+    <script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+}

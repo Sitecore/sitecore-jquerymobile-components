@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {D21D94DF-0CDC-414C-AC92-46577F9574D3}
+database: master
+path: /sitecore/layout/Renderings/Mobile/SiteRootHeading
+parent: {32F97683-0B5B-4DC8-A6D0-8F7D2C7AAD33}
+name: SiteRootHeading
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 29
+
+/Views/Partial/Heading.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 38
+
+{29E213F5-AACE-4625-860B-566D4FEB0ACC}
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{831911D2-EA3A-4A48-8B41-A80AD907CCF4}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 1
+
+1
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 183
+
+<image mediaid="{79720087-F013-421F-9462-1560F0BB45C0}" mediapath="/SitecoreMobile/ViewRenderingThumbnails/HeadingViewRendering" src="~/media/79720087F013421F94621560F0BB45C0.ashx" />
+----version----
+language: en
+version: 1
+revision: b6d3db25-8e79-480e-a508-7dc92cdb3d59
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T080700
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b6d3db25-8e79-480e-a508-7dc92cdb3d59
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140818T014206:635439229265923976
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

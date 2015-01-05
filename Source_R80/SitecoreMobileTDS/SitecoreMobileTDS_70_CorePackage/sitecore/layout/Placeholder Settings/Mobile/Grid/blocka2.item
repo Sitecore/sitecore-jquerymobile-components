@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {BA9E9A2E-2AE8-492E-8FFD-DE13DAEB662B}
+database: master
+path: /sitecore/layout/Placeholder Settings/Mobile/Grid/blocka2
+parent: {36E67C8B-C678-4300-B494-97203BD4E88F}
+name: blocka2
+master: {00000000-0000-0000-0000-000000000000}
+template: {5C547D4E-7111-4995-95B0-6B561751BF2E}
+templatekey: Placeholder
+
+----field----
+field: {7256BDAB-1FD2-49DD-B205-CB4873D2917C}
+name: Placeholder Key
+key: placeholder key
+content-length: 7
+
+blocka2
+----version----
+language: en
+version: 1
+revision: 8aaa893b-60ab-42c0-8696-00566aac483f
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130429T171300
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8aaa893b-60ab-42c0-8696-00566aac483f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141015T160846:635489861263841096
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

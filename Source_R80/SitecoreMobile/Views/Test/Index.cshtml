@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Test Controller - Index View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Test Controller - Index View</h2>
+
+<p>Action: @Html.Encode(ViewContext.RouteData.Values["action"])</p>

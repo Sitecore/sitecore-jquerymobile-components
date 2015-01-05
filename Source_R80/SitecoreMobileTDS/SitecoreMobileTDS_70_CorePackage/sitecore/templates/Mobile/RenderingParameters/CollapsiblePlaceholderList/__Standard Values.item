@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {BEA22925-F74D-47BC-A25D-DAE5BF4EEC0F}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/CollapsiblePlaceholderList/__Standard Values
+parent: {1703B81D-A848-4A7B-AB4C-0B3006D2AFF7}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {1703B81D-A848-4A7B-AB4C-0B3006D2AFF7}
+templatekey: CollapsiblePlaceholderList
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----field----
+field: {FDF5436E-7773-40DB-A55B-29969A8F3D5F}
+name: PlaceholderPrefix
+key: placeholderprefix
+content-length: 22
+
+CollapsiblePlaceholder
+----field----
+field: {45CD7BC0-F547-433B-8561-5E22838D6313}
+name: PlaceholderCount
+key: placeholdercount
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 28e974dc-a5e4-42dc-a9e4-2396380d0b6c
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130514T012900
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28e974dc-a5e4-42dc-a9e4-2396380d0b6c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130514T014514:635040927141746262
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

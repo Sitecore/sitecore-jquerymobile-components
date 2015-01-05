@@ -1,0 +1,127 @@
+﻿@model SitecoreMobile.Models.ButtonModel
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+@using SitecoreMobile.Common
+
+@{
+    var displayItem = Model.Item;
+     
+    var linkFieldName = Model.LinkFieldName ?? null;
+    if (!string.IsNullOrEmpty(linkFieldName))
+    {
+        var getLinkField = Model.Item.Fields[linkFieldName];
+        var linkField = new Sitecore.Data.Fields.LinkField(getLinkField);
+        if (linkField.IsInternal)
+        {
+            displayItem = linkField.TargetItem;
+        }
+    }
+
+    var buttonIcon = (string)null;
+    var buttonTheme = (string)null;
+
+    var buttonLink = (string)null;
+    var buttonText = (HtmlString)null;
+
+
+    if (!string.IsNullOrEmpty(Model.ButtonLink))
+    {
+        buttonLink = Model.ButtonLink;
+    }
+    else if (displayItem != null)
+    {
+        buttonLink = Url.RouteUrl(
+             MvcSettings.SitecoreRouteName,
+             new
+             {
+                 @pathInfo = displayItem.GetRoutePathInfo()
+             });
+    }
+        
+    if (!string.IsNullOrEmpty(Model.ButtonText))
+    {
+        buttonText = new HtmlString(Model.ButtonText); 
+    }
+    else if (displayItem != null)
+    {
+        Sitecore.Collections.SafeDictionary<string> titleFieldParam = new Sitecore.Collections.SafeDictionary<string>()
+        {
+            /* { "disable-web-editing", "true" }, */
+            { "show-title-when-blank", "true" }   
+        };
+        var buttonTitle = Html.Sitecore().Field(
+            "ButtonTitle",
+            displayItem,
+            new
+            {
+                DisableWebEdit = true,
+                Parameters = titleFieldParam
+            });
+        buttonText = !string.IsNullOrEmpty(buttonTitle.ToString()) ? buttonTitle : new HtmlString(displayItem.DisplayName);
+
+        buttonIcon = displayItem["ButtonIcon"] ?? null;
+        buttonTheme = displayItem["ButtonTheme"] ?? null;
+    }    
+    
+        
+    buttonIcon = Model.ButtonIcon ?? buttonIcon;
+    buttonTheme = Model.ButtonTheme ?? buttonTheme;
+
+    var buttonTarget = !string.IsNullOrEmpty(Model.ButtonTarget) ? Model.ButtonTarget : null;
+    var buttonTransition = Model.ButtonTransition ?? null;
+    var buttonInline = Model.ButtonInline == true ? "true" : "false";
+    var buttonMini = Model.ButtonMini == true ? "true" : null ;
+    var buttonIconPosition = Model.ButtonIconPosition;
+    var buttonIconShadow = !Model.ButtonIconShadow.HasValue || Model.ButtonIconShadow == true ? "true" : "false";
+    var buttonCorners = !Model.ButtonCorners.HasValue || Model.ButtonCorners == true ? "true" : "false";
+    var buttonShadow = !Model.ButtonShadow.HasValue || Model.ButtonShadow == true ? "true" : "false";
+    var buttonPopupOverlay = Model.ButtonPopupOverlay.HasValue && Model.ButtonPopupOverlay == true ? true : false;
+
+    var buttonCssClass = Model.CssClass ?? null;
+    
+    var buttonRole = Model.ButtonRole ?? "button";
+    var buttonMode = Model.ButtonMode ?? null;
+    var buttonRel = Model.ButtonMode ?? null;
+
+
+    var tagParameters = new Dictionary<string, object>();
+    
+    tagParameters["data-theme"] = buttonTheme;
+    tagParameters["data-icon"] = buttonIcon;
+    tagParameters["data-iconpos"] = buttonIconPosition;
+    tagParameters["data-iconshadow"] = buttonIconShadow;
+    tagParameters["data-mini"] = buttonMini;
+    tagParameters["data-shadow"] = buttonShadow;
+    tagParameters["data-inline"] = buttonInline;
+
+    if (!string.IsNullOrEmpty(buttonTarget))
+    {
+        tagParameters["target"] = buttonTarget;
+    }
+    if (!string.IsNullOrEmpty(buttonTransition))
+    {
+        tagParameters["data-transition"] = buttonTransition;
+    }
+
+    if (buttonPopupOverlay)
+    {
+        tagParameters["data-position-to"] = "window";
+    }        
+        
+    tagParameters["href"] = buttonLink;
+    tagParameters["data-role"] = buttonRole;
+    tagParameters["data-rel"] = buttonMode;
+    tagParameters["rel"] = buttonMode;
+    tagParameters["class"] = buttonCssClass;
+           
+    
+    TagBuilder tagBuilder = new TagBuilder("a");
+    tagBuilder.MergeAttributes<string, object>(tagParameters);
+        
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.StartTag));
+    WriteLiteral(buttonText);
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.EndTag));
+      
+}
+

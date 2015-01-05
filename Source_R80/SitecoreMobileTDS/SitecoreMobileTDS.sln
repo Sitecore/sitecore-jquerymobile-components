@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile", "..\SitecoreMobile\SitecoreMobile.csproj", "{0B349A5D-AB53-4458-93E9-3829520CA804}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_CoreFilesPackage", "SitecoreMobileTDS_75_CorePackage\SitecoreMobileTDS_CoreFilesPackage.scproj", "{4050E71C-0154-4DB3-B897-1777FE2E1C8F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {19C807FF-D182-4A74-AA15-EF305527F672}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile.Test", "..\SitecoreMobile.Test\SitecoreMobile.Test.csproj", "{741CC754-6098-485D-A33A-01AA0B2D9924}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_CoreItemsPackage", "SitecoreMobileTDS_70_CorePackage\SitecoreMobileTDS_CoreItemsPackage.scproj", "{19C807FF-D182-4A74-AA15-EF305527F672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {0B349A5D-AB53-4458-93E9-3829520CA804}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{C9627E80-6C8C-4697-B3AD-C7FE656F770F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDS", "TDS", "{A70E32F0-3566-4BEE-9992-EC86841E71CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B891139E-D931-4A86-97CB-8F9FAED724E5}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "SitecoreMobileTDS_ContentPackage", "SitecoreMobileTDS_70_ContentPackage\SitecoreMobileTDS_ContentPackage.scproj", "{84052102-8FEA-41C4-87F3-20346E07C424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecoreMobile.DemoContent", "..\SitecoreMobile.DemoContent\SitecoreMobile.DemoContent.csproj", "{E50D6F12-B470-4802-94AE-2EE813C1D076}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dmositecore000.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\SitecoreMobile.Test\\SitecoreMobile.Test.csproj
+		SccProjectTopLevelParentUniqueName1 = SitecoreMobileTDS.sln
+		SccProjectName1 = ../SitecoreMobile.Test
+		SccLocalPath1 = ..\\SitecoreMobile.Test
+		SccProjectUniqueName2 = ..\\SitecoreMobile\\SitecoreMobile.csproj
+		SccProjectTopLevelParentUniqueName2 = SitecoreMobileTDS.sln
+		SccProjectName2 = ../SitecoreMobile
+		SccLocalPath2 = ..\\SitecoreMobile
+		SccProjectUniqueName3 = SitecoreMobileTDS_70_CorePackage\\SitecoreMobileTDS_CoreItemsPackage.scproj
+		SccProjectTopLevelParentUniqueName3 = SitecoreMobileTDS.sln
+		SccProjectName3 = SitecoreMobileTDS_70_CorePackage
+		SccLocalPath3 = SitecoreMobileTDS_70_CorePackage
+		SccProjectUniqueName4 = SitecoreMobileTDS_75_CorePackage\\SitecoreMobileTDS_CoreFilesPackage.scproj
+		SccProjectTopLevelParentUniqueName4 = SitecoreMobileTDS.sln
+		SccProjectName4 = SitecoreMobileTDS_75_CorePackage
+		SccLocalPath4 = SitecoreMobileTDS_75_CorePackage
+		SccProjectUniqueName5 = SitecoreMobileTDS_70_ContentPackage\\SitecoreMobileTDS_ContentPackage.scproj
+		SccProjectTopLevelParentUniqueName5 = SitecoreMobileTDS.sln
+		SccProjectName5 = SitecoreMobileTDS_70_ContentPackage
+		SccLocalPath5 = SitecoreMobileTDS_70_ContentPackage
+		SccProjectUniqueName6 = ..\\SitecoreMobile.DemoContent\\SitecoreMobile.DemoContent.csproj
+		SccProjectTopLevelParentUniqueName6 = SitecoreMobileTDS.sln
+		SccProjectName6 = ../SitecoreMobile.DemoContent
+		SccLocalPath6 = ..\\SitecoreMobile.DemoContent
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B349A5D-AB53-4458-93E9-3829520CA804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741CC754-6098-485D-A33A-01AA0B2D9924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C807FF-D182-4A74-AA15-EF305527F672}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84052102-8FEA-41C4-87F3-20346E07C424}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E50D6F12-B470-4802-94AE-2EE813C1D076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50D6F12-B470-4802-94AE-2EE813C1D076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50D6F12-B470-4802-94AE-2EE813C1D076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50D6F12-B470-4802-94AE-2EE813C1D076}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B349A5D-AB53-4458-93E9-3829520CA804} = {C9627E80-6C8C-4697-B3AD-C7FE656F770F}
+		{4050E71C-0154-4DB3-B897-1777FE2E1C8F} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{741CC754-6098-485D-A33A-01AA0B2D9924} = {B891139E-D931-4A86-97CB-8F9FAED724E5}
+		{19C807FF-D182-4A74-AA15-EF305527F672} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{84052102-8FEA-41C4-87F3-20346E07C424} = {A70E32F0-3566-4BEE-9992-EC86841E71CD}
+		{E50D6F12-B470-4802-94AE-2EE813C1D076} = {C9627E80-6C8C-4697-B3AD-C7FE656F770F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,54 @@
+﻿@model SitecoreMobile.Models.ViewRenderingModels.BarcodeViewModel
+
+@{
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    bool hiddenEditingField = Model.Rendering.Parameters[
+        SitecoreMobile.MobileFieldNames.StandardViewRenderingParameters.HiddenEditingField] == "1" ? true : false;
+    if (hiddenEditingField && !pageEditEnabled) { return; }  
+
+    string fieldName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.BarcodeViewRenderingParameters.LinkFieldName];
+    
+    bool displayFieldTitle = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.StandardViewRenderingParameters.DisplayFieldTitle] == "1" ? true : false;
+    bool displayEditingFieldTitle = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.StandardViewRenderingParameters.DisplayEditingFieldTitle] == "1" ? true : false;
+    var pageEditorPrefix = (string)null;
+    
+    if (!string.IsNullOrEmpty(fieldName)) 
+    { 
+        // if a fieldname is defined and the item is not returned, stop rendering the view 
+        
+        var itemField = Model.Item.Fields[fieldName];
+        if (itemField == null) { return; }   
+    
+        var fieldItem = Model.Item.Database.GetItem(itemField.ID);
+        if (fieldItem == null) { return; }
+
+        if (displayFieldTitle
+            || (displayEditingFieldTitle && pageEditEnabled))
+        {
+            pageEditorPrefix = string.Format("<label>{0}: </label>", Html.Encode(fieldItem.DisplayName));
+        }
+        
+    }     
+    
+}
+
+<div class="svgBarcodeContainer" >
+    @Html.Raw(pageEditorPrefix)
+    @switch (Model.ImageFormatParameter.ToLower())
+    {
+        case "svg":
+            <text>
+                @Model.SvgBarcodeImage
+            </text>
+            break;
+        default:
+        <text>
+            @Model.EmbeddedBarcodeImage
+        </text>
+            break;
+
+
+    }
+</div>

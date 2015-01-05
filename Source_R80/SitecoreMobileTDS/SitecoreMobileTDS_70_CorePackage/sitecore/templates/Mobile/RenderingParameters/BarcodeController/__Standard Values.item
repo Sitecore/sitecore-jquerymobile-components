@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {CC578106-4D68-4B12-BEFD-42DDC529A188}
+database: master
+path: /sitecore/templates/Mobile/RenderingParameters/BarcodeController/__Standard Values
+parent: {4BDFEE82-77A8-4EDC-A180-E1D3D78B5064}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {4BDFEE82-77A8-4EDC-A180-E1D3D78B5064}
+templatekey: BarcodeController
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 7d1c9131-a177-4828-a806-6540d288af54
+
+----field----
+field: {CBE5FB8C-13FF-4F06-895F-193331C3D75D}
+name: WidthPx
+key: widthpx
+content-length: 3
+
+200
+----field----
+field: {70E0A099-FFBD-4090-A834-33C0CADC7E23}
+name: HeightPx
+key: heightpx
+content-length: 3
+
+200
+----field----
+field: {4EA6F9EA-8808-4DA3-A10D-81A947A0018A}
+name: BarcodeFormat
+key: barcodeformat
+content-length: 7
+
+QR_CODE
+----field----
+field: {3876236B-C05E-4709-801F-3CFE23278F0D}
+name: ImageFormat
+key: imageformat
+content-length: 3
+
+PNG
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140622T172024
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7d1c9131-a177-4828-a806-6540d288af54
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20140729T163701:635422486219588664
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,47 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+@using SitecoreMobile
+@using SitecoreMobile.Common
+
+@{
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    var placeholderName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.PlaceholderName];
+    var elementName = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.ElementName];
+    var className = Model.Rendering.Parameters[SitecoreMobile.MobileFieldNames.PlaceholderViewRenderingParameters.ClassName];
+
+    if (string.IsNullOrEmpty(placeholderName))
+    {
+        return;
+    }
+
+        
+}
+
+@if (!pageEditEnabled)
+{
+}
+else
+{
+    <p>Element Placeholder Name: @Html.Encode(placeholderName)</p>
+}
+
+@{
+
+
+    var tagParameters = new Dictionary<string, object>();
+    if (!string.IsNullOrEmpty(className))
+    {
+        tagParameters.Add("class", className);
+    }
+    TagBuilder tagBuilder = new TagBuilder(elementName);
+    tagBuilder.MergeAttributes<string, object>(tagParameters);
+
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.StartTag));
+    WriteLiteral(Html.Sitecore().Placeholder(placeholderName));
+    WriteLiteral(tagBuilder.ToString(TagRenderMode.EndTag));
+
+}
+
+
+
+

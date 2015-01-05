@@ -1,0 +1,14 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+@using Sitecore.Data.Items
+@using Sitecore.Mvc.Configuration
+
+
+@{
+    var placeholderName = Model.Rendering.Properties["CustomPlaceholderName"] ?? "listviewcustomitem";    
+}
+
+@using(@Html.Sitecore().SwitchContextItem(Model.Item))
+{
+    @Html.Sitecore().Placeholder(placeholderName)
+}

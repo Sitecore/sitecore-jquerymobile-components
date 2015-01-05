@@ -1,0 +1,74 @@
+----item----
+version: 1
+id: {856DFED5-855A-4EB4-A84C-2DCA74DDE59C}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/FormComponents/FlipSwitch
+parent: {7149CFAC-EC1B-441A-B86B-92263242B524}
+name: FlipSwitch
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: 7b91c340-75e7-4845-8bfa-cbb64109615a
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 32
+
+Flip Switch Form Field Component
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 505
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;The flip switch component is the same Select component with the datarole property set to <i>flipswitch</i>. The flip switch component requires a select data source with two option items. There are typical flip switch option items available under the /sitecore/templates/Mobile/Settings/ folder.</p><p><br></p><p>Demonstration</p><p>Tap or click on the text part of the flip switch component below to make a selection and then tap/click the submit button</p>
+</div>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 27
+
+Flip Switch Field Component
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 1757
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{22AA8314-E9A3-4E2D-90F4-7B20AA939D46}" p:before="r[@uid='{FDB411EA-C81C-4084-B5FD-58D72EFD21F8}']" s:ds="" s:id="{11FFA282-4768-485D-9FED-E377835C34B6}" s:par="FormFieldName=field1&amp;FormFieldTitle=Select%20a%20value&amp;FormFieldValueControllerAction=SubmitFormContent&amp;FormFieldValueControllerName=SitecoreMobile.DemoContent.Controllers.DemoMobileFormController%2C%20SitecoreMobile.DemoContent&amp;SelectDataSource=%7BA2BC38E5-A3B7-4038-BC1B-ABCF59DC07C6%7D&amp;SelectIncludeEmptyOption&amp;DataInline=1&amp;DataMini&amp;DataRole=flipswitch" s:ph="/pagecontentprimary/formmobileform1" /><r uid="{FDB411EA-C81C-4084-B5FD-58D72EFD21F8}" p:before="r[@uid='{01CD9DF2-6F79-4631-A950-869C9E0F4FD5}']" s:ds="" s:id="{E754F170-D00D-4322-A35A-2C8E7CEB24BA}" s:par="ButtonRole=button&amp;ButtonTheme&amp;ButtonMode&amp;ButtonPopupOverlay&amp;ButtonInline&amp;ButtonMini&amp;ButtonIcon&amp;ButtonIconPosition&amp;ButtonIconShadow&amp;ButtonCorners&amp;ButtonShadow&amp;ButtonStyle&amp;FormFieldName=field2&amp;FormFieldValue=Submit&amp;FormFieldTitle=Submit" s:ph="/pagecontentprimary/formmobileform1" /><r uid="{B7F52B38-2549-4F82-ABD7-869271BA8DEA}" p:before="r[@uid='{C804CA01-05BA-4CBD-A031-037B68D9C0C7}']" s:ds="" s:id="{23BC089A-494C-4FAC-A27C-272EFCB66997}" s:par="EnableAjax=0&amp;FormName=mobileform1&amp;FormControllerAction=SubmitFormHandler&amp;FormControllerName=DemoMobileForm&amp;FormSuccessRedirectResultItem&amp;PlaceholderName=form" s:ph="pagecontentprimary" /><r uid="{C804CA01-05BA-4CBD-A031-037B68D9C0C7}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:id="{4B9104DF-0A6D-4060-8C71-7C33E9C7331A}" s:ph="pagecontentprimary" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130917T205753
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7b91c340-75e7-4845-8bfa-cbb64109615a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20150103T234525:635559255250606448Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

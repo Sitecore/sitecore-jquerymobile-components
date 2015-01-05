@@ -1,0 +1,67 @@
+----item----
+version: 1
+id: {A9760276-B2EB-40F0-9876-D535C6CFB504}
+database: master
+path: /sitecore/content/Home/SCJQM/Demo/ContentComponents/Barcode
+parent: {5E7D4888-B127-44BF-92A8-C3E888FBDD99}
+name: Barcode
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----version----
+language: en
+version: 1
+revision: 924c5c1f-69a0-47cf-8b30-517f428c51c1
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 7
+
+Barcode
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 386
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;The barcode control can easily represent a QR code in SVG or PNG format on a mobile device for another device to scan, possibly another mobile phone or a point of sale system. The component implements the ZXing barcode API.</p><p>The barcode component demonstration below contains the url for the download section for this site.&nbsp;</p>
+</div>
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 524
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{C2D774BA-51EA-4379-8218-18DCE56C1F9E}" p:before="r[@uid='{62F79B88-85B3-45F2-B5D1-C641D453FD7E}']" s:ds="{A0FD4712-1E2A-421A-AD2E-A2972784ED76}" s:id="{BED009C2-ED4B-4EF5-A994-F11EF0303683}" s:par="WidthPx=200&amp;HeightPx=100&amp;BarcodeFormat=QR_CODE&amp;ImageFormat=SVG&amp;CampaignId&amp;DisplayFieldTitle&amp;DisplayEditingFieldTitle&amp;HiddenEditingField&amp;LinkFieldName&amp;GeneralLink" s:ph="pagecontentprimary" /></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141218T042304Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+924c5c1f-69a0-47cf-8b30-517f428c51c1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141218T043831:635544743110227736Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

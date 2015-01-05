@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {23BC089A-494C-4FAC-A27C-272EFCB66997}
+database: master
+path: /sitecore/layout/Renderings/Mobile/Form/CustomForm
+parent: {86F8CA4F-A757-4E32-B53A-DD1CB9D53046}
+name: CustomForm
+master: {00000000-0000-0000-0000-000000000000}
+template: {99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}
+templatekey: View rendering
+
+----field----
+field: {51B435BC-F7B9-478A-9C51-52916AF96FF5}
+name: Path
+key: path
+content-length: 29
+
+/views/mobileform/form.cshtml
+----field----
+field: {DDAB263E-B42E-419A-AA6F-081B7393CA38}
+name: Model
+key: model
+content-length: 38
+
+{2AC79ACD-6BF7-4A8D-8861-CC95354DF410}
+----field----
+field: {7D24E54F-5C16-4314-90C9-6051AA1A7DA1}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{E4A38B8C-D09D-48A4-BE78-9ECF0B536B3D}
+----field----
+field: {EF7C5528-7307-4E19-863B-DA19EED6A9ED}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 786df87f-9c63-4c36-bbaa-c6ccbe59b634
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20140706T195419
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+786df87f-9c63-4c36-bbaa-c6ccbe59b634
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20141015T155630:635489853909786880
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

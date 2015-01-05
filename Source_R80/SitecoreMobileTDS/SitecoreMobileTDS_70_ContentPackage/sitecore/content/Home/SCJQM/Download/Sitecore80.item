@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {D9F37BCD-6202-4837-B652-7A04FA75F10B}
+database: master
+path: /sitecore/content/Home/SCJQM/Download/Sitecore80
+parent: {A0FD4712-1E2A-421A-AD2E-A2972784ED76}
+name: Sitecore80
+master: {00000000-0000-0000-0000-000000000000}
+template: {3CFFB270-0CB9-48CA-B00D-6A167740171D}
+templatekey: MobilePage
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: 5c197f47-1b88-438d-95e2-4926b5efe845
+
+----field----
+field: {0B95DED5-F880-45C1-BD94-EF0A730DEC77}
+name: PageTitle
+key: pagetitle
+content-length: 42
+
+Sitecore 8.0 JQM 1.4 Component Library RC0
+----field----
+field: {26CA2F2F-0ED7-463E-AA50-A7F63CBDA986}
+name: PageContent
+key: pagecontent
+content-length: 411
+
+<div class="ui-body ui-body-a">
+<p>&nbsp;Download the zip file below containing three Sitecore update packages and install in the following order</p>
+<p>1. Core files package</p>
+<p>2. Core items package</p>
+<p>3. Content items package (optional)</p>
+<p>Release Date: 2014-12-22</p>
+<p><a href="~/media/CA9BDD357140472AB2D0077C11C5827C.ashx">Download jQuery Mobile MVC components for Sitecore 8.0</a></p>
+</div>
+----field----
+field: {A3F4BE1B-381D-4365-9045-26476C2BE43A}
+name: ButtonTitle
+key: buttontitle
+content-length: 40
+
+Download Sitecore 8.0 Compatible Release
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 37
+
+<r xmlns:p="p" xmlns:s="s" p:p="1" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20141222T201057Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5c197f47-1b88-438d-95e2-4926b5efe845
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 35
+
+20141223T140915:635549405559804712Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

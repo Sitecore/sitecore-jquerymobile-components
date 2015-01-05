@@ -1,0 +1,185 @@
+﻿/*
+
+
+    */
+
+
+.ui-icon-arrow-next:after {
+	background-image: url("./images/IcoMoon/next.svg");
+	background-size: 1.5em 1.5em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-arrow-next:after {
+	background-image: url("./images/IcoMoon/next.png");
+	background-size: 1.5em 1.5em;
+}
+.ui-listview.ui-group-theme-c > li > a.ui-btn.ui-icon-arrow-next.ui-btn-icon-right
+{
+    padding-right: 1.5em;
+}
+
+
+.ui-listview.ui-group-theme-c > li > a.ui-btn.ui-icon-arrow-next.ui-btn-icon-right:after
+{
+    right: 0;
+    top: 1.25em;
+}
+
+    
+.ui-icon-arrow-next.ui-btn-icon-right:after
+{
+    background-color: transparent;
+}
+
+/* Custom Icons */
+
+
+/*
+    ADD 
+*/
+.ui-icon-add:after {
+	background-image: url("./images/IcoMoon/add.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-add:after {
+	background-image: url("./images/IcoMoon/add.png");
+	background-size: 2em 2em;
+}
+
+/*
+    remove 
+*/
+.ui-icon-remove:after {
+	background-image: url("./images/IcoMoon/cross.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-remove:after {
+	background-image: url("./images/IcoMoon/cross.png");
+	background-size: 2em 2em;
+}
+
+
+.ui-icon-exp-menu:after {
+	background-image: url("./images/IcoMoon/menu.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-menu:after {
+	background-image: url("./images/IcoMoon/menu.png");
+	background-size: 2em 2em;
+}
+
+.ui-icon-exp-cal:after {
+	background-image: url("./images/IcoMoon/calendar.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-cal:after {
+	background-image: url("./images/IcoMoon/calendar.png");
+	background-size: 2em 2em;
+}
+
+.ui-icon-exp-list:after {
+	background-image: url("./images/IcoMoon/list.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-list:after {
+	background-image: url("./images/IcoMoon/list.png");
+	background-size: 2em 2em;
+}
+
+.ui-icon-exp-star:after {
+	background-image: url("./images/IcoMoon/star.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-star:after {
+	background-image: url("./images/IcoMoon/star.png");
+	background-size: 2em 2em;
+}
+
+.ui-icon-exp-chat:after {
+	background-image: url("./images/IcoMoon/chat.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-chat:after {
+	background-image: url("./images/IcoMoon/chat.png");
+	background-size: 2em 2em;
+}
+
+html head + body .ui-icon-exp-twitter.ui-btn.ui-btn-a {
+    background-color: #53A2F8 !important;
+    border-color: #53A2F8 !important;
+}
+html head + body .ui-icon-exp-twitter.ui-btn.ui-btn-a:hover,
+html head + body .ui-icon-exp-twitter.ui-btn.ui-btn-a:active,
+html head + body .ui-icon-exp-twitter.ui-btn.ui-btn-a:visited
+{
+    color: #ffffff;
+}
+
+
+.ui-icon-exp-twitter:after {
+	background-image: url("./images/IcoMoon/twitter.svg");
+	background-size: 2em 2em;
+    background-color: #53A2F8 !important;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-twitter:after {
+	background-image: url("./images/IcoMoon/twitter.png");
+	background-size: 2em 2em;
+    background-color: #53A2F8 !important;
+}
+
+
+html head + body .ui-icon-exp-linkedin.ui-btn.ui-btn-a{
+    background-color: #327EB1 !important;
+    border-color: #327EB1 !important;
+}
+
+html head + body .ui-icon-exp-linkedin.ui-btn.ui-btn-a:hover,
+html head + body .ui-icon-exp-linkedin.ui-btn.ui-btn-a:active,
+html head + body .ui-icon-exp-linkedin.ui-btn.ui-btn-a:visited
+{
+    color: #ffffff;
+}
+
+.ui-icon-exp-linkedin:after {
+	background-image: url("./images/IcoMoon/linkedin.svg");
+	background-size: 2em 2em;
+    background-color: #327EB1 !important;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-linkedin:after {
+	background-image: url("./images/IcoMoon/linkedin.png");
+	background-size: 2em 2em;
+    background-color: #327EB1 !important;
+}
+
+
+
+
+.ui-icon-exp-profile:after {
+	background-image: url("./images/IcoMoon/user.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-profile:after {
+	background-image: url("./images/IcoMoon/user.png");
+	background-size: 2em 2em;
+}
+
+
+.ui-icon-exp-check:after {
+	background-image: url("./images/IcoMoon/check.svg");
+	background-size: 2em 2em;
+}
+/* Fallback */
+.ui-nosvg .ui-icon-exp-check:after {
+	background-image: url("./images/IcoMoon/check.png");
+	background-size: 2em 2em;
+}

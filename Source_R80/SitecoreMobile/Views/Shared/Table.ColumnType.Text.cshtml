@@ -1,0 +1,6 @@
+﻿@model SitecoreMobile.Models.TableColumnData
+
+@{
+    var dataSourceItem = Model.DataSource.GetItem();    
+}
+@Html.Encode(dataSourceItem[Model.Column.ColumnName])

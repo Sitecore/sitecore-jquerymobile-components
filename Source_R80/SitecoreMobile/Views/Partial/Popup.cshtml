@@ -1,0 +1,31 @@
+﻿@using SitecoreMobile
+
+@{
+    
+    bool pageEditEnabled = (Sitecore.Context.Site.DisplayMode == Sitecore.Sites.DisplayMode.Edit);
+
+    var fieldName = Model.Rendering.Parameters[MobileFieldNames.StandardViewRenderingParameters.FieldName];
+    var popupName = Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupName];
+
+    var popupOverlayTheme = Model.Rendering.Parameters[MobileFieldNames.PopupViewRenderingParameters.PopupOverlayTheme];
+
+    if (string.IsNullOrEmpty(fieldName) || string.IsNullOrEmpty(popupName))
+    {
+        return; 
+    }
+
+}
+    
+@if (pageEditEnabled)
+{
+    <p><em>Popup Control - Field Name: @Html.Encode(fieldName), Popup Name: @Html.Encode(popupName)</em></p>
+    @Html.Sitecore().Field(fieldName)
+}
+
+<div data-role="popup"  data-overlay-theme="@Html.AttributeEncode(popupOverlayTheme)"  id="@Html.AttributeEncode(popupName)">
+    @Html.Sitecore().Field(fieldName,
+        new
+        {
+            DisableWebEdit = true
+        })
+</div>
