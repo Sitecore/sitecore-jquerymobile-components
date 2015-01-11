@@ -1,4 +1,4 @@
-Sitecore jQuery Mobile (SCJQM) HTML5 mobile component library
+Sitecore MVC jQuery Mobile (SCJQM) HTML5 mobile component library
 
 Author: David Morrison
 
